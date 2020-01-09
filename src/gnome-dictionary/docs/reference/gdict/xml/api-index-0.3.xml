@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="GdictDefbox--font-name"><link linkend="GdictDefbox--font-name">GdictDefbox:font-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-font-name"><link linkend="gdict-defbox-get-font-name">gdict_defbox_get_font_name</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

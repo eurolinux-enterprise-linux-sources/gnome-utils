@@ -1,0 +1,75 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="GdictClientContext-connected"><link linkend="GdictClientContext-connected">GdictClientContext::connected</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictClientContext-disconnected"><link linkend="GdictClientContext-disconnected">GdictClientContext::disconnected</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictClientContext--client-name"><link linkend="GdictClientContext--client-name">GdictClientContext:client-name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictClientContext--hostname"><link linkend="GdictClientContext--hostname">GdictClientContext:hostname</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictClientContext--port"><link linkend="GdictClientContext--port">GdictClientContext:port</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictClientContext--status"><link linkend="GdictClientContext--status">GdictClientContext:status</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--context"><link linkend="GdictSource--context">GdictSource:context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--database"><link linkend="GdictSource--database">GdictSource:database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--description"><link linkend="GdictSource--description">GdictSource:description</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--filename"><link linkend="GdictSource--filename">GdictSource:filename</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--name"><link linkend="GdictSource--name">GdictSource:name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--strategy"><link linkend="GdictSource--strategy">GdictSource:strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSource--transport"><link linkend="GdictSource--transport">GdictSource:transport</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceLoader-source-loaded"><link linkend="GdictSourceLoader-source-loaded">GdictSourceLoader::source-loaded</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceLoader--paths"><link linkend="GdictSourceLoader--paths">GdictSourceLoader:paths</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceLoader--sources"><link linkend="GdictSourceLoader--sources">GdictSourceLoader:sources</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-context-define-word"><link linkend="gdict-context-define-word">gdict_context_define_word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-context-get-local-only"><link linkend="gdict-context-get-local-only">gdict_context_get_local_only</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-context-lookup-databases"><link linkend="gdict-context-lookup-databases">gdict_context_lookup_databases</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-context-lookup-strategies"><link linkend="gdict-context-lookup-strategies">gdict_context_lookup_strategies</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-context-match-word"><link linkend="gdict-context-match-word">gdict_context_match_word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-context-set-local-only"><link linkend="gdict-context-set-local-only">gdict_context_set_local_only</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-get-full-name"><link linkend="gdict-database-get-full-name">gdict_database_get_full_name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-get-name"><link linkend="gdict-database-get-name">gdict_database_get_name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-ref"><link linkend="gdict-database-ref">gdict_database_ref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-unref"><link linkend="gdict-database-unref">gdict_database_unref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-definition-get-database"><link linkend="gdict-definition-get-database">gdict_definition_get_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-definition-get-text"><link linkend="gdict-definition-get-text">gdict_definition_get_text</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-definition-get-total"><link linkend="gdict-definition-get-total">gdict_definition_get_total</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-definition-get-word"><link linkend="gdict-definition-get-word">gdict_definition_get_word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-definition-ref"><link linkend="gdict-definition-ref">gdict_definition_ref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-definition-unref"><link linkend="gdict-definition-unref">gdict_definition_unref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-match-get-database"><link linkend="gdict-match-get-database">gdict_match_get_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-match-get-word"><link linkend="gdict-match-get-word">gdict_match_get_word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-match-ref"><link linkend="gdict-match-ref">gdict_match_ref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-match-unref"><link linkend="gdict-match-unref">gdict_match_unref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-get-context"><link linkend="gdict-source-get-context">gdict_source_get_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-get-database"><link linkend="gdict-source-get-database">gdict_source_get_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-get-description"><link linkend="gdict-source-get-description">gdict_source_get_description</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-get-name"><link linkend="gdict-source-get-name">gdict_source_get_name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-get-strategy"><link linkend="gdict-source-get-strategy">gdict_source_get_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-get-transport"><link linkend="gdict-source-get-transport">gdict_source_get_transport</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-add-search-path"><link linkend="gdict-source-loader-add-search-path">gdict_source_loader_add_search_path</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-get-names"><link linkend="gdict-source-loader-get-names">gdict_source_loader_get_names</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-get-paths"><link linkend="gdict-source-loader-get-paths">gdict_source_loader_get_paths</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-get-source"><link linkend="gdict-source-loader-get-source">gdict_source_loader_get_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-get-sources"><link linkend="gdict-source-loader-get-sources">gdict_source_loader_get_sources</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-new"><link linkend="gdict-source-loader-new">gdict_source_loader_new</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-remove-source"><link linkend="gdict-source-loader-remove-source">gdict_source_loader_remove_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-update"><link linkend="gdict-source-loader-update">gdict_source_loader_update</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-load-from-data"><link linkend="gdict-source-load-from-data">gdict_source_load_from_data</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-load-from-file"><link linkend="gdict-source-load-from-file">gdict_source_load_from_file</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-peek-context"><link linkend="gdict-source-peek-context">gdict_source_peek_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-set-database"><link linkend="gdict-source-set-database">gdict_source_set_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-set-description"><link linkend="gdict-source-set-description">gdict_source_set_description</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-set-name"><link linkend="gdict-source-set-name">gdict_source_set_name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-set-strategy"><link linkend="gdict-source-set-strategy">gdict_source_set_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-set-transport"><link linkend="gdict-source-set-transport">gdict_source_set_transport</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-set-transportv"><link linkend="gdict-source-set-transportv">gdict_source_set_transportv</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-to-data"><link linkend="gdict-source-to-data">gdict_source_to_data</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-get-description"><link linkend="gdict-strategy-get-description">gdict_strategy_get_description</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-get-name"><link linkend="gdict-strategy-get-name">gdict_strategy_get_name</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-ref"><link linkend="gdict-strategy-ref">gdict_strategy_ref</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-unref"><link linkend="gdict-strategy-unref">gdict_strategy_unref</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

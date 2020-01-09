@@ -1,0 +1,3540 @@
+# translation of gnome-utils.HEAD.ar.po to Arabic
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
+# Sayed Jaffer Al-Mosawi <mosawi@arabeyes.org>, 2002.
+# Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>, 2004.
+# Djihed Afifi <djihed@gmail.com>, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2006, 2007, 2008.
+# Anas Afif Emad <anas.e87@gmail.com, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-utils.gnome-2-16.ar\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-09-14 10:16+0000\n"
+"PO-Revision-Date: 2008-09-18 18:06+0300\n"
+"Last-Translator: Anas Afif Emad <anas.e87@gmail.com>\n"
+"Language-Team: ar <doc@arabeyes.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: KAider 0.1\n"
+
+#: ../baobab/data/baobab.desktop.in.in.h:1
+msgid "Check folder sizes and available disk space"
+msgstr "افحص حجم المجلدات والمساحة المتوفرة"
+
+#: ../baobab/data/baobab.desktop.in.in.h:2
+#: ../baobab/data/baobab.glade.h:2
+msgid "Disk Usage Analyzer"
+msgstr "محلّل استخدام القرص"
+
+#: ../baobab/data/baobab.glade.h:1
+msgid "All_ocated Space"
+msgstr "ال_مساحة المحصّصة:"
+
+#: ../baobab/data/baobab.glade.h:3
+msgid "Disk Usage Analyzer Preferences"
+msgstr "تفضيلات محلّل استخدام القرص"
+
+#: ../baobab/data/baobab.glade.h:4
+msgid "Refresh"
+msgstr "أعِد التّحميل"
+
+#: ../baobab/data/baobab.glade.h:5
+msgid "S_can Remote Folder..."
+msgstr "افحص مجلّدا _بعيدا..."
+
+#: ../baobab/data/baobab.glade.h:6
+msgid "Scan F_older..."
+msgstr "افحص مجلّ_دا..."
+
+#: ../baobab/data/baobab.glade.h:7
+msgid "Scan Filesystem"
+msgstr "افحص نظام الملفات"
+
+#: ../baobab/data/baobab.glade.h:8
+msgid "Scan Folder"
+msgstr "افحص المجلّد"
+
+#: ../baobab/data/baobab.glade.h:9
+msgid "Scan Home"
+msgstr "افحص المنزل"
+
+#: ../baobab/data/baobab.glade.h:10
+msgid "Scan Remote Folder"
+msgstr "افحص مجلّدا بعيدا"
+
+#: ../baobab/data/baobab.glade.h:11
+msgid "Scan _Filesystem"
+msgstr "افحص _نظام الملفّات"
+
+#: ../baobab/data/baobab.glade.h:12
+msgid "Scan _Home Folder"
+msgstr "افحص _مجلّد المنزل"
+
+#: ../baobab/data/baobab.glade.h:13
+msgid "Scan a folder"
+msgstr "افحص مجلّدا"
+
+#: ../baobab/data/baobab.glade.h:14
+msgid "Scan a remote folder"
+msgstr "افحص مجلّدا بعيدا"
+
+#: ../baobab/data/baobab.glade.h:15
+msgid "Scan filesystem"
+msgstr "افحص نظام الملفات"
+
+#: ../baobab/data/baobab.glade.h:16
+msgid "Scan home folder"
+msgstr "افحص مجلد المنزل"
+
+#: ../baobab/data/baobab.glade.h:17
+msgid "Select _devices to include in filesystem scan:"
+msgstr "ا_ختر الأجهزة التي ستضمّن أثناء فحص نظام الملفات:"
+
+#: ../baobab/data/baobab.glade.h:18
+msgid "St_atusbar"
+msgstr "شريط ال_حالة"
+
+#: ../baobab/data/baobab.glade.h:19
+msgid "Stop scanning"
+msgstr "أوقف الفحص"
+
+#: ../baobab/data/baobab.glade.h:20
+msgid "_Analyzer"
+msgstr "الم_حلّل"
+
+#: ../baobab/data/baobab.glade.h:21
+msgid "_Collapse All"
+msgstr "قلّص ال_كل"
+
+#. Help menu
+#: ../baobab/data/baobab.glade.h:22
+#: ../gnome-dictionary/src/gdict-window.c:1238
+#: ../logview/logview.c:114
+msgid "_Contents"
+msgstr "الم_حتويات"
+
+#: ../baobab/data/baobab.glade.h:23
+#: ../gnome-dictionary/src/gdict-window.c:1185
+#: ../logview/logview.c:86
+msgid "_Edit"
+msgstr "ت_حرير"
+
+#: ../baobab/data/baobab.glade.h:24
+msgid "_Expand All"
+msgstr "_مدّد الكل"
+
+#: ../baobab/data/baobab.glade.h:25
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
+#: ../gnome-dictionary/src/gdict-window.c:1188
+#: ../logview/logview.c:88
+msgid "_Help"
+msgstr "م_ساعدة"
+
+#: ../baobab/data/baobab.glade.h:26
+msgid "_Monitor changes to your home folder"
+msgstr "_راقب التغييرات في مجلّدك المنزلي"
+
+#: ../baobab/data/baobab.glade.h:27
+msgid "_Toolbar"
+msgstr "شريط الأ_دوات"
+
+#: ../baobab/data/baobab.glade.h:28
+#: ../gnome-dictionary/src/gdict-window.c:1186
+#: ../logview/logview.c:87
+msgid "_View"
+msgstr "_عرض"
+
+#: ../baobab/data/baobab.schemas.in.h:1
+msgid "A list of uri for partitions to be excluded from scanning."
+msgstr "قائمة التقسيمات المستثناة من الفحص."
+
+#: ../baobab/data/baobab.schemas.in.h:2
+msgid "Enable monitoring of home directory"
+msgstr "فعّل مراقبة الدليل المنزلي"
+
+#: ../baobab/data/baobab.schemas.in.h:3
+msgid "Exluded partitions uris"
+msgstr "الأقسام المستنثاة"
+
+#: ../baobab/data/baobab.schemas.in.h:4
+msgid "Status Bar is Visible"
+msgstr "عمود الحالة مرئي"
+
+#: ../baobab/data/baobab.schemas.in.h:5
+msgid "Subfolders tooltips visible"
+msgstr "تلميحات أدوات المجلدات الفرعية مرئية"
+
+#: ../baobab/data/baobab.schemas.in.h:6
+msgid "Toolbar is Visible"
+msgstr "شريط الأدوات مرئي"
+
+#: ../baobab/data/baobab.schemas.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "إذا وجب مراقبة أي تغيّرات على الدليل المنزلي."
+
+#: ../baobab/data/baobab.schemas.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "ما إذا وجب لعمود الحالة في أسفل نافذة التحرير أن يكون مرئيّا."
+
+#: ../baobab/data/baobab.schemas.in.h:9
+msgid "Whether the subfolders tooltips of the selected folder are drawn."
+msgstr "ما إذا كانت سترسم تلميحات أدوات للمجلدات المحددة."
+
+#: ../baobab/data/baobab.schemas.in.h:10
+msgid "Whether the toolbar should be visible in main window."
+msgstr "ما إذا وجب لشريط الأدوات أن يكون مرئيّا في نوافذ التحرير."
+
+#: ../baobab/src/baobab.c:123
+#: ../baobab/src/baobab.c:301
+msgid "Scanning..."
+msgstr "يفحص..."
+
+#. set statusbar, percentage and allocated/normal size
+#: ../baobab/src/baobab.c:185
+#: ../baobab/src/baobab.c:243
+#: ../baobab/src/callbacks.c:302
+msgid "Calculating percentage bars..."
+msgstr "يحسب أشرطة النسبة..."
+
+#: ../baobab/src/baobab.c:195
+#: ../baobab/src/baobab.c:972
+#: ../baobab/src/callbacks.c:306
+msgid "Ready"
+msgstr "جاهز"
+
+#: ../baobab/src/baobab.c:336
+msgid "Total filesystem usage:"
+msgstr "الاستخدام الكلي لنظام الملفات:"
+
+#: ../baobab/src/baobab.c:375
+msgid "contains hardlinks for:"
+msgstr "يحتوي على وصلات صلبة إلى:"
+
+#: ../baobab/src/baobab.c:384
+#, c-format
+msgid "% 5d item"
+msgid_plural "% 5d items"
+msgstr[0] "لا عناصر"
+msgstr[1] "عنصر واحد"
+msgstr[2] "عنصرين"
+msgstr[3] "%I 5d عناصر"
+msgstr[4] "%I 5d عنصرا"
+msgstr[5] "%I 5d عنصر"
+
+#: ../baobab/src/baobab.c:722
+msgid "Could not initialize monitoring"
+msgstr "تعذّر بدأ المراقبة"
+
+#: ../baobab/src/baobab.c:723
+msgid "Changes to your home folder will not be monitored."
+msgstr "لن تُراقَب التغيّرات على الدليل المنزلي."
+
+#: ../baobab/src/baobab.c:768
+msgid "Move to parent folder"
+msgstr "انقل للمجلد الأصل"
+
+#: ../baobab/src/baobab.c:772
+msgid "Zoom in"
+msgstr "قرّب"
+
+#: ../baobab/src/baobab.c:776
+msgid "Zoom out"
+msgstr "بعّد"
+
+#: ../baobab/src/baobab.c:780
+msgid "Save snapshot"
+msgstr "احفظ اللقطة"
+
+#: ../baobab/src/baobab.c:828
+msgid "View as Rings Chart"
+msgstr "اعرض كرسم بياني حلقي"
+
+#: ../baobab/src/baobab.c:830
+msgid "View as Treemap Chart"
+msgstr "اعرض كرسم بياني شجري"
+
+#: ../baobab/src/baobab.c:942
+msgid "Could not detect any mount point."
+msgstr "تعذّر تحديد أي نقطة وصل."
+
+#: ../baobab/src/baobab.c:945
+msgid "Without mount points disk usage cannot be analyzed."
+msgstr "بدون نقاط الوصل لا يمكن تحليل استخدام القرص."
+
+#: ../baobab/src/baobab-chart.c:202
+msgid "Maximum depth"
+msgstr "العمق الأقصى"
+
+#: ../baobab/src/baobab-chart.c:203
+msgid "The maximum depth drawn in the chart from the root"
+msgstr "العمق الأقصى من الجذر المرسوم في الرسم البياني"
+
+#: ../baobab/src/baobab-chart.c:212
+msgid "Chart model"
+msgstr "نموذج الرسم البياني"
+
+#: ../baobab/src/baobab-chart.c:213
+msgid "Set the model of the chart"
+msgstr "اضبط نموذج الرسم البياني"
+
+#: ../baobab/src/baobab-chart.c:220
+msgid "Chart root node"
+msgstr "عقدة جذر الرسم البياني"
+
+#: ../baobab/src/baobab-chart.c:221
+msgid "Set the root node from the model"
+msgstr "اضبط عقدة الجذر من النموذج"
+
+#: ../baobab/src/baobab-chart.c:1685
+msgid "Cannot create pixbuf image!"
+msgstr "لم أستطع إنشاء صورة pixbuf!"
+
+#. Popup the File chooser dialog
+#: ../baobab/src/baobab-chart.c:1693
+msgid "Save Snapshot"
+msgstr "احفظ اللقطة"
+
+#: ../baobab/src/baobab-chart.c:1716
+msgid "_Image type:"
+msgstr "نوع _الصورة:"
+
+#: ../baobab/src/baobab-prefs.c:171
+msgid "Scan"
+msgstr "افحص"
+
+#: ../baobab/src/baobab-prefs.c:178
+msgid "Device"
+msgstr "جهاز"
+
+#: ../baobab/src/baobab-prefs.c:186
+msgid "Mount Point"
+msgstr "نقطة الوصل"
+
+#: ../baobab/src/baobab-prefs.c:194
+msgid "Filesystem Type"
+msgstr "_نوع نظام الملفات:"
+
+#: ../baobab/src/baobab-prefs.c:202
+msgid "Total Size"
+msgstr "الحجم الكلي"
+
+#: ../baobab/src/baobab-prefs.c:211
+msgid "Available"
+msgstr "متوفّر:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:78
+#, c-format
+msgid "Cannot scan location \"%s\""
+msgstr "تعذّر فحص المكان \"%s\""
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:176
+msgid "Custom Location"
+msgstr "موقع مخصّص"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:178
+msgid "SSH"
+msgstr "SSH"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:181
+msgid "Public FTP"
+msgstr "‏FTP عام"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:183
+msgid "FTP (with login)"
+msgstr "‏FTP (مع تسجيل دخول)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:186
+msgid "Windows share"
+msgstr "مشاركة ويندوز"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:188
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:190
+msgid "Secure WebDAV (HTTPS)"
+msgstr "‏WebDAV آمن (HTTPS)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:250
+msgid "Cannot Connect to Server. You must enter a name for the server."
+msgstr "تعذّر الاتصال بالخادوم. يجب إدخال اسم للخادوم."
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:253
+msgid "Please enter a name and try again."
+msgstr "الرجاء إدخال اسم و المحاولة مرة أخرى."
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:444
+msgid "_Location (URI):"
+msgstr "ال_موقع (URI):"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:466
+msgid "_Server:"
+msgstr "ال_خادوم:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:485
+msgid "Optional information:"
+msgstr "معلومات اختيارية:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:497
+msgid "_Share:"
+msgstr "_شارِك:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:518
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:10
+msgid "_Port:"
+msgstr "ال_منفذ:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:538
+msgid "_Folder:"
+msgstr "ال_مجلد:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:558
+msgid "_User Name:"
+msgstr "ا_سم المستخدم:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:579
+msgid "_Domain Name:"
+msgstr "اسم ال_نطاق:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:646
+msgid "Connect to Server"
+msgstr "اتصل بخادوم"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:663
+msgid "Service _type:"
+msgstr "_نوع الخدمة:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:782
+msgid "_Scan"
+msgstr "افحص"
+
+#: ../baobab/src/baobab-treeview.c:209
+#: ../gsearchtool/gsearchtool.c:2497
+msgid "Folder"
+msgstr "مجلد"
+
+#: ../baobab/src/baobab-treeview.c:231
+msgid "Usage"
+msgstr "الاستخدام"
+
+#: ../baobab/src/baobab-treeview.c:245
+#: ../gsearchtool/gsearchtool.c:2509
+msgid "Size"
+msgstr "الحجم"
+
+#: ../baobab/src/baobab-treeview.c:261
+msgid "Contents"
+msgstr "المحتويات"
+
+#: ../baobab/src/baobab-utils.c:110
+msgid "Select Folder"
+msgstr "اختر مجلدا"
+
+#. add extra widget
+#: ../baobab/src/baobab-utils.c:122
+msgid "_Show hidden folders"
+msgstr "اعرض المجلدات المخفية"
+
+#: ../baobab/src/baobab-utils.c:302
+#, c-format
+msgid "\"%s\" is not a valid folder"
+msgstr "\"%s\" ليس مجلّدا سليما"
+
+#: ../baobab/src/baobab-utils.c:305
+msgid "Could not analyze disk usage."
+msgstr "تعذّر تحليل استعمال القرص."
+
+#: ../baobab/src/baobab-utils.c:331
+msgid "_Open Folder"
+msgstr "ا_فتح المجلّد"
+
+#: ../baobab/src/baobab-utils.c:340
+#: ../gsearchtool/gsearchtool.c:183
+msgid "Mo_ve to Trash"
+msgstr "ا_نقل للمهملات"
+
+#: ../baobab/src/baobab-utils.c:369
+msgid "Total filesystem capacity:"
+msgstr "السّعة الكلية لنظام الملفات:"
+
+#: ../baobab/src/baobab-utils.c:370
+msgid "used:"
+msgstr "مُسْتخدَم:"
+
+#: ../baobab/src/baobab-utils.c:371
+msgid "available:"
+msgstr "متوفّر:"
+
+#: ../baobab/src/baobab-utils.c:415
+#, c-format
+msgid "Could not open folder \"%s\""
+msgstr "تعذّر فتح المجلّد \"%s\""
+
+#: ../baobab/src/baobab-utils.c:418
+msgid "There is no installed viewer capable of displaying the folder."
+msgstr "لا يوجد عارض مثبّت قادر على عرض المجلّد."
+
+#: ../baobab/src/baobab-utils.c:487
+#, c-format
+msgid "Could not move \"%s\" to the Trash"
+msgstr "تعذّر نقل \"%s\" إلى المهملات"
+
+#: ../baobab/src/baobab-utils.c:495
+msgid "Could not move file to the Trash"
+msgstr "تعذّر نقل \"%s\" إلى المهملات"
+
+#: ../baobab/src/baobab-utils.c:497
+#, c-format
+msgid "Details: %s"
+msgstr "تفاصيل: %s"
+
+#: ../baobab/src/baobab-utils.c:516
+msgid "Rescan your home folder?"
+msgstr "أأعيد فحص مجلّد المنزل؟"
+
+#: ../baobab/src/baobab-utils.c:517
+msgid "The content of your home folder has changed. Select rescan to update the disk usage details."
+msgstr "محتويات مجلّدك المنزلي تغيّرت. اختر أعِد الفحص لتحدّث تفاصيل استخدام القرص."
+
+#: ../baobab/src/baobab-utils.c:518
+msgid "_Rescan"
+msgstr "أ_عد الفحص"
+
+#: ../baobab/src/baobab-utils.c:553
+#: ../logview/logview.c:773
+msgid "There was an error displaying help."
+msgstr "حدث خطأ عند عرض المساعدة."
+
+#: ../baobab/src/baobab-mount-operation.c:146
+msgid "Enter Password"
+msgstr "أدخل كلمة السر"
+
+#: ../baobab/src/callbacks.c:97
+msgid "Baobab"
+msgstr "بوباب"
+
+#: ../baobab/src/callbacks.c:98
+msgid "A graphical tool to analyze disk usage."
+msgstr "أداة رسوميّة لتحليل استعمال القرص."
+
+#. Translator credits
+#: ../baobab/src/callbacks.c:106
+#: ../gnome-dictionary/src/gdict-about.c:55
+#: ../logview/about.c:47
+msgid "translator-credits"
+msgstr ""
+"فريق عربآيز للترجمة http://www.arabeyes.org :\n"
+"يوسف رفه\t\t<yousef@raffah.com>\n"
+"جهاد عفيفي\t<djihed@gmail.com>\n"
+"خالد حسني\t<khaledhosny@eglug.org>\n"
+"أنس عفيف عماد\t<anas.e87@gmail.com>"
+
+#: ../baobab/src/callbacks.c:202
+#: ../gsearchtool/gsearchtool-callbacks.c:472
+#: ../gsearchtool/gsearchtool-callbacks.c:824
+msgid "The document does not exist."
+msgstr "المستند غير موجود."
+
+#: ../baobab/src/callbacks.c:356
+msgid "The folder does not exist."
+msgstr "المجلد غير موجود."
+
+#: ../gfloppy/gfloppy.desktop.in.h:1
+#: ../gfloppy/src/gfloppy2.glade.h:9
+msgid "Floppy Formatter"
+msgstr "مهيّء الأقراص المرنة"
+
+#: ../gfloppy/gfloppy.desktop.in.h:2
+msgid "Format floppy disks"
+msgstr "هيّء الأقراص المرنة"
+
+#: ../gfloppy/gfloppy.schemas.in.h:1
+msgid "0 for the quick format, 1 for a standard one (adds a low-level format) and finally 2 for a thorough format (adds a bad blocks scan)."
+msgstr "0 للتهيئة السريعة و 1 للتهيئة القياسيّة (تضيف تهيئة مستوى سفلي) و آخيرا 2 لتهيئة دقيقة (تضيف مسحا للقوالب المعطوبة)."
+
+#: ../gfloppy/gfloppy.schemas.in.h:2
+msgid "ADVANCED USERS ONLY - Default backend for FAT formatting"
+msgstr "للمستخدمين المتقدّمين فقط - الخلفيّة الافتراضيّة لتهيئة FAT"
+
+#: ../gfloppy/gfloppy.schemas.in.h:3
+msgid "Default filesystem type"
+msgstr "نوع نظام الملفات الافتراضي"
+
+#: ../gfloppy/gfloppy.schemas.in.h:4
+msgid "Default formatting mode"
+msgstr "استراتيجية التهيئة الافتراضيّة"
+
+#: ../gfloppy/gfloppy.schemas.in.h:5
+msgid "TRUE to set mkdosfs as the preferred FAT formatting backend or FALSE to set mtools as the preferred FAT formatting backend."
+msgstr "\"صحيح\" لضبط mkdosfs كخلفية تهيئة FAT المفضّلة أو FALSE لضبط mtools كخلفيّة تهيئة FAT المفضّلة."
+
+#: ../gfloppy/gfloppy.schemas.in.h:6
+msgid "ext2 for the linux native filesystem or fat for the DOS filesystem."
+msgstr "‏ext2 لنظام ملفّات لينكس الأصلي أو fat لنظام ملفّات دوس."
+
+#: ../gfloppy/src/badblocks.c:89
+msgid "Internal Error: Unable to seek to the correct location."
+msgstr "خطأ داخلي: لا يمكن البحث عن الموقع الصحيح."
+
+#: ../gfloppy/src/badblocks.c:98
+#, c-format
+msgid "Internal Error: Weird value (%ld) in do_test\n"
+msgstr "خطأ داخلي: قيمة (%ld) غريبة في do_test\n"
+
+#. while (!i)
+#. ;
+#: ../gfloppy/src/badblocks.c:256
+msgid "Checking for bad blocks..."
+msgstr "يجري فحص اللبنات المعطوبة..."
+
+#: ../gfloppy/src/badblocks.c:268
+#, c-format
+msgid "Failed to open device %s for badblock checking\n"
+msgstr "فشل فتح الجهاز %s لفحص اللبنات المعطوبة\n"
+
+#: ../gfloppy/src/badblocks.c:288
+#: ../gfloppy/src/gfloppy.c:531
+msgid "Checking for bad blocks... Done"
+msgstr "يجري فحص اللبنات المعطوبة... تم"
+
+#: ../gfloppy/src/fdformat.c:46
+msgid "Formatting the disk..."
+msgstr "يجري تهيئة القرص..."
+
+#: ../gfloppy/src/fdformat.c:49
+msgid "I don't know what this is, but it's very wrong."
+msgstr "لا أعلم ما هذا، لكنه خطأ كبير."
+
+#: ../gfloppy/src/fdformat.c:57
+#: ../gfloppy/src/fdformat.c:70
+#, c-format
+msgid "Error formatting track #%d"
+msgstr "خطأ عند تهيئة المقطوعة #%Id"
+
+#: ../gfloppy/src/fdformat.c:79
+msgid "Error during completion of formatting"
+msgstr "خطأ أثناء إتمام التهيئة"
+
+#. XXXX - need to tell parent we're finished
+#: ../gfloppy/src/fdformat.c:83
+msgid "Formatting the disk... Done"
+msgstr "يجري تهيئة القرص... تم"
+
+#. XXXX - tell parent we're starting verify stage
+#: ../gfloppy/src/fdformat.c:99
+msgid "Verifying the format..."
+msgstr "يجري التأكد من التهيئة..."
+
+#: ../gfloppy/src/fdformat.c:104
+#: ../gfloppy/src/fdformat.c:189
+msgid ""
+"Unable to write to the floppy.\n"
+"\n"
+"Please confirm that it is not write-protected."
+msgstr ""
+"تعذرت الكتابة في القرص المرن.\n"
+"\n"
+"الرجاء التأكد من عدم كونه محميا ضد الكتابة."
+
+#: ../gfloppy/src/fdformat.c:107
+#: ../gfloppy/src/fdformat.c:192
+#, c-format
+msgid "Insufficient permissions to open floppy device %s."
+msgstr "تصاريح غير كافية لفتح أداة القرص المرن %s."
+
+#: ../gfloppy/src/fdformat.c:111
+#: ../gfloppy/src/fdformat.c:196
+#, c-format
+msgid ""
+"Unable to access the floppy disk.\n"
+"\n"
+"Please confirm that it is in the drive\n"
+"with the drive door shut."
+msgstr ""
+"لا يمكن الوصول إلى القرص المرن.\n"
+"\n"
+"الرجاء تأكد من أنه في المشغل\n"
+"وأن باب المشغل مغلق."
+
+#: ../gfloppy/src/fdformat.c:114
+#, c-format
+msgid ""
+"Generic error accessing floppy device %s.\n"
+"\n"
+"Error code %s:%d"
+msgstr ""
+"خطأ عام أثناء الوصول إلى جهاز القرص المرن %s.\n"
+"\n"
+"رمز الخطأ %s:%d"
+
+#: ../gfloppy/src/fdformat.c:137
+#, c-format
+msgid ""
+"Read Error:\n"
+"Problem reading cylinder %d, expected %d, read %d"
+msgstr ""
+"خطأ قراءة:\n"
+"مشكلة عند قراءة الاسطوانة %Id، المتوقّع %Id، المقروء %Id"
+
+#: ../gfloppy/src/fdformat.c:140
+#, c-format
+msgid "Problem reading cylinder %d, expected %d, read %d"
+msgstr "مشكلة عند قراءة الاسطوانة %Id، المتوقّع %Id، المقروء %Id"
+
+#: ../gfloppy/src/fdformat.c:151
+#, c-format
+msgid "Bad data in cyl %d.  Continuing... "
+msgstr "بيانات خاطئة في الاسطوانة %d.  متابعة... "
+
+#: ../gfloppy/src/fdformat.c:160
+#, c-format
+msgid "Error closing device %s"
+msgstr "خطأ عند غلق الجهاز %s"
+
+#: ../gfloppy/src/fdformat.c:167
+msgid "Verifying the format... Done"
+msgstr "يجري التأكد من التهيئة... تم"
+
+#: ../gfloppy/src/fdformat.c:179
+#, c-format
+msgid "Unable to write to device %s"
+msgstr "تعذّرت الكتابة على الجهاز %s"
+
+#: ../gfloppy/src/fdformat.c:199
+#, c-format
+msgid ""
+"Generic error accessing floppy device %s.\n"
+"\n"
+"Error code %s"
+msgstr ""
+"خطأ عام أثناء الوصول إلى جهاز القرص المرن %s.\n"
+"\n"
+"رمز الخطأ %s"
+
+#: ../gfloppy/src/fdformat.c:211
+msgid "Could not determine current floppy geometry."
+msgstr "تعذّر تحديد أبعاد القرص المرن الحاليّة."
+
+#: ../gfloppy/src/gfloppy.c:219
+msgid "Error while creating a unique filename for the bad blocks list file."
+msgstr "خطأ إنشاء اسم فريد لملف قائمة القوالب المعطوبة."
+
+#: ../gfloppy/src/gfloppy.c:239
+msgid "Error while filling the bad blocks list file."
+msgstr "خطأ عند ملأ ملف قائمة القوالب المعطوبة."
+
+#: ../gfloppy/src/gfloppy.c:302
+#, c-format
+msgid "Error while spawning the (%s) command: %s."
+msgstr "خطأ أثناء توليد الأمر (%s)‏: %s."
+
+#: ../gfloppy/src/gfloppy.c:328
+msgid "Unknown mke2fs starting signature, cancelling."
+msgstr "بصمة بدأ مجهولة لـ mke2fs، يُلغي."
+
+#: ../gfloppy/src/gfloppy.c:342
+#, c-format
+msgid ""
+"The filesystem creation utility (%s) reported the following errors:\n"
+"\n"
+"%s (%d)"
+msgstr ""
+"أبلغت أداة إنشاء نظم الملفّات (%s) الأخطاء التالية:\n"
+"\n"
+"%s (%d)"
+
+#: ../gfloppy/src/gfloppy.c:359
+msgid "Abnormal child process termination."
+msgstr "إنتهاء غير عادي للعمليّة الأبنة."
+
+#: ../gfloppy/src/gfloppy.c:384
+#, c-format
+msgid "Error while spawning the mbadblocks command: %s."
+msgstr "خطأ أثناء توليد أمر mbadblocks: %s."
+
+#: ../gfloppy/src/gfloppy.c:396
+#, c-format
+msgid ""
+"The bad blocks checking utility (mbadblocks) reported the following errors:\n"
+"%s."
+msgstr ""
+"أبلغت أداة التثبت من القوالب المعطوبة (mbadblocks) الأخطاء التالية:\n"
+"%s."
+
+#: ../gfloppy/src/gfloppy.c:439
+msgid "Abnormal mbadblocks child process termination."
+msgstr "إنتهاء غير عادي للعمليّة الإبنة لـ mbadblocks."
+
+#. make the filesystem
+#: ../gfloppy/src/gfloppy.c:465
+#: ../gfloppy/src/gfloppy.c:505
+msgid "Making filesystem on disk..."
+msgstr "يجري تركيب نظام الملفات على القرص..."
+
+#: ../gfloppy/src/gfloppy.c:473
+msgid "Unable to create filesystem correctly."
+msgstr "لا يمكن إنشاء نظام الملفات بشكل صحيح."
+
+#: ../gfloppy/src/gfloppy.c:478
+#: ../gfloppy/src/gfloppy.c:517
+msgid "Making filesystem on disk... Done"
+msgstr "يجري تركيب نظام الملفات على القرص... تم"
+
+#: ../gfloppy/src/gfloppy.c:522
+msgid "Checking for bad blocks... (this might take a while)"
+msgstr "يجري الفحص عن المربعات المعطوبة... (قد يستغرق هذا وقتا)"
+
+#: ../gfloppy/src/gfloppy.c:527
+msgid "Error while checking the bad blocks."
+msgstr "خطأ أثناء الفحص عن المربّعات المعطوبة."
+
+#: ../gfloppy/src/gfloppy2.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gfloppy/src/gfloppy2.glade.h:2
+#: ../gnome-screenshot/gnome-screenshot.ui.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gfloppy/src/gfloppy2.glade.h:3
+msgid "<small><i><b>Note</b>: The mbadblocks utility isn't installed on this system.  It must be installed in order to perform a thorough DOS (fat) formatting.</i></small>"
+msgstr "<small><i><b>ملاحظة:</b>: أداة mbadblocks غير مثبّتة على هذا النظام. يجب أن تكون مثبّتة حتى يمكن تأدية تهيئة دوس (fat) دقيقة.</i></small>"
+
+#: ../gfloppy/src/gfloppy2.glade.h:4
+msgid "DOS (FAT)"
+msgstr "دوس (FAT)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:5
+msgid "Double Density 3.5\" (720KB)"
+msgstr "كثافة مزدوجة 3.5\" (720 كيلوبايت)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:6
+msgid "Double Density 5.25\" (360KB)"
+msgstr "كثافة مزدوجة 5.25\" (360 كيلوبايت)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:7
+msgid "File system _type:"
+msgstr "_نوع نظام الملفات:"
+
+#: ../gfloppy/src/gfloppy2.glade.h:8
+msgid "Filesystem Settings"
+msgstr "إعدادات نظام الملفّات"
+
+#: ../gfloppy/src/gfloppy2.glade.h:10
+msgid "Floppy _density:"
+msgstr "_كثافة القرص المرن:"
+
+#: ../gfloppy/src/gfloppy2.glade.h:11
+msgid "Floppy de_vice:"
+msgstr "_جهاز القرص المرن:"
+
+#: ../gfloppy/src/gfloppy2.glade.h:12
+msgid "Formatting Mode"
+msgstr "نمط التهيئة"
+
+#: ../gfloppy/src/gfloppy2.glade.h:13
+msgid "High Density 3.5\" (1.44MB)"
+msgstr "كثافة مرتفعة 3.5\" (1.44 ميجابيت)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:14
+msgid "High Density 5.25\" (1.2MB)"
+msgstr "كثافة مرتفعة 5.25\" (1.2 ميجابيت)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:15
+msgid "Linux Native (ext2)"
+msgstr "الطبيعي في لينكس (ext2)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:16
+msgid "Physical Settings"
+msgstr "الإعدادات الفيزيائية"
+
+#: ../gfloppy/src/gfloppy2.glade.h:17
+msgid "Thorou_gh (adds a bad blocks check to the standard mode)"
+msgstr "د_قيق (يضيف تثبّت من القوالب المعطوبة للنسق القياسي)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:18
+msgid "Volume _name:"
+msgstr "اسم ال_حجم:"
+
+#. This is the "format" verb (not the noun).
+#: ../gfloppy/src/gfloppy2.glade.h:20
+msgid "_Format"
+msgstr "ال_تهيئة"
+
+#: ../gfloppy/src/gfloppy2.glade.h:21
+msgid "_Quick (only creates the filesystem)"
+msgstr "_سريع (يقع إنشاء نظام الملفّات فقط)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:22
+msgid "_Standard (adds a low-level format to the quick mode)"
+msgstr "_قياسي (يضيف تهيئة مستوا سفلي للنسق السريع)"
+
+#: ../gfloppy/src/main.c:259
+msgid "Cannot Format"
+msgstr "لا يمكن التهيئة"
+
+#: ../gfloppy/src/main.c:260
+msgid "Neither the mke2fs nor the mkdosfs/mformat applications are installed. You can't format a floppy without one of them."
+msgstr "التطبيقان mke2fs أو mkdosfs/mformat غير مثبّتين. لا يمكنك تهيئة قرص مرن بدون واحد منهما."
+
+#: ../gfloppy/src/main.c:280
+#, c-format
+msgid "Unable to open the device %s, formatting cannot continue."
+msgstr "تعذر فتح الجهاز %s، لن تستمر التهيئة."
+
+#: ../gfloppy/src/main.c:283
+#: ../gfloppy/src/main.c:345
+#, c-format
+msgid ""
+"The device %s is disconnected.\n"
+"Please attach device to continue."
+msgstr ""
+"الجهاز %s غير موصل.\n"
+"رجاء وصّل الجهاز ثم تابع."
+
+#: ../gfloppy/src/main.c:286
+#: ../gfloppy/src/main.c:348
+#, c-format
+msgid ""
+"You do not have the proper permissions to write to %s, formatting will not be possible.\n"
+"Contact your system administrator about getting write permissions."
+msgstr ""
+"ليست لديك التصاريح الكافية للكتابة في %s، لذلك لن تكون التهيئة متاحة.\n"
+"اتصل بمدير نظامك حول الحصول على تصاريح الكتابة."
+
+#: ../gfloppy/src/main.c:293
+#: ../gfloppy/src/main.c:356
+msgid "Cannot initialize device"
+msgstr "لا يمكن اعداد الجهاز"
+
+#: ../gfloppy/src/main.c:342
+#, c-format
+msgid "Unable to open any device, formatting cannot continue."
+msgstr "لا يمكن فتح أيّ جهاز، لن تستمر التهيئة."
+
+#: ../gfloppy/src/main.c:345
+#: ../gfloppy/src/main.c:348
+msgid "/dev/floppy/0 or /dev/fd0"
+msgstr "/dev/floppy/0 أو /dev/fd0"
+
+#: ../gfloppy/src/main.c:509
+msgid "Could not display help for the floppy formatter."
+msgstr "تعذّر عرض مساعدة مهيّء الأقراص المرنة."
+
+#: ../gfloppy/src/main.c:528
+msgid "Incorrect volume name"
+msgstr "اسم حجم غير صحيح"
+
+#: ../gfloppy/src/main.c:529
+msgid "The volume name can't contain any blank space."
+msgstr "لا يمكن أن يحتوي اسم الحجم فراغات."
+
+#: ../gfloppy/src/main.c:573
+msgid "The device to format"
+msgstr "الجهاز اللذي سيهيّء"
+
+#: ../gfloppy/src/main.c:573
+msgid "DEVICE"
+msgstr "DEVICE"
+
+#: ../gfloppy/src/main.c:583
+msgid "- Floppy Formatter"
+msgstr "- مهيىء الأقراص المرنة"
+
+#: ../gfloppy/src/progress.c:126
+#, c-format
+msgid "The floppy has been formatted, but <b>%d bad block</b> (out of %d) has been found and marked."
+msgid_plural "The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have been found and marked."
+msgstr[0] "هُيّء القرص المرن، لكن <b>قالبا معطوبا</b> واحدًا (من %Id) وجد و علّم."
+msgstr[1] "هُيّء القرص المرن، لكن <b>قالبا معطوبا</b> واحدًا (من %Id) وجد و علّم."
+msgstr[2] "هُيّء القرص المرن، لكن <b>قالبين معطوبين</b> (من %Id) وجدا و علّما."
+msgstr[3] "هُيّء القرص المرن، لكن <b>%Idقوالب معطوبة</b> (من %Id) وجدت و علّمت."
+msgstr[4] "هُيّء القرص المرن، لكن <b>%Idقالبا معطوبا</b> (من %Id) وجدت و علّمت."
+msgstr[5] "هُيّء القرص المرن، لكن <b>%Idقالب معطوب</b> (من %Id) وجدت و علّمت."
+
+#: ../gfloppy/src/progress.c:129
+msgid "Floppy formatted successfully."
+msgstr "تمت تهيئة القرص المرن بنجاح."
+
+#: ../gfloppy/src/progress.c:135
+msgid "Floppy formatting cancelled."
+msgstr "تم إلغاء تهيئة القرص المرن."
+
+#: ../gfloppy/src/progress.c:178
+msgid "Format Progress"
+msgstr "تقدّم التهيئة"
+
+#: ../gnome-dictionary/data/default.desktop.in.h:1
+msgid "Default Dictionary Server"
+msgstr "خادوم القاموس الافتراضي"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
+msgid "Dictionary Look up"
+msgstr "البحث في القاموس"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
+msgid "Look up words in a dictionary"
+msgstr "ابحث عن تعاريف الكلمات في القاموس"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
+msgid "Cl_ear"
+msgstr "ا_مسح"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
+#: ../gnome-dictionary/src/gdict-window.c:1240
+#: ../logview/logview.c:116
+msgid "_About"
+msgstr "_عن"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
+msgid "_Look Up Selected Text"
+msgstr "ا_بحث عن النص المحدد"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
+#: ../gnome-dictionary/src/gdict-window.c:1214
+msgid "_Preferences"
+msgstr "ال_تفضيلات"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
+msgid "_Print"
+msgstr "ا_طبع"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
+msgid "_Save"
+msgstr "ا_حفظ"
+
+#: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "ابحث عن تعريف وإملاء الكلمات في قاموس علخط"
+
+#: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
+#: ../gnome-dictionary/src/gdict-about.c:78
+#: ../gnome-dictionary/src/gdict-app.c:402
+#: ../gnome-dictionary/src/gdict-window.c:610
+#: ../gnome-dictionary/src/gdict-window.c:1957
+msgid "Dictionary"
+msgstr "القاموس"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
+msgid "Dictionary server (Deprecated)"
+msgstr "خادوم القاموس (مهجور)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
+msgid "Port used to connect to server (Deprecated)"
+msgstr "المنفذ المستخدم للاتصال بالخادوم (مهجور)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
+msgid "Specify whether to use smart lookup. This key is dependant on whether the dictionary server supports this option. The default is TRUE. This key is deprecated and no longer in use."
+msgstr "يحدّد فيما إذا سيستخدم البحث الحاذق. يتوقّف هذا المفتاح على دعم خادوم القاموس لهذا الخيار. الافتراض هو TRUE. هذا المفتاح مهجور ولم يعد يستخدم."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+msgid "The default database to use"
+msgstr "قاعدة البيانات التي ستستخدم افتراضيا"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
+msgid "The default height of the application window"
+msgstr "الارتفاع الافتراضي لنافذة التطبيق"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+msgid "The default search strategy to use"
+msgstr "استراتيجية البحث الافتراضية المستخدمة"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
+msgid "The default width of the application window"
+msgstr "العرض الافتراضي لنافذة التطبيق"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
+msgid "The dictionary server to connect to. The default server is dict.org. See http://www.dict.org for details on other servers. This key is deprecated and no longer in use."
+msgstr "خادوم القاموس الذي سيتّصل به. الخادوم الافتراضي هو dict.org. راجع http://www.dict.org لتفاصيل عن خواديم آخرين. هذا المفتاح مهجور ولم يعد يستخدم."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+msgid "The font to be used when printing"
+msgstr "الخط المستعمل أثناء الطباعة"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+msgid "The font to be used when printing a definition."
+msgstr "الخط المستعمل أثناء طباعة التعريفات."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+msgid "The name of the default individual database or meta-database to use on a dictionary source. An exclamation mark (\"!\") means that all the databases present in a dictionary source should be searched"
+msgstr "اسم قاعدة البيانات أو ميتا-قاعدة بيانات الفرديّة لتستعمل في مصدر القاموس. علامة التعجب (\"!\") تعني أن يبحث قاموس-جنوم جميع قواعد البيانات الموجودة في مصدر القاموس."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+msgid "The name of the default search strategy to use on a dictionary source, if available. The default strategy is 'exact', that is match exact words."
+msgstr "اسم استراتيجية البحث الافتراضية للإستعمال على مصدر قاموس، إذا كان متوفّرا. الالاستراتيجية الافتراضية هي 'exact' ، أي مطابقة كلية للكلمات."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+msgid "The name of the dictionary source used"
+msgstr "اسم مصدر القاموس المستعمل"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+msgid "The name of the dictionary source used to retrieve the definitions of words."
+msgstr "اسم مصدر القاموس المستعمل للحصول على تعاريف الكلمات."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
+msgid "The page of the sidebar to show"
+msgstr "الصفحة التي ستعرض في الشريط الجانبي"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
+msgid "The port number to connect to. The default port is 2628. This key is deprecated and no longer in use."
+msgstr "رقم المنفذ للاتصال به. المنفذ الافتراضي هو 2628. هذا المفتاح مهجور ولم يعد يستخدم."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
+msgid "The width of the sidebar"
+msgstr "عرض الشريط الجانبي"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
+msgid "This key defines the width of the sidebar and it's used to remember the setting across sessions."
+msgstr "يحدّد هذا المفتاح عرض الشّريط الجانبي، يستعمل أيضا لتذكّر القيمة بين الجلسات."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
+msgid "This key defines the window height and it's used to remember the size of the dictionary window across sessions. Setting it to -1 will make the dictionary window use a height based on the font size."
+msgstr "يحدّد هذا المفتاح ارتفاع النافذة، يستعمل أيضا لتذكّر حجم نافذة القاموس بين الجلسات. تحديدها بـ -1 يجعل نافذة القاموس تستعمل ارتفاعا مبنيا على حجم الخط."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
+msgid "This key defines the window width and it's used to remember the size of the dictionary window across sessions. Setting it to -1 will make the dictionary window use a width based on the font size."
+msgstr "يحدّد هذا المفتاح عرض النافذة، يستعمل أيضا لتذكّر حجم نافذة القاموس بين الجلسات. تحديدها بـ -1 يجعل نافذة القاموس تستعمل ارتفاعا مبنيا على حجم الخط."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
+msgid "This key defines whether the sidebar should be visible and it's used to remember the state of the sidebar across sessions. Setting it to TRUE will make the sidebar always be displayed."
+msgstr "يحدّد هذا المفتاح إذا كان الشّريط الجانبي مرئيا، يستعمل أيضا لتذكّر القيمة بين الجلسات. تحديد TRUE يجعل الشّريط الجانبي مرئيا دائما."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
+msgid "This key defines whether the statusbar should be visible and it's used to remember the state of the statusbar across sessions. Setting it to TRUE will make the statusbar always be displayed."
+msgstr "يحدّد هذا المفتاح إذا كان شريط الحالة مرئيا، يستعمل أيضا لتذكّر القيمة بين الجلسات. تحديد TRUE يجعل شريط الحالة مرئيا دائما."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
+msgid "This key defines whether the window should be maximized and it's used to remember the state of the dictionary window across sessions. Setting it to TRUE will make the window always appear as maximized."
+msgstr "يحدّد هذا المفتاح إذا كانت التافذة موسّعة، يستعمل أيضا لتذكّر القيمة بين الجلسات. تحديد TRUE يجعل النافذة موسّعة دائما."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
+msgid "This key defines which page of the sidebar should be displayed and it's used to remember the setting across sessions.. It can be \"speller\" or \"databases\"."
+msgstr "يحدّد هذا المفتاح الصفحة التي يتم فيها إظهار الشريط الجانبي. يمكن أن تكون \"speller\" أو \"databases\". "
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
+msgid "Use smart lookup (Deprecated)"
+msgstr "إستخدم  بحث حاذق (مهجور)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
+msgid "Whether the application window should be maximized"
+msgstr "ما إذا وجب أن تكون نافذة التطبيق مكبّرة"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
+msgid "Whether the sidebar should be visible"
+msgstr "فيما اذا وجب اظهار الشريط الجانبي"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
+msgid "Whether the statusbar should be visible"
+msgstr "فيما اذا وجب اظهار شريط الحالة"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:1
+msgid "Dictionaries"
+msgstr "القواميس"
+
+#. Transport methods
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:3
+msgid "Dictionary Server"
+msgstr "خادوم القاموس"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:4
+msgid "H_ostname:"
+msgstr "ا_سم المستضيف:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:5
+msgid "Print"
+msgstr "اطبع"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:6
+msgid "Source"
+msgstr "المصدر"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:7
+msgid "Source Name"
+msgstr "اسم المصدر"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:8
+msgid "Strategies"
+msgstr "الاستراتيجيات"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:9
+msgid "_Description:"
+msgstr "ال_وصف:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:11
+msgid "_Print font:"
+msgstr "_خط الطبع:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:12
+msgid "_Select a dictionary source for looking up words:"
+msgstr "ا_ختر مصدر قاموس للبحث عن الكلمات:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:13
+msgid "_Transport:"
+msgstr "الن_قل:"
+
+#: ../gnome-dictionary/data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "قواميس أسبانية"
+
+#: ../gnome-dictionary/data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "قواميس لونجدو تايلاندي-إنجليزي"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:283
+msgid "Client Name"
+msgstr "اسم العميل"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:284
+msgid "The name of the client of the context object"
+msgstr "اسم عميل السياق"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:297
+msgid "Hostname"
+msgstr "اسم المستضيف"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:298
+msgid "The hostname of the dictionary server to connect to"
+msgstr "اسم خادوم القاموس الذي سيتّصل به"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:311
+msgid "Port"
+msgstr "المنفذ"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:312
+msgid "The port of the dictionary server to connect to"
+msgstr "منفذ خادوم القاموس الذي سيتّصل به"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:327
+msgid "Status"
+msgstr "الحالة"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:328
+msgid "The status code as returned by the dictionary server"
+msgstr "رمز الحالة المرجع من خادوم القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:777
+#, c-format
+msgid "No connection to the dictionary server at '%s:%d'"
+msgstr "لا اتّصال بخادوم القاموس على '%s:%d'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1054
+#, c-format
+msgid "Lookup failed for hostname '%s': no suitable resources found"
+msgstr "فشل إيجاد اسم الخادوم '%s': لا موارد مناسبة موجودة"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1085
+#, c-format
+msgid "Lookup failed for host '%s': %s"
+msgstr "فشل الاتصال بالمستضيف '%s'‏: %s "
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1119
+#, c-format
+msgid "Lookup failed for host '%s': host not found"
+msgstr "فشل إيجاد المستضيف '%s': المستضيف غير موجود"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1171
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'. The server replied with code %d (server down)"
+msgstr "لا يمكن الاتصال بخادوم القاموس على '%s:%d'. أجاب الخادوم بالرمز %d (الخادوم متوقف)"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1190
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr ""
+"تعذّر تحليل إجابة خادوم القاموس\n"
+": '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1219
+#, c-format
+msgid "No definitions found for '%s'"
+msgstr "لا تعريف ل‍ '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1234
+#, c-format
+msgid "Invalid database '%s'"
+msgstr "قاعدة البيانات غير صحيحة '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1249
+#, c-format
+msgid "Invalid strategy '%s'"
+msgstr "استراتجية  غير صحيحة '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1264
+#, c-format
+msgid "Bad command '%s'"
+msgstr "أمر سيئ  '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1279
+#, c-format
+msgid "Bad parameters for command '%s'"
+msgstr "خيارات سيّئة للأمر '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1294
+#, c-format
+msgid "No databases found on dictionary server at '%s'"
+msgstr "لا قاعدة بيانات موجودة في خادوم القاموس '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1309
+#, c-format
+msgid "No strategies found on dictionary server at '%s'"
+msgstr "لا استراتيحيات موجودة على خادوم القاموس في  '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1742
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "فشل الاتصال بخادوم القواميس %s:%d"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1781
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"خطأ عند قراءة الإجابة من الخادوم:\n"
+"%s"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1851
+#, c-format
+msgid "Connection timeout for the dictionary server at '%s:%d'"
+msgstr "مهلة الاتصال بخادوم القواميس في %s:%d"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1885
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "لا اسم مستضيف محدّد لخادوم قواميس"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1921
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1936
+#, c-format
+msgid "Unable to create socket"
+msgstr "تعذّر انشاء المقبس"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1962
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr "تعذّر تحديد القناة كغير مسدِّدة: %s "
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1977
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'"
+msgstr "لا يمكن الاتصال بخادوم القواميس على %s:%d"
+
+#: ../gnome-dictionary/libgdict/gdict-context.c:218
+msgid "Local Only"
+msgstr "محليا فقط"
+
+#: ../gnome-dictionary/libgdict/gdict-context.c:219
+msgid "Whether the context uses only local dictionaries or not"
+msgstr "إذا كان السياق يستعمل قواميس محلّية فقط أم لا"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:383
+msgid "Reload the list of available databases"
+msgstr "أعد تحميل قائمة قواعد البيانات المتوفّرة"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:395
+msgid "Clear the list of available databases"
+msgstr "امسح قائمة قواعد البيانات المتوفرة"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:842
+#: ../gnome-dictionary/libgdict/gdict-speller.c:780
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:791
+msgid "Error while matching"
+msgstr "حدث خطأ خلال المطابقة"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1135
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1229
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1263
+msgid "Not found"
+msgstr "غير موجود"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1324
+msgid "F_ind:"
+msgstr "اب_حث:"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1337
+msgid "_Previous"
+msgstr "ال_سابق"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1345
+msgid "_Next"
+msgstr "ال_تالي"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2520
+msgid "Error while looking up definition"
+msgstr "خطأ عند البحث عن التعريف"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
+#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+msgid "Another search is in progress"
+msgstr "هناك بحث آخر قيد التنفيذ"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2563
+#: ../gnome-dictionary/libgdict/gdict-speller.c:739
+msgid "Please wait until the current search ends."
+msgstr "رجاء الانتظار حتى إنهاء البحث الحالي"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2602
+msgid "Error while retrieving the definition"
+msgstr "خطأ عند جلب عن التعريف"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:232
+msgid "Filename"
+msgstr "اسم الملف"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:233
+msgid "The filename used by this dictionary source"
+msgstr "اسم الملف المستعمل من طرف مصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:246
+#: ../gsearchtool/gsearchtool.c:2473
+msgid "Name"
+msgstr "الاسم"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:247
+msgid "The display name of this dictonary source"
+msgstr "اسم معراض مصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:260
+msgid "Description"
+msgstr "الوصف"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:261
+msgid "The description of this dictionary source"
+msgstr "وصف مصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:274
+#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+msgid "Database"
+msgstr "قاعدة بيانات"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:275
+msgid "The default database of this dictonary source"
+msgstr "قاعدة البيانات الافتراضية لمصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:288
+#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+msgid "Strategy"
+msgstr "الاستراتيجية"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:289
+msgid "The default strategy of this dictonary source"
+msgstr "الاستراتيجية الافتراضية لمصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:302
+msgid "Transport"
+msgstr "النقل"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:303
+msgid "The transport mechanism used by this dictionary source"
+msgstr "آلية النقل المستعملة من مصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:317
+#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+msgid "Context"
+msgstr "السياق"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:318
+msgid "The GdictContext bound to this source"
+msgstr "GdictContext المقيّد بهذا المصدر"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:413
+#, c-format
+msgid "Invalid transport type '%d'"
+msgstr "نوع نقل غير سليم  '%d'"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:441
+#, c-format
+msgid "No '%s' group found inside the dictionary source definition"
+msgstr "لا مجموعة  '%s' موجودة داخل تعريف مصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:457
+#: ../gnome-dictionary/libgdict/gdict-source.c:481
+#: ../gnome-dictionary/libgdict/gdict-source.c:505
+#: ../gnome-dictionary/libgdict/gdict-source.c:530
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
+msgstr "لا يمكن أخذ مفتاح '%s' داخل تعريف مصدر القاموس: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:555
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr "لا يمكن أخذ مفتاح '%s' داخل ملف تعريف مصدر القاموس: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:741
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr "لا اسم لمصدر القاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:750
+#, c-format
+msgid "Dictionary source '%s' has invalid transport '%s'"
+msgstr "مصدر القاموس '%s' يملك نقل سيّء '%s'"
+
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:300
+msgid "Reload the list of available sources"
+msgstr "أعد تحميل قائمة المصادر المتوفرة"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:171
+msgid "Paths"
+msgstr "المسارات"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:172
+msgid "Search paths used by this object"
+msgstr "مسارات البحث المستعملة منه"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:184
+msgid "Sources"
+msgstr "المصادر"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:185
+msgid "Dictionary sources found"
+msgstr "مصادر القاموس الموجودة"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:355
+msgid "Clear the list of similar words"
+msgstr "امسح قائمة الكلمات المشابهة"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:379
+msgid "The GdictContext object used to get the word definition"
+msgstr "GdictContext المستعمل للحصول على تعريف الكلمة"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:386
+msgid "The database used to query the GdictContext"
+msgstr "قاعدة البيانات التي ستستعمل لسؤال GdictContext"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:393
+msgid "The strategy used to query the GdictContext"
+msgstr "الاستراتيجية المستعملة للبحث في GdictContext"
+
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:367
+msgid "Reload the list of available strategies"
+msgstr "أعد تحميل قائمة الإستراتيجيات المتوفرة"
+
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:379
+msgid "Clear the list of available strategies"
+msgstr "امسح قائمة الإستراتيجيات المتوفرة"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:157
+msgid "GDict Options"
+msgstr "خيارات ج‌قاموس"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:158
+msgid "Show GDict Options"
+msgstr "اعرض خيارات ج‌قاموس"
+
+#: ../gnome-dictionary/src/gdict-about.c:57
+#: ../gnome-dictionary/src/gdict-applet.c:591
+msgid "Look up words in dictionaries"
+msgstr "ابحث عن تعاريف الكلمات في القاموس"
+
+#. Translators: the first is the word found, the second is the
+#. * database name and the last is the definition's text; please
+#. * keep the new lines.
+#: ../gnome-dictionary/src/gdict-app.c:233
+#, c-format
+msgid ""
+"Definition for '%s'\n"
+"  From '%s':\n"
+"\n"
+"%s\n"
+msgstr ""
+"تعريف '%s'\n"
+"  من '%s':\n"
+"\n"
+"%s\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:247
+#, c-format
+msgid "Error: %s\n"
+msgstr "خطأ: %s\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:273
+#, c-format
+msgid "See gnome-dictionary --help for usage\n"
+msgstr "انظر gnome-dictionary --help لكيفية الإستعمال\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:286
+msgid "Unable to find a suitable dictionary source"
+msgstr "تعذّر إيجاد مصدر قاموس مناسب"
+
+#: ../gnome-dictionary/src/gdict-app.c:320
+#, c-format
+msgid ""
+"Error while looking up the definition of \"%s\":\n"
+"%s"
+msgstr ""
+"حدث خطأ عند البحث عن  \"%s\":\n"
+"%s"
+
+#: ../gnome-dictionary/src/gdict-app.c:354
+#: ../gnome-dictionary/src/gdict-app.c:368
+msgid "Words to look up"
+msgstr "الكلمات المبحوث عنها"
+
+#: ../gnome-dictionary/src/gdict-app.c:354
+#: ../gnome-dictionary/src/gdict-app.c:356
+#: ../gnome-dictionary/src/gdict-app.c:368
+msgid "word"
+msgstr "الكلمة"
+
+#: ../gnome-dictionary/src/gdict-app.c:356
+msgid "Words to match"
+msgstr "كلمات المطابقة"
+
+#: ../gnome-dictionary/src/gdict-app.c:358
+msgid "Dictionary source to use"
+msgstr "مصدر القاموس الذي سيستعمل"
+
+#: ../gnome-dictionary/src/gdict-app.c:358
+msgid "source"
+msgstr "المصدر"
+
+#: ../gnome-dictionary/src/gdict-app.c:360
+msgid "Show available dictionary sources"
+msgstr "أظهر مصادر القاموس المتوفرة"
+
+#: ../gnome-dictionary/src/gdict-app.c:362
+msgid "Print result to the console"
+msgstr "اطبع النتائج للكونسول"
+
+#: ../gnome-dictionary/src/gdict-app.c:364
+msgid "Database to use"
+msgstr "قاعدة البيانات المستعملة"
+
+#: ../gnome-dictionary/src/gdict-app.c:364
+msgid "db"
+msgstr "القاعدة"
+
+#: ../gnome-dictionary/src/gdict-app.c:366
+msgid "Strategy to use"
+msgstr "الاستراتيجية المستعملة"
+
+#: ../gnome-dictionary/src/gdict-app.c:366
+msgid "strat"
+msgstr "بداية"
+
+#. create the new option context
+#: ../gnome-dictionary/src/gdict-app.c:384
+msgid " - Look up words in dictionaries"
+msgstr "- ابحث عن تعاريف الكلمات في القاموس"
+
+#: ../gnome-dictionary/src/gdict-app.c:388
+msgid "Dictionary and spelling tool"
+msgstr "قاموس و أداة تهجئة"
+
+#: ../gnome-dictionary/src/gdict-app.c:389
+msgid "Show Dictionary options"
+msgstr "اعرض خيارات القاموس"
+
+#: ../gnome-dictionary/src/gdict-applet.c:207
+#: ../gnome-dictionary/src/gdict-window.c:839
+msgid "Save a Copy"
+msgstr "احفظ نسخة"
+
+#: ../gnome-dictionary/src/gdict-applet.c:217
+#: ../gnome-dictionary/src/gdict-window.c:849
+msgid "Untitled document"
+msgstr "مستند غير مسمّى"
+
+#: ../gnome-dictionary/src/gdict-applet.c:238
+#: ../gnome-dictionary/src/gdict-window.c:870
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "خطأ أثناء الكتابة في '%s'"
+
+#: ../gnome-dictionary/src/gdict-applet.c:363
+msgid "Clear the definitions found"
+msgstr "امسح التعريفات الموجودة"
+
+#: ../gnome-dictionary/src/gdict-applet.c:365
+msgid "Clear definition"
+msgstr "امسح التعريف"
+
+#: ../gnome-dictionary/src/gdict-applet.c:366
+msgid "Clear the text of the definition"
+msgstr "امسح نصّ التعريف"
+
+#: ../gnome-dictionary/src/gdict-applet.c:373
+msgid "Print the definitions found"
+msgstr "اطبع التعريفات الموجودة"
+
+#: ../gnome-dictionary/src/gdict-applet.c:375
+msgid "Print definition"
+msgstr "اطبع التعريف"
+
+#: ../gnome-dictionary/src/gdict-applet.c:376
+msgid "Print the text of the definition"
+msgstr "اطبع نص التعريف"
+
+#: ../gnome-dictionary/src/gdict-applet.c:383
+msgid "Save the definitions found"
+msgstr "احفظ التعريفات الموجودة"
+
+#: ../gnome-dictionary/src/gdict-applet.c:385
+msgid "Save definition"
+msgstr "احفظ التعريف"
+
+#: ../gnome-dictionary/src/gdict-applet.c:386
+msgid "Save the text of the definition to a file"
+msgstr "احفظ نصّ التعريف في ملف"
+
+#: ../gnome-dictionary/src/gdict-applet.c:533
+msgid "Click to view the dictionary window"
+msgstr "انقر لعرض نافذة القاموس"
+
+#: ../gnome-dictionary/src/gdict-applet.c:535
+msgid "Toggle dictionary window"
+msgstr "بدّل نافذة القاموس"
+
+#: ../gnome-dictionary/src/gdict-applet.c:536
+msgid "Show or hide the definition window"
+msgstr "أظهر أو اخفِ نافذة التعريفات"
+
+#: ../gnome-dictionary/src/gdict-applet.c:588
+msgid "Type the word you want to look up"
+msgstr "اكتب الكلمة للبحث عنها"
+
+#: ../gnome-dictionary/src/gdict-applet.c:590
+msgid "Dictionary entry"
+msgstr "مدْخلة القاموس"
+
+#: ../gnome-dictionary/src/gdict-applet.c:724
+#: ../gnome-dictionary/src/gdict-window.c:1003
+msgid "Dictionary Preferences"
+msgstr "تفضيلات القاموس"
+
+#: ../gnome-dictionary/src/gdict-applet.c:752
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:509
+#: ../gnome-dictionary/src/gdict-source-dialog.c:498
+#: ../gnome-dictionary/src/gdict-window.c:1150
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "حدث خطأ عند عرض محتويات المساعدة"
+
+#: ../gnome-dictionary/src/gdict-applet.c:904
+#: ../gnome-dictionary/src/gdict-window.c:519
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "لا مصدر قاموس متوفر باسم  '%s'"
+
+#: ../gnome-dictionary/src/gdict-applet.c:908
+#: ../gnome-dictionary/src/gdict-window.c:523
+msgid "Unable to find dictionary source"
+msgstr "لا يمكن إيجاد مصدر القاموس"
+
+#: ../gnome-dictionary/src/gdict-applet.c:924
+#: ../gnome-dictionary/src/gdict-window.c:539
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "لا سياق متوفّر للمصدر '%s'"
+
+#: ../gnome-dictionary/src/gdict-applet.c:928
+#: ../gnome-dictionary/src/gdict-window.c:543
+msgid "Unable to create a context"
+msgstr "لا يمكن إنشاء سياق"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1193
+#: ../gnome-dictionary/src/gdict-window.c:2088
+msgid "Unable to connect to GConf"
+msgstr "فشل الاتصال بـ GConf"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1206
+#: ../gnome-dictionary/src/gdict-window.c:2101
+msgid "Unable to get notification for preferences"
+msgstr "تعذّر التوصل لتنبيه للتفضيلات"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1220
+#: ../gnome-dictionary/src/gdict-window.c:2114
+msgid "Unable to get notification for the document font"
+msgstr "تعذّر التوصل لتنبيه لخط المستند"
+
+#: ../gnome-dictionary/src/gdict-common.c:79
+#, c-format
+msgid "Unable to rename file '%s' to '%s': %s"
+msgstr "لا يمكن إعادة تسمية الملف '%s' إلى '%s'‏: %s"
+
+#: ../gnome-dictionary/src/gdict-common.c:103
+#: ../gnome-dictionary/src/gdict-common.c:126
+#, c-format
+msgid "Unable to create the data directory '%s': %s"
+msgstr "فشل إنشاء دليل البيانات '%s'‏: %s"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:246
+msgid "Edit Dictionary Source"
+msgstr "حرّر مصدر القاموس"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:310
+msgid "Add Dictionary Source"
+msgstr "أضف مصدر قاموس"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:356
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr "أأحذف \"%s\"؟"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:358
+msgid "This will permanently remove the dictionary source from the list."
+msgstr "سيحذف هذا مصدر القاموس من القائمة نهائيا."
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:388
+#, c-format
+msgid "Unable to remove source '%s'"
+msgstr "لا يمكن حذف المصدر  '%s'"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:667
+msgid "Add a new dictionary source"
+msgstr "أضِف مصدر قاموس جديد"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:673
+msgid "Remove the currently selected dictionary source"
+msgstr "احذف مصدر القاموس المحدد حاليا"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:686
+msgid "Set the font used for printing the definitions"
+msgstr "حدّد الخط المستعمل لطباعة التعاريف"
+
+#: ../gnome-dictionary/src/gdict-print.c:249
+#: ../gnome-dictionary/src/gdict-print.c:313
+#, c-format
+msgid "Unable to display the preview: %s"
+msgstr "لا يمكن عرض المعاينة: %s"
+
+#: ../gnome-dictionary/src/gdict-source-dialog.c:358
+#: ../gnome-dictionary/src/gdict-source-dialog.c:451
+msgid "Unable to create a source file"
+msgstr "لا يمكن إنشاء ملف مصدر"
+
+#: ../gnome-dictionary/src/gdict-source-dialog.c:376
+#: ../gnome-dictionary/src/gdict-source-dialog.c:469
+msgid "Unable to save source file"
+msgstr "لا يمكن حفظ ملف المصدر"
+
+#: ../gnome-dictionary/src/gdict-window.c:318
+#, c-format
+msgid "Searching for '%s'..."
+msgstr "البحث عن '%s'..."
+
+#: ../gnome-dictionary/src/gdict-window.c:350
+#: ../gnome-dictionary/src/gdict-window.c:409
+msgid "No definitions found"
+msgstr "لم يُعثر على أي تعريفات"
+
+#: ../gnome-dictionary/src/gdict-window.c:352
+#, c-format
+msgid "A definition found"
+msgid_plural "%d definitions found"
+msgstr[0] "لا تعريفات"
+msgstr[1] "وُجِد تعريف واحد"
+msgstr[2] "وُجِد تعريفان"
+msgstr[3] "وُجِدت %Id تعريفات"
+msgstr[4] "وُجِد %Id تعريفا"
+msgstr[5] "وُجِد %Id تعريف"
+
+#: ../gnome-dictionary/src/gdict-window.c:608
+#, c-format
+msgid "%s - Dictionary"
+msgstr "‏%s - قاموس"
+
+#: ../gnome-dictionary/src/gdict-window.c:1184
+#: ../logview/logview.c:85
+msgid "_File"
+msgstr "_ملف"
+
+#: ../gnome-dictionary/src/gdict-window.c:1187
+msgid "_Go"
+msgstr "ا_ذهب"
+
+#. File menu
+#: ../gnome-dictionary/src/gdict-window.c:1191
+msgid "_New"
+msgstr "_جديد"
+
+#: ../gnome-dictionary/src/gdict-window.c:1192
+msgid "New look up"
+msgstr "بحث جديد"
+
+#: ../gnome-dictionary/src/gdict-window.c:1193
+msgid "_Save a Copy..."
+msgstr "ا_حفظ نسخة..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1195
+msgid "P_review..."
+msgstr "_عاين..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1196
+msgid "Preview this document"
+msgstr "عاين هذا المستند"
+
+#: ../gnome-dictionary/src/gdict-window.c:1197
+msgid "_Print..."
+msgstr "ا_طبع..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1198
+msgid "Print this document"
+msgstr "اطبع هذا المستند"
+
+#: ../gnome-dictionary/src/gdict-window.c:1205
+#: ../logview/logview.c:99
+msgid "Select _All"
+msgstr "اخت_ر الكل"
+
+#: ../gnome-dictionary/src/gdict-window.c:1208
+msgid "Find a word or phrase in the document"
+msgstr "ابحث عن كلمة أو جملة في المستند"
+
+#: ../gnome-dictionary/src/gdict-window.c:1210
+msgid "Find Ne_xt"
+msgstr "ابحث عن الت_الي"
+
+#: ../gnome-dictionary/src/gdict-window.c:1212
+msgid "Find Pre_vious"
+msgstr "ابحث عن ال_سابق"
+
+#. Go menu
+#: ../gnome-dictionary/src/gdict-window.c:1218
+msgid "_Previous Definition"
+msgstr "التعريف ال_سابق"
+
+#: ../gnome-dictionary/src/gdict-window.c:1219
+msgid "Go to the previous definition"
+msgstr "اذهب إلى التعريف السابق"
+
+#: ../gnome-dictionary/src/gdict-window.c:1220
+msgid "_Next Definition"
+msgstr "التعريف ال_تالي"
+
+#: ../gnome-dictionary/src/gdict-window.c:1221
+msgid "Go to the next definition"
+msgstr "اذهب إلى التعريف التالي"
+
+#: ../gnome-dictionary/src/gdict-window.c:1222
+msgid "_First Definition"
+msgstr "التعريف الأ_وّل"
+
+#: ../gnome-dictionary/src/gdict-window.c:1223
+msgid "Go to the first definition"
+msgstr "اذهب إلى التعريف الأول"
+
+#: ../gnome-dictionary/src/gdict-window.c:1224
+msgid "_Last Definition"
+msgstr "التعريف الأ_خير"
+
+#: ../gnome-dictionary/src/gdict-window.c:1225
+msgid "Go to the last definition"
+msgstr "اذهب إلى التعريف الأخير"
+
+#. View menu
+#: ../gnome-dictionary/src/gdict-window.c:1228
+msgid "Similar _Words"
+msgstr "كلمات _مشابهة"
+
+#: ../gnome-dictionary/src/gdict-window.c:1230
+msgid "Dictionary Sources"
+msgstr "مصادر القاموس"
+
+#: ../gnome-dictionary/src/gdict-window.c:1232
+msgid "Available _Databases"
+msgstr "قواعد البيانات الم_توفرة"
+
+#: ../gnome-dictionary/src/gdict-window.c:1234
+msgid "Available St_rategies"
+msgstr "الا_ستراتيجيّات المتوفرة"
+
+#. View menu
+#: ../gnome-dictionary/src/gdict-window.c:1251
+msgid "_Sidebar"
+msgstr "الشريط ال_جانبي"
+
+#: ../gnome-dictionary/src/gdict-window.c:1253
+msgid "S_tatusbar"
+msgstr "شريط ال_حالة"
+
+#: ../gnome-dictionary/src/gdict-window.c:1374
+#, c-format
+msgid "Dictionary source `%s' selected"
+msgstr "مصدر القاموس `%s' المُحدد"
+
+#: ../gnome-dictionary/src/gdict-window.c:1395
+#, c-format
+msgid "Strategy `%s' selected"
+msgstr "اختيرت الاستراتيجيّة `%s'"
+
+#: ../gnome-dictionary/src/gdict-window.c:1415
+#, c-format
+msgid "Database `%s' selected"
+msgstr "اختيرت قاعدة البيانات `%s'"
+
+#: ../gnome-dictionary/src/gdict-window.c:1435
+#, c-format
+msgid "Word `%s' selected"
+msgstr "اختيرت ىالكلمة `%s'"
+
+#. speller
+#: ../gnome-dictionary/src/gdict-window.c:1457
+msgid "Double-click on the word to look up"
+msgstr "انقر مرتين على الكلمة للبحث عنها"
+
+#. strat-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1463
+msgid "Double-click on the matching strategy to use"
+msgstr "انقر مرتين على الاستراتيجيّة المطابقة للتستخدم"
+
+#. source-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1468
+msgid "Double-click on the source to use"
+msgstr "انقر مرتين على المصدر لتستخدمه"
+
+#. db-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1477
+msgid "Double-click on the database to use"
+msgstr "انقر مرتين على قاعدة البيانات للتستخدم"
+
+#: ../gnome-dictionary/src/gdict-window.c:1765
+msgid "Look _up:"
+msgstr "ا_بحث"
+
+#: ../gnome-dictionary/src/gdict-window.c:1839
+msgid "Similar words"
+msgstr "كلمات مشابهة"
+
+#: ../gnome-dictionary/src/gdict-window.c:1852
+msgid "Available dictionaries"
+msgstr "القواميس المتوفرة"
+
+#: ../gnome-dictionary/src/gdict-window.c:1865
+msgid "Available strategies"
+msgstr "الاستراتيجيات المتوفرة"
+
+#: ../gnome-dictionary/src/gdict-window.c:1876
+msgid "Dictionary sources"
+msgstr "مصادر القاموس"
+
+#: ../gnome-screenshot/gnome-screenshot.c:131
+msgid "Error loading the help page"
+msgstr "خطأ عند تحميل صفحة المساعدة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:234
+msgid "None"
+msgstr "بلا"
+
+#: ../gnome-screenshot/gnome-screenshot.c:235
+msgid "Drop shadow"
+msgstr "ظل منسدل"
+
+#: ../gnome-screenshot/gnome-screenshot.c:236
+msgid "Border"
+msgstr "حافة"
+
+#. * Include pointer *
+#: ../gnome-screenshot/gnome-screenshot.c:339
+msgid "Include _pointer"
+msgstr "ضمّن ال_حدود"
+
+#. * Include window border *
+#: ../gnome-screenshot/gnome-screenshot.c:348
+msgid "Include the window _border"
+msgstr "ضمّن حا_فة النافذة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:363
+msgid "Apply _effect:"
+msgstr "طبِّق ال_تأثير:"
+
+#: ../gnome-screenshot/gnome-screenshot.c:425
+msgid "Grab the whole _desktop"
+msgstr "كل _سطح المكتب"
+
+#: ../gnome-screenshot/gnome-screenshot.c:437
+msgid "Grab the current _window"
+msgstr "ال_نافذة الحالية"
+
+#. translators: this is the first part of the "grab after a
+#. * delay of <spin button> seconds".
+#.
+#: ../gnome-screenshot/gnome-screenshot.c:454
+msgid "Grab _after a delay of"
+msgstr "التقط _بعد مدة"
+
+#. translators: this is the last part of the "grab after a
+#. * delay of <spin button> seconds".
+#.
+#: ../gnome-screenshot/gnome-screenshot.c:474
+#: ../gnome-screenshot/gnome-screenshot.c:1123
+msgid "seconds"
+msgstr "ثوان"
+
+#: ../gnome-screenshot/gnome-screenshot.c:500
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+msgid "Take Screenshot"
+msgstr "خذ لقطة للشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:501
+msgid "Effects"
+msgstr "التأثيرات"
+
+#: ../gnome-screenshot/gnome-screenshot.c:507
+msgid "Take _Screenshot"
+msgstr "خذ _لقطة للشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:593
+msgid "Error while saving screenshot"
+msgstr "حدث خطأ أثناء حفظ لقطة الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:597
+#, c-format
+msgid ""
+"Impossible to save the screenshot to %s.\n"
+" Error was %s\n"
+". Please choose another location and retry."
+msgstr ""
+"من المستحيل حفظ لقطة الشاشة إلى %s.\n"
+"الخطأ كان %s\n"
+". الرجاء اختر موقعاً آخر ثم أعد المحاولة."
+
+#: ../gnome-screenshot/gnome-screenshot.c:740
+msgid "Unable to take a screenshot of the current window"
+msgstr "تعذّر أخذ لقطة للنافذة الحالية."
+
+#: ../gnome-screenshot/gnome-screenshot.c:781
+#, c-format
+msgid "Screenshot-%s.png"
+msgstr "Screenshot-%s.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if a specific window is
+#. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:788
+#, c-format
+msgid "Screenshot-%s-%d.png"
+msgstr "Screenshot-%s-%d.png"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot if the entire screen is taken
+#: ../gnome-screenshot/gnome-screenshot.c:798
+#: ../gnome-screenshot/screenshot-dialog.c:356
+#: ../gnome-screenshot/screenshot-save.c:196
+msgid "Screenshot.png"
+msgstr "Screenshot.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if the entire screen is
+#. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:805
+#, c-format
+msgid "Screenshot-%d.png"
+msgstr "Screenshot-%d.png"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1121
+msgid "Grab a window instead of the entire screen"
+msgstr "خذ صورة النافذة بدلا من كل الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1122
+msgid "Include the window border with the screenshot"
+msgstr "ضمّن حدّ النافذ مع صورة الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1123
+msgid "Take screenshot after specified delay [in seconds]"
+msgstr "خذ لقطة الشّاشة بعد مدة معيّنة [بالثواني]"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1124
+msgid "Effect to add to the border (shadow, border or none)"
+msgstr "التأثير المضاف للحافة (ظل، حافة أو لاشيء)"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1124
+msgid "effect"
+msgstr "التأثير"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1125
+msgid "Interactively set options"
+msgstr "حدد الخيارات تفاعليا"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1134
+msgid "Take a picture of the screen"
+msgstr "خذ صورة للشّاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
+msgid "Save images of your desktop or individual windows"
+msgstr "احفظ صور لسطح مكتبك أو للنوافذ المنفردة"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:2
+msgid "C_opy to Clipboard"
+msgstr "ا_نسخ إلى الحافظة"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:3
+msgid "Save Screenshot"
+msgstr "احفظ لقطة الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:4
+msgid "Save in _folder:"
+msgstr "احفظ في ال_مجلد:"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:5
+msgid "_Name:"
+msgstr "الا_سم:"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+msgid "Border Effect"
+msgstr "تأثير الحد"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+msgid "Effect to add to the outside of a border. Possible values are \"shadow\", \"none\", and \"border\"."
+msgstr "التأثير المضاف لخارج الحافة. القيم الممكنة هي \"shadow\"، \"none\"، و \"border\"."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+msgid "Grab just the current window, rather than the whole desktop."
+msgstr "التقط صورة النافذة الحالية فقط، بدلاً من سطح المكتب بأكمله."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+msgid "Include Border"
+msgstr "اشمل الحدود"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+msgid "Include Pointer"
+msgstr "اشمل الحدود"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+msgid "Include the pointer in the screenshot"
+msgstr "اشمل حدّ النافذ مع صورة الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+msgid "Include the window manager border along with the screenshot"
+msgstr "اشمل حدّ مدير النوافذ مع لقطة الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+msgid "Screenshot delay"
+msgstr "تأخير لقطة الشاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+msgid "Screenshot directory"
+msgstr "دليل لقطات الشّاشة"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+msgid "The directory the last screenshot was saved in."
+msgstr "الدليل الذي تم حفظ لقطات الشاشة الأخيرة فيه."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+msgid "The number of seconds to wait before taking the screenshot."
+msgstr "عدد الثواني المنتظرة قبل أخذ لقطة الشاشة."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+msgid "Window-specific screenshot"
+msgstr "لقطة شاشة مختصّة بنافذة"
+
+#: ../gnome-screenshot/screenshot-dialog.c:239
+msgid ""
+"UI definition file for the screenshot program is missing.\n"
+"Please check your installation of gnome-utils"
+msgstr ""
+"ملف تعريف الواجهة الرسوميّة لبرنامج صورة الشاشة غير موجود.\n"
+"الرجاء التأكد من تنصيب أدوات جنوم"
+
+#: ../gnome-screenshot/screenshot-dialog.c:260
+msgid "Select a folder"
+msgstr "اختر مجلّدا"
+
+#: ../gnome-screenshot/screenshot-save.c:57
+#, c-format
+msgid ""
+"Unable to clear the temporary folder:\n"
+"%s"
+msgstr ""
+"تعذّر مسح المجلد المؤقت:\n"
+"%s"
+
+#: ../gnome-screenshot/screenshot-save.c:95
+msgid "The child save process unexpectedly exited.  We are unable to write the screenshot to disk."
+msgstr "عملية الحفظ الابن انتهت بصورة غير متوقّعة. تعذّر كتابة لقطة الشاشة على لقرص."
+
+#: ../gnome-screenshot/screenshot-save.c:223
+msgid "Unknown error saving screenshot to disk"
+msgstr "خطأ مجهول عند حفظ لقطة الشاشة على القرص"
+
+#. TODO: maybe we should also look at WM_NAME and WM_CLASS?
+#: ../gnome-screenshot/screenshot-utils.c:481
+msgid "Untitled Window"
+msgstr "نافذة غير معنونة"
+
+#: ../gnome-screenshot/screenshot-xfer.c:74
+msgid "File already exists"
+msgstr "الملف موجود مسبّقا"
+
+#: ../gnome-screenshot/screenshot-xfer.c:77
+#, c-format
+msgid "The file \"%s\" already exists. Would you like to replace it?"
+msgstr "الملف \"%s\" موجود مسبّقا. هل تريد استبداله؟"
+
+#: ../gnome-screenshot/screenshot-xfer.c:84
+#: ../gsearchtool/gsearchtool-callbacks.c:1469
+msgid "_Replace"
+msgstr "ا_ستبدل"
+
+#: ../gnome-screenshot/screenshot-xfer.c:122
+msgid "Saving file..."
+msgstr "يجري حفظ الملف..."
+
+#: ../gnome-screenshot/screenshot-xfer.c:294
+msgid "Can't access source file"
+msgstr "لا يمكن الوصول إلى الملف المصدر"
+
+#: ../gsearchtool/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "حدد موقع المستندات والمجلدات على هذا الحاسوب بالاسم أو المحتوى"
+
+#: ../gsearchtool/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "ابحث عن الملفات..."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "ارتفاع النّافذة الافتراضي"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "النّافذة الافتراضية موسعة"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "عرض النّافذة الافتراضي"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "عطّل البحث السّريع"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "عطّل الفحص الثاني للبحث السّريع"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr "المسارات المستثناة من البحث السّريع"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "المسارات المستثناة من البحث السريع الثاني"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:8
+msgid "Search Result Columns Order"
+msgstr "ترتيب أعمدة نتائج البحث"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:11
+msgid "Select the search option \"Contains the text\""
+msgstr "اختر خيار البحث \"يحتوي النص\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:14
+msgid "Select the search option \"Date modified less than\""
+msgstr "اختر خيار البحث \"تاريخ التعديل أقل من\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:17
+msgid "Select the search option \"Date modified more than\""
+msgstr "اختر خيار البحث \"تاريخ التعديل أكبر من\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:20
+msgid "Select the search option \"File is empty\""
+msgstr "اختر خيار البحث \"الملف فارغ\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:23
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "اختر خيار البحث \"اتبع الروابط الرمزية\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:26
+msgid "Select the search option \"Include other filesystems\""
+msgstr "اختر خيار البحث \"اشمل أنظمة الملفات الأخرى\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:29
+msgid "Select the search option \"Name does not contain\""
+msgstr "اختر خيار البحث \"الاسم لا يحتوي\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:32
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "اختر خيار البحث \"الاسم يطابق التعبير النمطي\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:35
+msgid "Select the search option \"Owned by group\""
+msgstr "اختر خيار البحث \"ملك المجموعة\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:38
+msgid "Select the search option \"Owned by user\""
+msgstr "اختر خيار البحث \"ملك المستخدم\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:41
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "اختر خيار البحث \"المالك غير معرّف\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:44
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "اختر خيار البحث \"أظهر الملفات والمجلدات المخبأة\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:47
+msgid "Select the search option \"Size at least\""
+msgstr "اختر خيار البحث \"الحجم على الأقل\""
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:50
+msgid "Select the search option \"Size at most\""
+msgstr "اختر خيار البحث \"الحجم على الأكثر\""
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:51
+msgid "Show Additional Options"
+msgstr "اعرض الخيارات  الإضافية"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:52
+msgid "This key defines the order of the columns in the search results. This key should not be modified by the user."
+msgstr "يحدّد هذا المفتاح ترتيب الأعمدة في نتائج البحث. من المستحسن عدم تغيير هذا المفتاح من طرف المستخدم."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:53
+msgid "This key defines the paths the search tool will exclude from a quick search. The wildcards '*' and '?' are supported. The default values are /mnt/*, /media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr "يحدّد هذا المفتاح المسارات المستنثناة من أداة البحث عند البحث السّريع. الأداتين '?' و '*' مدعومتين. القيم الافتراضية هي  /mnt/*، /media/*، /dev/*، /tmp/*، /proc/*، و /var/*."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:54
+msgid "This key defines the paths the search tool will exclude from a second scan when performing a quick search. The second scan uses the find command to search for files. The purpose of the second scan is to find files that have not been indexed. The wildcards '*' and '?' are supported. The default value is /."
+msgstr "يحدّد هذا المفتاح المسارات المستنثناة من أداة البحث عند البحث السّريع الثاني. البحث الثاني يستعمل أمر find للبحث عن ملفّات. هدف البحث الثاني هو إيجاد الملفّات التي لم يتم اسرادها. الأداتين '?' و '*' مدعومتين. القيمة الافتراضية هي /."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:55
+msgid "This key defines the window height, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default height."
+msgstr "يحدّد هذا المفتاح ارتفاع النافذة، و يستعمل لتذكّر حجم أداة البحث بين الجلسات. تحديد -1 سيجعل أداة البحث تستعمل القيمة الافتراضية."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:56
+msgid "This key defines the window width, and it's used to remember the size of the search tool between sessions. Setting it to -1 will make the search tool use the default width."
+msgstr "يحدّد هذا المفتاح عرض النافذة، و يستعمل لتذكّر حجم أداة البحث بين الجلسات. تحديد -1 سيجعل أداة البحث تستعمل القيمة الافتراضية."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:57
+msgid "This key determines if the \"Contains the text\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"\"يحتوي النص\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:58
+msgid "This key determines if the \"Date modified less than\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"تاريخ التعديل أقل من\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:59
+msgid "This key determines if the \"Date modified more than\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"تاريخ التعديل أكبر من\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:60
+msgid "This key determines if the \"File is empty\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"الملف فارغ\"  مختارا عند بدأ أداة البحث"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:61
+msgid "This key determines if the \"Follow symbolic links\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"اتبع الروابط الرمزية\"  مختارا عند بدأ أداة البحث"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:62
+msgid "This key determines if the \"Include other filesystems\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"اشمل أنظمة الملفات الأخرى\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:63
+msgid "This key determines if the \"Name does not contain\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"الاسم لا يحتوي\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:64
+msgid "This key determines if the \"Name matches regular expression\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"الاسم يطابق التعبير النمطي\"مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:65
+msgid "This key determines if the \"Owned by group\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"ملك المجموعة\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:66
+msgid "This key determines if the \"Owned by user\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"ملك المستخدم\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:67
+msgid "This key determines if the \"Owner is unrecognized\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"المالك غير معرّف\" مختارا عند بدأ أداة البحث."
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:70
+msgid "This key determines if the \"Select more options\" section is expanded when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"حدّد خيارات أكثر\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:71
+msgid "This key determines if the \"Show hidden files and folders\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"أظهر الملفات والمجلدات المخبأة\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:72
+msgid "This key determines if the \"Size at least\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث  \"الحجم على الأقل\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:73
+msgid "This key determines if the \"Size at most\" search option is selected when the search tool is started."
+msgstr "يحدّد هذا المفتاح إذا كان خيار البحث \"الحجم على الأكثر\" مختارا عند بدأ أداة البحث."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:74
+msgid "This key determines if the search tool disables the use of the find command after performing a quick search."
+msgstr "يحدّد هذا المفتاح إذا كانت أداة البحث تعطّل استعمال أمر find بعد القيام ببحث سريع."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:75
+msgid "This key determines if the search tool disables the use of the locate command when performing simple file name searches."
+msgstr "يحدّد هذا المفتاح إذا كانت أداة البحث تعطّل استعمال أمر locate بعد القيام ببحث سريع."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:76
+msgid "This key determines if the search tool window starts in a maximized state."
+msgstr "يحدّد هذا المفتاح إذا كانت نافذة أداة البحث تبدأ موسّعة."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:186
+msgid "Could not open help document."
+msgstr "تعذّر فتح مستند المساعدة."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:321
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "هل أنت متأكّدٌ أنّك تريد فتح أي مستندات؟"
+msgstr[1] "هل أنت متأكّدٌ أنّك تريد فتح مستند واحد؟"
+msgstr[2] "هل أنت متأكّدٌ أنّك تريد فتح مستندين؟"
+msgstr[3] "هل أنت متأكّدٌ أنّك تريد فتح %Id مستندات؟"
+msgstr[4] "هل أنت متأكّدٌ أنّك تريد فتح %Id مستندا؟"
+msgstr[5] "هل أنت متأكّدٌ أنّك تريد فتح %Id مستند؟"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:326
+#: ../gsearchtool/gsearchtool-callbacks.c:517
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "لن يفتح هذا أي نوافذ."
+msgstr[1] "سيفتح هذا نافذة واحدة منفصلة."
+msgstr[2] "سيفتح هذا نافذتين منفصلتين."
+msgstr[3] "سيفتح هذا %Id نوافذ منفصلة."
+msgstr[4] "سيفتح هذا %Id نافذة منفصلة."
+msgstr[5] "سيفتح هذا %Id نافذة منفصلة."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:366
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "تعذّر فتح المستند \"%s\"."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:395
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "تعذّر فتح المجلّد \"%s\"."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:403
+msgid "The nautilus file manager is not running."
+msgstr "مدير الملفّات نوتلس لا يعمل."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:487
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "لا يوجد عارض مثبّت قادر على عرض المستند."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:512
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "هل أنت متأكدٌ أنّك لا تريد فتح أي مجلّدات؟"
+msgstr[1] "هل أنت متأكدٌ أنّك تريد فتح مجلّد واحد؟"
+msgstr[2] "هل أنت متأكدٌ أنّك تريد فتح مجلّدين؟"
+msgstr[3] "هل أنت متأكدٌ أنّك تريد فتح %Id مجلّدات؟"
+msgstr[4] "هل أنت متأكدٌ أنّك تريد فتح %Id مجلّدا؟"
+msgstr[5] "هل أنت متأكدٌ أنّك تريد فتح %Id مجلّد؟"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:644
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "تعذّر نقل \"%s\" إلى المهملات."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:675
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "هل تريد حذف \"%s\" نهائيّا؟"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "المهملات غير متوفّرة.  تعذّر نقل \"%s\"·إلى المهملات."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:717
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "تعذّر حذف \"%s\"."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:864
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "فشل نقل \"%s\": %s."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:900
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "فشل حذف \"%s\": %s."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1354
+msgid "Save Search Results As..."
+msgstr "احفظ نتائج البحث باسم..."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1385
+msgid "Could not save document."
+msgstr "تعذّر حفظ المستند."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1386
+msgid "You did not select a document name."
+msgstr "لم تختر اسم مستند."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1416
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "تعذّر حفظ المستند \"%s\" في \"%s\"."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1450
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "المستند \"%s\" موجود.  هل تريد استبداله؟"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1454
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "سيكتب فوقق محتويات الملف إذا استبدلته."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1519
+msgid "The document name you selected is a folder."
+msgstr "اسم المستند الذي اخترته مجلّد."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1568
+msgid "You may not have write permissions to the document."
+msgstr "قد لا تكون لديك تصاريح الكتابة في هذا المستند."
+
+#: ../gsearchtool/gsearchtool-support.c:72
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"خطأ GConf:\n"
+"··%s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../gsearchtool/gsearchtool-support.c:641
+msgid "today at %-I:%M %p"
+msgstr "اليوم في %-OI:%OM %p"
+
+#: ../gsearchtool/gsearchtool-support.c:643
+msgid "yesterday at %-I:%M %p"
+msgstr "بالأمس في %-OI:%OM %p"
+
+#: ../gsearchtool/gsearchtool-support.c:645
+#: ../gsearchtool/gsearchtool-support.c:647
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%A، %B %-Od %Y في %-OI:%OM:%OS %p"
+
+#: ../gsearchtool/gsearchtool-support.c:826
+msgid "link (broken)"
+msgstr "الوصلة (معطوبة)"
+
+#: ../gsearchtool/gsearchtool-support.c:830
+#, c-format
+msgid "link to %s"
+msgstr "وصلة إلى %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1533
+msgid " (copy)"
+msgstr "(نسخة)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1535
+msgid " (another copy)"
+msgstr "(نسخة أخرى)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1538
+#: ../gsearchtool/gsearchtool-support.c:1540
+#: ../gsearchtool/gsearchtool-support.c:1542
+#: ../gsearchtool/gsearchtool-support.c:1552
+msgid "th copy)"
+msgstr "نسخة)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1545
+msgid "st copy)"
+msgstr "نسخة)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1547
+msgid "nd copy)"
+msgstr "نسخة)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1549
+msgid "rd copy)"
+msgstr "نسخة)"
+
+#. localizers: appended to first file copy
+#: ../gsearchtool/gsearchtool-support.c:1566
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (نسخ)%s"
+
+#. localizers: appended to second file copy
+#: ../gsearchtool/gsearchtool-support.c:1568
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (نسخة أخرى)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../gsearchtool/gsearchtool-support.c:1571
+#: ../gsearchtool/gsearchtool-support.c:1573
+#: ../gsearchtool/gsearchtool-support.c:1575
+#: ../gsearchtool/gsearchtool-support.c:1584
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (النسخة %Id)%s"
+
+#. localizers: appended to x1st file copy
+#: ../gsearchtool/gsearchtool-support.c:1578
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (النسخة %Id)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../gsearchtool/gsearchtool-support.c:1580
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (النسخة %Id)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../gsearchtool/gsearchtool-support.c:1582
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (النسخة %Id)%s"
+
+#: ../gsearchtool/gsearchtool-support.c:1629
+msgid " (invalid Unicode)"
+msgstr " (يونيكود غير صحيح)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../gsearchtool/gsearchtool-support.c:1718
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../gsearchtool/gsearchtool-support.c:1726
+#, c-format
+msgid " (%d"
+msgstr " (%Id"
+
+#: ../gsearchtool/gsearchtool.c:82
+msgid "Contains the _text"
+msgstr "يحتوي ال_نص"
+
+#: ../gsearchtool/gsearchtool.c:84
+msgid "_Date modified less than"
+msgstr "_تاريخ التّعديل أقل من"
+
+#: ../gsearchtool/gsearchtool.c:84
+#: ../gsearchtool/gsearchtool.c:85
+msgid "days"
+msgstr "أيّام"
+
+#: ../gsearchtool/gsearchtool.c:85
+msgid "Date modified more than"
+msgstr "تاريخ التّعديل أكثر من"
+
+#: ../gsearchtool/gsearchtool.c:87
+msgid "S_ize at least"
+msgstr "ال_حجم على الأقل"
+
+#: ../gsearchtool/gsearchtool.c:87
+#: ../gsearchtool/gsearchtool.c:88
+msgid "kilobytes"
+msgstr "كيلوبايت"
+
+#: ../gsearchtool/gsearchtool.c:88
+msgid "Si_ze at most"
+msgstr "الح_جم على الأكثر"
+
+#: ../gsearchtool/gsearchtool.c:89
+msgid "File is empty"
+msgstr "الملف فارغ"
+
+#: ../gsearchtool/gsearchtool.c:91
+msgid "Owned by _user"
+msgstr "مِلك ال_مستخدم"
+
+#: ../gsearchtool/gsearchtool.c:92
+msgid "Owned by _group"
+msgstr "مِلك الم_جموعة"
+
+#: ../gsearchtool/gsearchtool.c:93
+msgid "Owner is unrecognized"
+msgstr "المالك غير معرّف"
+
+#: ../gsearchtool/gsearchtool.c:95
+msgid "Na_me does not contain"
+msgstr "الا_سم لا يحتوي"
+
+#: ../gsearchtool/gsearchtool.c:96
+msgid "Name matches regular e_xpression"
+msgstr "الاسم يطابق التعبير المنتظم"
+
+#: ../gsearchtool/gsearchtool.c:98
+msgid "Show hidden and backup files"
+msgstr "أظهر الملفّات المخبّأة وملفّات الحفظ الاحتياطي"
+
+#: ../gsearchtool/gsearchtool.c:99
+msgid "Follow symbolic links"
+msgstr "تتبع الوصلات الرمزية"
+
+#: ../gsearchtool/gsearchtool.c:100
+msgid "Include other filesystems"
+msgstr "اشمل نظم ملفّات آخرى"
+
+#: ../gsearchtool/gsearchtool.c:158
+#: ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:172
+msgid "STRING"
+msgstr "STRING"
+
+#: ../gsearchtool/gsearchtool.c:159
+msgid "PATH"
+msgstr "PATH"
+
+#: ../gsearchtool/gsearchtool.c:160
+msgid "VALUE"
+msgstr "VALUE"
+
+#: ../gsearchtool/gsearchtool.c:164
+#: ../gsearchtool/gsearchtool.c:165
+msgid "DAYS"
+msgstr "DAYS"
+
+#: ../gsearchtool/gsearchtool.c:166
+#: ../gsearchtool/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr "KILOBYTES"
+
+#: ../gsearchtool/gsearchtool.c:169
+msgid "USER"
+msgstr "USER"
+
+#: ../gsearchtool/gsearchtool.c:170
+msgid "GROUP"
+msgstr "GROUP"
+
+#: ../gsearchtool/gsearchtool.c:173
+msgid "PATTERN"
+msgstr "PATTERN"
+
+#: ../gsearchtool/gsearchtool.c:181
+msgid "_Open"
+msgstr "ا_فتح"
+
+#: ../gsearchtool/gsearchtool.c:182
+msgid "O_pen Folder"
+msgstr "ا_فتح المجلّد"
+
+#: ../gsearchtool/gsearchtool.c:184
+msgid "_Save Results As..."
+msgstr "ا_حفظ النتائج باسم..."
+
+#: ../gsearchtool/gsearchtool.c:390
+msgid "A locate database has probably not been created."
+msgstr "ربما لم يتم إتشاء قاعدة بيانات locate"
+
+#: ../gsearchtool/gsearchtool.c:492
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "فشل تحويل طاقم المحارف ل \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:516
+msgid "Searching..."
+msgstr "يبحث..."
+
+#: ../gsearchtool/gsearchtool.c:516
+#: ../gsearchtool/gsearchtool.c:1021
+#: ../gsearchtool/gsearchtool.c:1299
+#: ../gsearchtool/gsearchtool.c:3149
+msgid "Search for Files"
+msgstr "ابحث عن الملفات"
+
+#: ../gsearchtool/gsearchtool.c:967
+#: ../gsearchtool/gsearchtool.c:996
+msgid "No files found"
+msgstr "لم يعثر على ملفات"
+
+#: ../gsearchtool/gsearchtool.c:989
+msgid "(stopped)"
+msgstr "(أُوقِفَ)"
+
+#: ../gsearchtool/gsearchtool.c:995
+msgid "No Files Found"
+msgstr "لم يعثر على أي ملفات"
+
+#: ../gsearchtool/gsearchtool.c:1000
+#, c-format
+msgid "%d File Found"
+msgid_plural "%d Files Found"
+msgstr[0] "لم يعثر على أي ملفات"
+msgstr[1] "عثر على ملف واحد"
+msgstr[2] "عثر على ملفّين"
+msgstr[3] "عثر على %d ملفّات"
+msgstr[4] "عثر على %d ملفّا"
+msgstr[5] "عثر على %d ملفّ"
+
+#: ../gsearchtool/gsearchtool.c:1004
+#: ../gsearchtool/gsearchtool.c:1042
+#, c-format
+msgid "%d file found"
+msgid_plural "%d files found"
+msgstr[0] "لم يعثر على أي ملفات"
+msgstr[1] "عثر على ملف واحد"
+msgstr[2] "عثر على ملفّين"
+msgstr[3] "عثر على %d ملفّات"
+msgstr[4] "عثر على %d ملفّا"
+msgstr[5] "عثر على %d ملفّ"
+
+#: ../gsearchtool/gsearchtool.c:1133
+msgid "Entry changed called for a non entry option!"
+msgstr "تم استدعاء الخانة changed لخيار ليس مدخلة!"
+
+#: ../gsearchtool/gsearchtool.c:1384
+msgid "Set the text of \"Name contains\" search option"
+msgstr "حدد نص خيار البحث \"الاسم يحتوي\""
+
+#: ../gsearchtool/gsearchtool.c:1385
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "حدد نص خيار البحث \"ابحث في المجلد\""
+
+#: ../gsearchtool/gsearchtool.c:1386
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr "رتّب الملفات بحسب واحد من التالي: الاسم أو المجلّد أو الحجم أو النوع أو التاريخ"
+
+#: ../gsearchtool/gsearchtool.c:1387
+msgid "Set sort order to descending, the default is ascending"
+msgstr "اضبط إتجاه الترتيب لتنازلي، الافتراضي تصاعدي"
+
+#: ../gsearchtool/gsearchtool.c:1388
+msgid "Automatically start a search"
+msgstr "ابدأ البحث آليّا"
+
+#: ../gsearchtool/gsearchtool.c:1394
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "اختر خيار البحث \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:1397
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "اختر و حدّد خيار البحث \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:1504
+msgid "Invalid option passed to sortby command line argument."
+msgstr "مُرّر خيار غير صحيح لمتغيّر سطر الأوامر sortby."
+
+#: ../gsearchtool/gsearchtool.c:1802
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... أخطاء كثيرة على العرض ..."
+
+#: ../gsearchtool/gsearchtool.c:1816
+msgid "The search results may be invalid.  There were errors while performing this search."
+msgstr "قد تكون نتائج البحث غير صحيحة. حدثت أخطاءٌ أثناء أداء هذا البحث."
+
+#: ../gsearchtool/gsearchtool.c:1828
+#: ../gsearchtool/gsearchtool.c:1872
+msgid "Show more _details"
+msgstr "أظهر _تفاصيل أكثر"
+
+#: ../gsearchtool/gsearchtool.c:1858
+msgid "The search results may be out of date or invalid.  Do you want to disable the quick search feature?"
+msgstr "قد تكون نتائج البحث غير صحيحة. هل تريد تعطيل ميّزة البحث السّريع؟"
+
+#: ../gsearchtool/gsearchtool.c:1883
+msgid "Disable _Quick Search"
+msgstr "عطّل البحث ال_سّريع"
+
+#: ../gsearchtool/gsearchtool.c:1910
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "فشل تحديد رمز المجموعة العمليّة للإبن %d: %s.\n"
+
+#: ../gsearchtool/gsearchtool.c:1935
+msgid "Error parsing the search command."
+msgstr "خطأ أثناء تحليل أمر البحث."
+
+#: ../gsearchtool/gsearchtool.c:1968
+msgid "Error running the search command."
+msgstr "خطأ أثناء تنفيذ أمر البحث."
+
+#: ../gsearchtool/gsearchtool.c:2083
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "ادخل قيمة نصّية لخيار البحث \"%s\"."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../gsearchtool/gsearchtool.c:2088
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "\"%s\"في %s"
+
+#: ../gsearchtool/gsearchtool.c:2090
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "ادخل قيمة في %s لخيار البحث \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:2148
+#, c-format
+msgid "Remove \"%s\""
+msgstr "احذف \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:2149
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "انقر لحذف خيار البحث \"%s\""
+
+#: ../gsearchtool/gsearchtool.c:2242
+msgid "A_vailable options:"
+msgstr "الخيارات ال_متوفّرة:"
+
+#: ../gsearchtool/gsearchtool.c:2271
+msgid "Available options"
+msgstr "الخيارات المتوفرة"
+
+#: ../gsearchtool/gsearchtool.c:2272
+msgid "Select a search option from the drop-down list."
+msgstr "اختر خيار للبحث من القائمة المنسدلة"
+
+#: ../gsearchtool/gsearchtool.c:2284
+msgid "Add search option"
+msgstr "أضف خيار بحث"
+
+#: ../gsearchtool/gsearchtool.c:2285
+msgid "Click to add the selected available search option."
+msgstr "انقر لإضافة خيار البحث المحدد."
+
+#: ../gsearchtool/gsearchtool.c:2374
+msgid "S_earch results:"
+msgstr "نتائج ال_بحث:"
+
+#: ../gsearchtool/gsearchtool.c:2413
+msgid "List View"
+msgstr "مشهد القائمة"
+
+#: ../gsearchtool/gsearchtool.c:2520
+msgid "Type"
+msgstr "النوع"
+
+#: ../gsearchtool/gsearchtool.c:2531
+msgid "Date Modified"
+msgstr "تاريخ التعديل"
+
+#: ../gsearchtool/gsearchtool.c:2932
+msgid "_Name contains:"
+msgstr "الا_سم يحتوي:"
+
+#: ../gsearchtool/gsearchtool.c:2946
+#: ../gsearchtool/gsearchtool.c:2947
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr "ادخل اسم ملف أو قسم من اسم ملف باستعمال أو عدم استعمال رموز التعميم.."
+
+#: ../gsearchtool/gsearchtool.c:2947
+msgid "Name contains"
+msgstr "الاسم يحتوي"
+
+#: ../gsearchtool/gsearchtool.c:2953
+msgid "_Look in folder:"
+msgstr "ا_بحث في المجلد:"
+
+#: ../gsearchtool/gsearchtool.c:2959
+msgid "Browse"
+msgstr "استعرض"
+
+#: ../gsearchtool/gsearchtool.c:2964
+msgid "Look in folder"
+msgstr "ابحث في المجلد"
+
+#: ../gsearchtool/gsearchtool.c:2964
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "أدخل اسم المجلد أو الجهاز الذي تريد بدء البحث فيه."
+
+#: ../gsearchtool/gsearchtool.c:2975
+msgid "Select more _options"
+msgstr "اختر _خيارات أكثر"
+
+#: ../gsearchtool/gsearchtool.c:2984
+msgid "Select more options"
+msgstr "اختر خيارات أكثر"
+
+#: ../gsearchtool/gsearchtool.c:2984
+msgid "Click to expand or collapse the list of available options."
+msgstr "انقر لتمديد أو تقليص قائمة للخيارات المتوفرة."
+
+#: ../gsearchtool/gsearchtool.c:3008
+msgid "Click to display the help manual."
+msgstr "انقر لفتح كتيّب المساعدة."
+
+#: ../gsearchtool/gsearchtool.c:3016
+msgid "Click to close \"Search for Files\"."
+msgstr "انقر لإغلاق \"ابحث عن الملفات\"."
+
+#: ../gsearchtool/gsearchtool.c:3042
+msgid "Click to perform a search."
+msgstr "انقر للقيام بالبحث."
+
+#: ../gsearchtool/gsearchtool.c:3043
+msgid "Click to stop a search."
+msgstr "انقر لتوقيف بحث."
+
+#: ../gsearchtool/gsearchtool.c:3134
+msgid "- the GNOME Search Tool"
+msgstr "- أداة جنوم للبحث"
+
+#: ../logview/about.c:51
+#: ../logview/logview.c:37
+#: ../logview/main.c:54
+msgid "System Log Viewer"
+msgstr "معاين سجلات النظام"
+
+#: ../logview/about.c:54
+msgid "A system log viewer for GNOME."
+msgstr "معاين سجلّات النظام لجنوم."
+
+#: ../logview/gnome-system-log.desktop.in.in.h:1
+msgid "System Log"
+msgstr "سجلات النظام"
+
+#: ../logview/gnome-system-log.desktop.in.in.h:2
+msgid "View or monitor system log files"
+msgstr "اعرض أو راقب ملفات سجلات النظام"
+
+#: ../logview/log_repaint.c:190
+#, c-format
+msgid "last update: %s"
+msgstr "آخر تحديث: %s"
+
+#: ../logview/log_repaint.c:192
+#, c-format
+msgid "%d lines (%s) - %s"
+msgstr "%Id سطور (%s) - %s"
+
+#: ../logview/log_repaint.c:230
+msgid "Current"
+msgstr "الحالي"
+
+#: ../logview/logrtns.c:37
+msgid "One file or more could not be opened"
+msgstr "لا يمكن فتح ملف أو أكثر"
+
+#: ../logview/logrtns.c:59
+#, c-format
+msgid "%s is not user readable. Either run the program as root or ask the sysadmin to change the permissions on the file.\n"
+msgstr "%s غير قابل للقراءة من قبل المستخدم. شغل البرنامج كالمستخدم الجذري أو اطلب مدير النظام أن يغير تصاريح الملف.\n"
+
+#: ../logview/logrtns.c:64
+#, c-format
+msgid "%s is too big."
+msgstr "‏%s كبير جدا."
+
+#: ../logview/logrtns.c:67
+#, c-format
+msgid "%s could not be opened."
+msgstr "تعذّر فتح %s."
+
+#: ../logview/logrtns.c:382
+#, c-format
+msgid "%s is not a log file."
+msgstr "‏%s ليس ملف سجل"
+
+#: ../logview/logrtns.c:388
+msgid "Not enough memory."
+msgstr "ذاكرة غير كافية"
+
+#: ../logview/logrtns.c:402
+#, c-format
+msgid "%s cannot be opened."
+msgstr "تعذّر فتح  %s"
+
+#: ../logview/logview-findbar.c:152
+msgid "_Filter:"
+msgstr "_مرشّح:"
+
+#: ../logview/logview-findbar.c:157
+msgid "_Clear"
+msgstr "ا_مسح"
+
+#: ../logview/logview.c:90
+msgid "_Open..."
+msgstr "ا_فتح..."
+
+#: ../logview/logview.c:90
+msgid "Open a log from file"
+msgstr "افتح سجل من ملف"
+
+#: ../logview/logview.c:92
+msgid "_Close"
+msgstr "أ_غلق"
+
+#: ../logview/logview.c:92
+msgid "Close this log"
+msgstr "أغلق هذا السجل"
+
+#: ../logview/logview.c:94
+msgid "_Quit"
+msgstr "ا_خرج"
+
+#: ../logview/logview.c:94
+msgid "Quit the log viewer"
+msgstr "ا_خرج من معاين السجلات"
+
+#: ../logview/logview.c:97
+msgid "_Copy"
+msgstr "ا_نسخ"
+
+#: ../logview/logview.c:97
+msgid "Copy the selection"
+msgstr "انسخ التحديد"
+
+#: ../logview/logview.c:99
+msgid "Select the entire log"
+msgstr "اختر كامل السجلّ"
+
+#: ../logview/logview.c:101
+msgid "_Filter..."
+msgstr "_مرشّح..."
+
+#: ../logview/logview.c:101
+msgid "Filter log"
+msgstr "ترشيح السجل"
+
+#: ../logview/logview.c:104
+msgid "Bigger text size"
+msgstr "حجم نص أكبر"
+
+#: ../logview/logview.c:106
+msgid "Smaller text size"
+msgstr "حجم نص أصغر"
+
+#: ../logview/logview.c:108
+msgid "Normal text size"
+msgstr "حجم نص عادي"
+
+#: ../logview/logview.c:111
+msgid "Collapse _All"
+msgstr "قلّص ال_كل"
+
+#: ../logview/logview.c:111
+msgid "Collapse all the rows"
+msgstr "قلّص كل الصفوف"
+
+#: ../logview/logview.c:114
+msgid "Open the help contents for the log viewer"
+msgstr "افتح محتويات المساعدة لمعاين السجلات"
+
+#: ../logview/logview.c:116
+msgid "Show the about dialog for the log viewer"
+msgstr "أظهر حوار عن معاين السجلات"
+
+#: ../logview/logview.c:122
+msgid "_Statusbar"
+msgstr "شريط ال_حالة"
+
+#: ../logview/logview.c:122
+msgid "Show Status Bar"
+msgstr "أظهر شريط الحالة"
+
+#: ../logview/logview.c:124
+msgid "Side _Pane"
+msgstr "ال_شريط الجانبي"
+
+#: ../logview/logview.c:124
+msgid "Show Side Pane"
+msgstr "اعرض الشريط الجانبي"
+
+#: ../logview/logview.c:126
+msgid "_Monitor"
+msgstr "_مراقب"
+
+#: ../logview/logview.c:126
+msgid "Monitor Current Log"
+msgstr "مراقبة السجلّ الحالي"
+
+#: ../logview/logview.c:128
+msgid "Ca_lendar"
+msgstr "_تقويم"
+
+#: ../logview/logview.c:128
+msgid "Show Calendar Log"
+msgstr "أظهر سجل التقويم"
+
+#: ../logview/logview.c:307
+#, c-format
+msgid "%s (monitored) - %s"
+msgstr "%s (مُرَاقَبَة) - %s"
+
+#: ../logview/logview.c:518
+msgid "Open Log"
+msgstr "افتح السّجل"
+
+#: ../logview/logview.c:906
+msgid "Version: "
+msgstr "الإصدارة:"
+
+#: ../logview/logview.c:975
+msgid "Days"
+msgstr "أيّام"
+
+#: ../logview/logview.c:976
+msgid "Pointer towards a GSList of days for the current log."
+msgstr "مؤشر نحو GSList  لأيام للسجل الحالي."
+
+#: ../logview/logview.schemas.in.h:1
+msgid "Height of the main window in pixels"
+msgstr "ارتفاع النافذة بالبكسل"
+
+#: ../logview/logview.schemas.in.h:2
+msgid "Log file to open up on startup"
+msgstr "ملف السجّل الذي سيفتح عند بدأ التشغيل"
+
+#: ../logview/logview.schemas.in.h:3
+msgid "Log files to open up on startup"
+msgstr "ملفات السجلات التي ستفتح عند بدأ التشغيل"
+
+#: ../logview/logview.schemas.in.h:4
+msgid "Size of the font used to display the log"
+msgstr "حجم الخط المستعمل للسّجل"
+
+#: ../logview/logview.schemas.in.h:5
+msgid "Specifies a list of log files to open up at startup. A default list is created by reading /etc/syslog.conf."
+msgstr "يحدّد قائمة ملفات السّجل الذي ستفتح عند بدأ التشغيل. يتم إنشاء القائمة الافتراضية بقراءة /etc/syslog.conf."
+
+#: ../logview/logview.schemas.in.h:6
+msgid "Specifies the height of the log viewer main window in pixels."
+msgstr "يحدّد ارتفاع النافذة الرئيسية للسجل بالبكسل."
+
+#: ../logview/logview.schemas.in.h:7
+msgid "Specifies the log file displayed at startup. The default is either /var/adm/messages or /var/log/messages, depending on your operating system."
+msgstr "يحدّد ملف السّجل الذي سيفتح عند بدأ التشغيل. الافتراضي هو /var/adm/messages أو /var/log/messages، بحسب نظام تشغيلك."
+
+#: ../logview/logview.schemas.in.h:8
+msgid "Specifies the size of the fixed-width font used to display the log in the main tree view. The default is taken from the default terminal font size."
+msgstr "يحدد حجم الخط الثابت العرض المستعمل لعرض السجل في مظهر الشجرة الرئيسي. القيمة الافتراضية مأخوذة من حجم خط الكونسول."
+
+#: ../logview/logview.schemas.in.h:9
+msgid "Specifies the width of the log viewer main window in pixels."
+msgstr "يحدّد عرض النافذة الرئيسية للسجل بالبكسل."
+
+#: ../logview/logview.schemas.in.h:10
+msgid "Width of the main window in pixels"
+msgstr "عرض النافذة بالبكسل"
+
+#: ../logview/main.c:49
+msgid "Show the application's version"
+msgstr "اعرض نسخة التّطبيق"
+
+#: ../logview/main.c:55
+msgid "Show System Log Viewer options"
+msgstr "اعرض خيارات معاين سجلات النظام"
+
+#: ../logview/main.c:59
+msgid " - Browse and monitor logs"
+msgstr "- راقِب و تصفّح السجلّات"
+
+#: ../logview/main.c:145
+msgid "Log Viewer"
+msgstr "معاين السجلات "
+
+#: ../logview/main.c:154
+msgid "Unable to create user interface."
+msgstr "تعذّر إنشاء واجهة المستخدم."
+
+#: ../logview/misc.c:42
+msgid "January"
+msgstr "يناير"
+
+#: ../logview/misc.c:42
+msgid "February"
+msgstr "فبراير"
+
+#: ../logview/misc.c:42
+msgid "March"
+msgstr "مارس"
+
+#: ../logview/misc.c:42
+msgid "April"
+msgstr "أبريل"
+
+#: ../logview/misc.c:42
+msgid "May"
+msgstr "مايو"
+
+#: ../logview/misc.c:43
+msgid "June"
+msgstr "يونيو"
+
+#: ../logview/misc.c:43
+msgid "July"
+msgstr "يوليو"
+
+#: ../logview/misc.c:43
+msgid "August"
+msgstr "أغسطس"
+
+#: ../logview/misc.c:43
+msgid "September"
+msgstr "سبتمبر"
+
+#: ../logview/misc.c:43
+msgid "October"
+msgstr "أكتوبر"
+
+#: ../logview/misc.c:44
+msgid "November"
+msgstr "نوفمبر"
+
+#: ../logview/misc.c:44
+msgid "December"
+msgstr "ديسمبر"
+
+#: ../logview/misc.c:164
+msgid "Invalid date"
+msgstr "تاريخ غير صحيح"
+
+#. Translators: Only date format, time will be bogus
+#: ../logview/misc.c:169
+#, c-format
+msgid "%x"
+msgstr "%x"
+
+#: ../logview/monitor.c:83
+msgid "This file cannot be monitored."
+msgstr "لا يمكن مراقبة هذا الملف."
+
+#: ../logview/monitor.c:86
+msgid "File monitoring is not supported on this file system.\n"
+msgstr "مراقبة الملفات غير ممكنة على نظام الملفات هذا.\n"
+
+#: ../logview/monitor.c:88
+msgid "Gnome-VFS Error.\n"
+msgstr "خطأ Gnome-VFS .\n"
+
+#~ msgid "Options for Screenshot"
+#~ msgstr "خيارات للقطة الشّاشة"
+#~ msgid "Show Screenshot options"
+#~ msgstr "اعرض خيارات لقطة الشّاشة"
+
+#, fuzzy
+#~ msgid "Total filesystem capacity"
+#~ msgstr "السّعة الكلية لنظام الملفات:"
+
+#, fuzzy
+#~ msgid "Total filesystem usage"
+#~ msgstr "الاستخدام الكلي لنظام الملفات:"
+#~ msgid "The maximum depth drawn in the rings chart from the root"
+#~ msgstr "العمق الأقصى من الجذر المرسوم في رسم الحلقات البياني"
+#~ msgid "Rings chart model"
+#~ msgstr "نموذج رسم الحلقات البياني"
+#~ msgid "Set the model of the rings chart"
+#~ msgstr "اضبط نموذج رسم الحلقات البياني"
+#~ msgid "Rings chart root node"
+#~ msgstr "عقدة جذر رسم الحلقات البياني"
+#~ msgid "Refresh graph"
+#~ msgstr "أعِد تحميل الرسم البياني"
+#~ msgid "Take a snapshot"
+#~ msgstr "خذ لقطة"
+#~ msgid "Zoom 100%"
+#~ msgstr "قرّب 100%"
+#~ msgid "_Depth level:"
+#~ msgstr "_مستوى العمق:"
+#~ msgid "_Graphical Usage Map"
+#~ msgstr "_خارطة استخدام رسومية"
+#~ msgid "_Total folders:"
+#~ msgstr "إ_جمالي المجلّدات:"
+#~ msgid "Unlimited"
+#~ msgstr "غير محدود"
+#~ msgid "Cannot allocate memory for graphical window!"
+#~ msgstr "لا يمكن تخصيص ذاكرة للنافذة الرسوميّة!"
+#~ msgid "Graphical Usage Map"
+#~ msgstr "_خارطة استخدام رسومية"
+#~ msgid "(%d:%02d:%d Remaining)"
+#~ msgstr "‏(%Id:%I02d:%Id متبقيّة)"
+#~ msgid "(%d:%02d Remaining)"
+#~ msgstr "‏(%Id:%I02d متبقيّة)"
+#~ msgid "%ld of %ld"
+#~ msgstr "‏%ld من %ld"
+#~ msgid "Preparing to copy"
+#~ msgstr "يجري التحضير للنسخ"
+#~ msgid "Unknown GnomeVFSXferProgressStatus %d"
+#~ msgstr "'GnomeVFSXferProgressStatus' مجهول %d"
+#~ msgid "Invalid UTF-8 characters"
+#~ msgstr "محارف UTF-8 غير سليمة"
+#~ msgid "\"%s\" is not a valid location"
+#~ msgstr " \"%s\" ليس موقعا سليما."
+#~ msgid "Please check the spelling and try again."
+#~ msgstr "الرجاء التأكد من التهجأة ثم الإعادة مرة أخرى."
+#~ msgid "%s on %s"
+#~ msgstr "%s على %s"
+#~ msgid "_Remove from Trash"
+#~ msgstr "ازل من المهملات"
+#~ msgid "The folder \"%s\" was not moved to the trash."
+#~ msgstr "لم يُنقل المجلّد \"%s\" إلى المهملات."
+#~ msgid "Could not find a Trash folder on this system"
+#~ msgstr "تعذّر إيجاد مجلّد مهملات على هذا النّظام"
+#~ msgid "Delete the folder \"%s\" permanently?"
+#~ msgstr "أتريد حذف المجلّد \"%s\" نهائيّا؟"
+#~ msgid "Could not move the folder to the trash."
+#~ msgstr "تعذّر نقل المجلّد إلى المهملات."
+#~ msgid "_Delete Folder"
+#~ msgstr "_احذف المجلد"
+#~ msgid "Could not delete the folder \"%s\""
+#~ msgstr "لايمكن حذف المجلّد \"%s\""
+#~ msgid "The GdictContext object bound to this entry"
+#~ msgstr "GdictContext المقيد بهذا المدخل"
+#~ msgid "The database to be used to generate the completion list"
+#~ msgstr "قاعدة البيانات التي ستستعمل لإنشاء قائمة التكميل"
+#~ msgid "The matching strategy to be used to generate the completion list"
+#~ msgstr "استراتيجية المطابقة المستعملة لتوليد قائمة التكملة"
+#~ msgid "%s (page %d)"
+#~ msgstr "%s (الصّفحة %d)"
+#~ msgid "Print Preview"
+#~ msgstr "معاينة الطّباعة"
+#~ msgid "Analyze disk usage"
+#~ msgstr "حلّل استعمال القرص"
+

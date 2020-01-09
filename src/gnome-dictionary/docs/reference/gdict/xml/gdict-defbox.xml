@@ -1,0 +1,557 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictDefbox">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictDefbox.top_of_page">GdictDefbox</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictDefbox</refname>
+<refpurpose>Display the list of definitions for a word</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictDefbox.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictDefbox-struct">GdictDefbox</link>;
+                    <link linkend="GdictDefboxClass">GdictDefboxClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-defbox-new">gdict_defbox_new</link>                    (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-defbox-new-with-context">gdict_defbox_new_with_context</link>       (<link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-set-context">gdict_defbox_set_context</link>            (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="GdictContext">GdictContext</link> *      <link linkend="gdict-defbox-get-context">gdict_defbox_get_context</link>            (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-set-database">gdict_defbox_set_database</link>           (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         const <link linkend="gchar">gchar</link> *database);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-defbox-get-database">gdict_defbox_get_database</link>           (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="gchar">gchar</link> *             <link linkend="gdict-defbox-get-text">gdict_defbox_get_text</link>               (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="gsize">gsize</link> *length);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-select-all">gdict_defbox_select_all</link>             (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-copy-to-clipboard">gdict_defbox_copy_to_clipboard</link>      (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="GtkClipboard">GtkClipboard</link> *clipboard);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-clear">gdict_defbox_clear</link>                  (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-lookup">gdict_defbox_lookup</link>                 (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         const <link linkend="gchar">gchar</link> *word);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-defbox-get-word">gdict_defbox_get_word</link>               (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="gint">gint</link>                <link linkend="gdict-defbox-count-definitions">gdict_defbox_count_definitions</link>      (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-jump-to-definition">gdict_defbox_jump_to_definition</link>     (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="gint">gint</link> number);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-set-show-find">gdict_defbox_set_show_find</link>          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="gboolean">gboolean</link> show_find);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-defbox-get-show-find">gdict_defbox_get_show_find</link>          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-find-next">gdict_defbox_find_next</link>              (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-find-previous">gdict_defbox_find_previous</link>          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="void">void</link>                <link linkend="gdict-defbox-set-font-name">gdict_defbox_set_font_name</link>          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         const <link linkend="gchar">gchar</link> *font_name);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-defbox-get-font-name">gdict_defbox_get_font_name</link>          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+<link linkend="gchar">gchar</link> *             <link linkend="gdict-defbox-get-selected-word">gdict_defbox_get_selected_word</link>      (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictDefbox.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkVBox">GtkVBox</link>
+                                       +----GdictDefbox
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="GdictDefbox.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GdictDefbox implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link>,  <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="GtkOrientable">GtkOrientable</link>.</para>
+</refsect1>
+
+
+<refsect1 id="GdictDefbox.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictDefbox--context">context</link>&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct
+  &quot;<link linkend="GdictDefbox--database">database</link>&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write
+  &quot;<link linkend="GdictDefbox--font-name">font-name</link>&quot;                <link linkend="gchar">gchar</link>*                : Read / Write
+  &quot;<link linkend="GdictDefbox--word">word</link>&quot;                     <link linkend="gchar">gchar</link>*                : Read / Write
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictDefbox.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictDefbox-find-next">find-next</link>&quot;                                      : Run Last / Action
+  &quot;<link linkend="GdictDefbox-find-previous">find-previous</link>&quot;                                  : Run Last / Action
+  &quot;<link linkend="GdictDefbox-hide-find">hide-find</link>&quot;                                      : Run Last / Action
+  &quot;<link linkend="GdictDefbox-link-clicked">link-clicked</link>&quot;                                   : Run Last
+  &quot;<link linkend="GdictDefbox-show-find">show-find</link>&quot;                                      : Run Last / Action
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictDefbox.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+The <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget is a composite widget showing the list of
+definitions for a word. It queries the passed <link linkend="GdictContext"><type>GdictContext</type></link> and displays
+the list of <link linkend="GdictDefinition"><type>GdictDefinition</type></link><!-- -->s obtained.
+</para>
+<para>
+It provides syntax highlighting, clickable links and an embedded find
+bar.</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictDefbox.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictDefbox-struct" role="struct">
+<title>GdictDefbox</title>
+<indexterm zone="GdictDefbox-struct"><primary sortas="GdictDefbox">GdictDefbox</primary></indexterm><programlisting>typedef struct _GdictDefbox GdictDefbox;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictDefboxClass" role="struct">
+<title>GdictDefboxClass</title>
+<indexterm zone="GdictDefboxClass"><primary sortas="GdictDefboxClass">GdictDefboxClass</primary></indexterm><programlisting>typedef struct {
+  GtkVBoxClass parent_class;
+  
+  /* these are all RUN_ACTION signals for key bindings */
+  void (*show_find)     (GdictDefbox *defbox);
+  void (*hide_find)     (GdictDefbox *defbox);
+  void (*find_previous) (GdictDefbox *defbox);
+  void (*find_next)     (GdictDefbox *defbox);
+
+  /* signals */
+  void (*link_clicked)  (GdictDefbox *defbox,
+                         const gchar *link);
+  
+  /* padding for future expansion */
+  void (*_gdict_defbox_1) (void);
+  void (*_gdict_defbox_2) (void);
+  void (*_gdict_defbox_3) (void);
+  void (*_gdict_defbox_4) (void);
+} GdictDefboxClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-defbox-new" role="function" condition="since:0.1">
+<title>gdict_defbox_new ()</title>
+<indexterm zone="gdict-defbox-new" role="0.1"><primary sortas="gdict_defbox_new">gdict_defbox_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_defbox_new                    (void);</programlisting>
+<para>
+Creates a new <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget.  Use this widget to search for
+a word using a <link linkend="GdictContext"><type>GdictContext</type></link>, and to show the resulting definition(s).
+You must set a <link linkend="GdictContext"><type>GdictContext</type></link> for this widget using
+<link linkend="gdict-defbox-set-context"><function>gdict_defbox_set_context()</function></link>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a new <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-new-with-context" role="function" condition="since:0.1">
+<title>gdict_defbox_new_with_context ()</title>
+<indexterm zone="gdict-defbox-new-with-context" role="0.1"><primary sortas="gdict_defbox_new_with_context">gdict_defbox_new_with_context</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_defbox_new_with_context       (<link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+Creates a new <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget. Use this widget to search for
+a word using <parameter>context</parameter>, and to show the resulting definition.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a new <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-set-context" role="function" condition="since:0.1">
+<title>gdict_defbox_set_context ()</title>
+<indexterm zone="gdict-defbox-set-context" role="0.1"><primary sortas="gdict_defbox_set_context">gdict_defbox_set_context</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_set_context            (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+Sets <parameter>context</parameter> as the <link linkend="GdictContext"><type>GdictContext</type></link> to be used by <parameter>defbox</parameter> in order
+to retrieve the definitions of a word.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-get-context" role="function" condition="since:0.1">
+<title>gdict_defbox_get_context ()</title>
+<indexterm zone="gdict-defbox-get-context" role="0.1"><primary sortas="gdict_defbox_get_context">gdict_defbox_get_context</primary></indexterm><programlisting><link linkend="GdictContext">GdictContext</link> *      gdict_defbox_get_context            (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Gets the <link linkend="GdictContext"><type>GdictContext</type></link> used by <parameter>defbox</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-set-database" role="function" condition="since:0.1">
+<title>gdict_defbox_set_database ()</title>
+<indexterm zone="gdict-defbox-set-database" role="0.1"><primary sortas="gdict_defbox_set_database">gdict_defbox_set_database</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_set_database           (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         const <link linkend="gchar">gchar</link> *database);</programlisting>
+<para>
+Sets <parameter>database</parameter> as the database used by the <link linkend="GdictContext"><type>GdictContext</type></link> bound to <parameter>defbox</parameter>
+to query for word definitions.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>database</parameter>&#160;:</term>
+<listitem><simpara> a database
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-get-database" role="function" condition="since:0.1">
+<title>gdict_defbox_get_database ()</title>
+<indexterm zone="gdict-defbox-get-database" role="0.1"><primary sortas="gdict_defbox_get_database">gdict_defbox_get_database</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_defbox_get_database           (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Gets the database used by <parameter>defbox</parameter>.  See <link linkend="gdict-defbox-set-database"><function>gdict_defbox_set_database()</function></link>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the name of a database. The return string is owned by
+  the <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget and should not be modified or freed.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-get-text" role="function" condition="since:0.1">
+<title>gdict_defbox_get_text ()</title>
+<indexterm zone="gdict-defbox-get-text" role="0.1"><primary sortas="gdict_defbox_get_text">gdict_defbox_get_text</primary></indexterm><programlisting><link linkend="gchar">gchar</link> *             gdict_defbox_get_text               (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="gsize">gsize</link> *length);</programlisting>
+<para>
+Gets the full contents of <parameter>defbox</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>length</parameter>&#160;:</term>
+<listitem><simpara> return location for the text length or <link linkend="NULL--CAPS"><literal>NULL</literal></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated string containing the text displayed by
+  <parameter>defbox</parameter>.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-select-all" role="function" condition="since:0.1">
+<title>gdict_defbox_select_all ()</title>
+<indexterm zone="gdict-defbox-select-all" role="0.1"><primary sortas="gdict_defbox_select_all">gdict_defbox_select_all</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_select_all             (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Selects all the text displayed by <parameter>defbox</parameter></para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-copy-to-clipboard" role="function" condition="since:0.1">
+<title>gdict_defbox_copy_to_clipboard ()</title>
+<indexterm zone="gdict-defbox-copy-to-clipboard" role="0.1"><primary sortas="gdict_defbox_copy_to_clipboard">gdict_defbox_copy_to_clipboard</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_copy_to_clipboard      (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="GtkClipboard">GtkClipboard</link> *clipboard);</programlisting>
+<para>
+Copies the selected text inside <parameter>defbox</parameter> into <parameter>clipboard</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>clipboard</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GtkClipboard"><type>GtkClipboard</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-clear" role="function" condition="since:0.1">
+<title>gdict_defbox_clear ()</title>
+<indexterm zone="gdict-defbox-clear" role="0.1"><primary sortas="gdict_defbox_clear">gdict_defbox_clear</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_clear                  (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Clears the buffer of <parameter>defbox</parameter></para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <parameter>GdictDefbox</parameter>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-lookup" role="function" condition="since:0.1">
+<title>gdict_defbox_lookup ()</title>
+<indexterm zone="gdict-defbox-lookup" role="0.1"><primary sortas="gdict_defbox_lookup">gdict_defbox_lookup</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_lookup                 (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         const <link linkend="gchar">gchar</link> *word);</programlisting>
+<para>
+Searches <parameter>word</parameter> inside the dictionary sources using the <link linkend="GdictContext"><type>GdictContext</type></link>
+provided when creating <parameter>defbox</parameter> or set using <link linkend="gdict-defbox-set-context"><function>gdict_defbox_set_context()</function></link>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>word</parameter>&#160;:</term>
+<listitem><simpara> the word to look up
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-get-word" role="function" condition="since:0.12">
+<title>gdict_defbox_get_word ()</title>
+<indexterm zone="gdict-defbox-get-word" role="0.12"><primary sortas="gdict_defbox_get_word">gdict_defbox_get_word</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_defbox_get_word               (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Retrieves the word being looked up.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the word looked up, or <link linkend="NULL--CAPS"><literal>NULL</literal></link>. The returned string is
+  owned by the <link linkend="GdictDefbox"><type>GdictDefbox</type></link> widget and should never be modified or
+  freed.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-defbox-count-definitions" role="function" condition="since:0.1">
+<title>gdict_defbox_count_definitions ()</title>
+<indexterm zone="gdict-defbox-count-definitions" role="0.1"><primary sortas="gdict_defbox_count_definitions">gdict_defbox_count_definitions</primary></indexterm><programlisting><link linkend="gint">gint</link>                gdict_defbox_count_definitions      (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Gets the number of definitions displayed by <parameter>defbox</parameter></para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the number of definitions.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-jump-to-definition" role="function" condition="since:0.1">
+<title>gdict_defbox_jump_to_definition ()</title>
+<indexterm zone="gdict-defbox-jump-to-definition" role="0.1"><primary sortas="gdict_defbox_jump_to_definition">gdict_defbox_jump_to_definition</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_jump_to_definition     (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="gint">gint</link> number);</programlisting>
+<para>
+Scrolls to the definition identified by <parameter>number</parameter>.  If <parameter>number</parameter> is -1,
+jumps to the last definition.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>number</parameter>&#160;:</term>
+<listitem><simpara> the definition to jump to
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-set-show-find" role="function" condition="since:0.1">
+<title>gdict_defbox_set_show_find ()</title>
+<indexterm zone="gdict-defbox-set-show-find" role="0.1"><primary sortas="gdict_defbox_set_show_find">gdict_defbox_set_show_find</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_set_show_find          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         <link linkend="gboolean">gboolean</link> show_find);</programlisting>
+<para>
+Whether <parameter>defbox</parameter> should show the find pane.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>show_find</parameter>&#160;:</term>
+<listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> to show the find pane
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-get-show-find" role="function" condition="since:0.1">
+<title>gdict_defbox_get_show_find ()</title>
+<indexterm zone="gdict-defbox-get-show-find" role="0.1"><primary sortas="gdict_defbox_get_show_find">gdict_defbox_get_show_find</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_defbox_get_show_find          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Gets whether the find pane should be visible or not.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the find pane is visible.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-find-next" role="function" condition="since:0.1">
+<title>gdict_defbox_find_next ()</title>
+<indexterm zone="gdict-defbox-find-next" role="0.1"><primary sortas="gdict_defbox_find_next">gdict_defbox_find_next</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_find_next              (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Emits the "find-next" signal.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-find-previous" role="function" condition="since:0.1">
+<title>gdict_defbox_find_previous ()</title>
+<indexterm zone="gdict-defbox-find-previous" role="0.1"><primary sortas="gdict_defbox_find_previous">gdict_defbox_find_previous</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_find_previous          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Emits the "find-previous" signal.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.1</para></refsect2>
+<refsect2 id="gdict-defbox-set-font-name" role="function" condition="since:0.3.0">
+<title>gdict_defbox_set_font_name ()</title>
+<indexterm zone="gdict-defbox-set-font-name" role="0.3.0"><primary sortas="gdict_defbox_set_font_name">gdict_defbox_set_font_name</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_defbox_set_font_name          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox,
+                                                         const <link linkend="gchar">gchar</link> *font_name);</programlisting>
+<para>
+Sets <parameter>font_name</parameter> as the font for <parameter>defbox</parameter>. It calls internally
+<link linkend="pango-font-description-from-string"><function>pango_font_description_from_string()</function></link> and <link linkend="gtk-widget-modify-font"><function>gtk_widget_modify_font()</function></link>.
+</para>
+<para>
+Passing <link linkend="NULL--CAPS"><literal>NULL</literal></link> for <parameter>font_name</parameter> will reset any previously set font.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>font_name</parameter>&#160;:</term>
+<listitem><simpara> a font description, or <link linkend="NULL--CAPS"><literal>NULL</literal></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.3.0</para></refsect2>
+<refsect2 id="gdict-defbox-get-font-name" role="function" condition="since:0.3">
+<title>gdict_defbox_get_font_name ()</title>
+<indexterm zone="gdict-defbox-get-font-name" role="0.3"><primary sortas="gdict_defbox_get_font_name">gdict_defbox_get_font_name</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_defbox_get_font_name          (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Retrieves the font currently used by <parameter>defbox</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a font name.  The returned string is owned by <parameter>defbox</parameter> and
+  should not be modified or freed.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.3</para></refsect2>
+<refsect2 id="gdict-defbox-get-selected-word" role="function" condition="since:0.12">
+<title>gdict_defbox_get_selected_word ()</title>
+<indexterm zone="gdict-defbox-get-selected-word" role="0.12"><primary sortas="gdict_defbox_get_selected_word">gdict_defbox_get_selected_word</primary></indexterm><programlisting><link linkend="gchar">gchar</link> *             gdict_defbox_get_selected_word      (<link linkend="GdictDefbox">GdictDefbox</link> *defbox);</programlisting>
+<para>
+Retrieves the selected word from the defbox widget</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>defbox</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDefbox"><type>GdictDefbox</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated string containing the selected
+  word. Use <link linkend="g-free"><function>g_free()</function></link> when done using it.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+
+</refsect1>
+<refsect1 id="GdictDefbox.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictDefbox--context" role="property"><title>The <literal>&quot;context&quot;</literal> property</title>
+<indexterm zone="GdictDefbox--context" role="0.1"><primary sortas="GdictDefbox:context">GdictDefbox:context</primary></indexterm><programlisting>  &quot;context&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct</programlisting>
+<para>
+The <link linkend="GdictContext"><type>GdictContext</type></link> object used to get the word definition.</para>
+<para>
+</para><para>Since 0.1</para>
+</refsect2>
+<refsect2 id="GdictDefbox--database" role="property"><title>The <literal>&quot;database&quot;</literal> property</title>
+<indexterm zone="GdictDefbox--database" role="0.1"><primary sortas="GdictDefbox:database">GdictDefbox:database</primary></indexterm><programlisting>  &quot;database&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>
+The database used by the <link linkend="GdictDefbox"><type>GdictDefbox</type></link> bound to this object to get the word
+definition.</para>
+<para>
+</para><para>Default value: "*"</para>
+<para>Since 0.1</para>
+</refsect2>
+<refsect2 id="GdictDefbox--font-name" role="property"><title>The <literal>&quot;font-name&quot;</literal> property</title>
+<indexterm zone="GdictDefbox--font-name" role="0.3"><primary sortas="GdictDefbox:font-name">GdictDefbox:font-name</primary></indexterm><programlisting>  &quot;font-name&quot;                <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>
+The name of the font used by the <link linkend="GdictDefbox"><type>GdictDefbox</type></link> to display the definitions.
+use the same string you use for <link linkend="pango-font-description-from-string"><function>pango_font_description_from_string()</function></link>.</para>
+<para>
+</para><para>Default value: "Sans 10"</para>
+<para>Since 0.3</para>
+</refsect2>
+<refsect2 id="GdictDefbox--word" role="property"><title>The <literal>&quot;word&quot;</literal> property</title>
+<indexterm zone="GdictDefbox--word" role="0.10"><primary sortas="GdictDefbox:word">GdictDefbox:word</primary></indexterm><programlisting>  &quot;word&quot;                     <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>
+The word to look up.</para>
+<para>
+</para><para>Default value: NULL</para>
+<para>Since 0.10</para>
+</refsect2>
+</refsect1>
+
+<refsect1 id="GdictDefbox.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictDefbox-find-next" role="signal"><title>The <literal>&quot;find-next&quot;</literal> signal</title>
+<indexterm zone="GdictDefbox-find-next"><primary sortas="GdictDefbox::find-next">GdictDefbox::find-next</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDefbox">GdictDefbox</link> *gdictdefbox,
+                                                        <link linkend="gpointer">gpointer</link>     user_data)        : Run Last / Action</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gdictdefbox</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2><refsect2 id="GdictDefbox-find-previous" role="signal"><title>The <literal>&quot;find-previous&quot;</literal> signal</title>
+<indexterm zone="GdictDefbox-find-previous"><primary sortas="GdictDefbox::find-previous">GdictDefbox::find-previous</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDefbox">GdictDefbox</link> *gdictdefbox,
+                                                        <link linkend="gpointer">gpointer</link>     user_data)        : Run Last / Action</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gdictdefbox</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2><refsect2 id="GdictDefbox-hide-find" role="signal"><title>The <literal>&quot;hide-find&quot;</literal> signal</title>
+<indexterm zone="GdictDefbox-hide-find"><primary sortas="GdictDefbox::hide-find">GdictDefbox::hide-find</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDefbox">GdictDefbox</link> *gdictdefbox,
+                                                        <link linkend="gpointer">gpointer</link>     user_data)        : Run Last / Action</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gdictdefbox</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2><refsect2 id="GdictDefbox-link-clicked" role="signal"><title>The <literal>&quot;link-clicked&quot;</literal> signal</title>
+<indexterm zone="GdictDefbox-link-clicked"><primary sortas="GdictDefbox::link-clicked">GdictDefbox::link-clicked</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDefbox">GdictDefbox</link> *gdictdefbox,
+                                                        <link linkend="gchar">gchar</link>       *arg1,
+                                                        <link linkend="gpointer">gpointer</link>     user_data)        : Run Last</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gdictdefbox</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2><refsect2 id="GdictDefbox-show-find" role="signal"><title>The <literal>&quot;show-find&quot;</literal> signal</title>
+<indexterm zone="GdictDefbox-show-find"><primary sortas="GdictDefbox::show-find">GdictDefbox::show-find</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDefbox">GdictDefbox</link> *gdictdefbox,
+                                                        <link linkend="gpointer">gpointer</link>     user_data)        : Run Last / Action</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gdictdefbox</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

@@ -1,0 +1,330 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictSpeller">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictSpeller.top_of_page">GdictSpeller</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictSpeller</refname>
+<refpurpose>Display matching words</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictSpeller.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictSpeller-struct">GdictSpeller</link>;
+                    <link linkend="GdictSpellerClass">GdictSpellerClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-speller-new">gdict_speller_new</link>                   (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-speller-new-with-context">gdict_speller_new_with_context</link>      (<link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="void">void</link>                <link linkend="gdict-speller-set-context">gdict_speller_set_context</link>           (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="GdictContext">GdictContext</link> *      <link linkend="gdict-speller-get-context">gdict_speller_get_context</link>           (<link linkend="GdictSpeller">GdictSpeller</link> *speller);
+<link linkend="void">void</link>                <link linkend="gdict-speller-set-database">gdict_speller_set_database</link>          (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         const <link linkend="gchar">gchar</link> *database);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-speller-get-database">gdict_speller_get_database</link>          (<link linkend="GdictSpeller">GdictSpeller</link> *speller);
+<link linkend="void">void</link>                <link linkend="gdict-speller-set-strategy">gdict_speller_set_strategy</link>          (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         const <link linkend="gchar">gchar</link> *strategy);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-speller-get-strategy">gdict_speller_get_strategy</link>          (<link linkend="GdictSpeller">GdictSpeller</link> *speller);
+<link linkend="void">void</link>                <link linkend="gdict-speller-clear">gdict_speller_clear</link>                 (<link linkend="GdictSpeller">GdictSpeller</link> *speller);
+<link linkend="void">void</link>                <link linkend="gdict-speller-match">gdict_speller_match</link>                 (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         const <link linkend="gchar">gchar</link> *word);
+<link linkend="gint">gint</link>                <link linkend="gdict-speller-count-matches">gdict_speller_count_matches</link>         (<link linkend="GdictSpeller">GdictSpeller</link> *speller);
+<link linkend="gchar">gchar</link> **            <link linkend="gdict-speller-get-matches">gdict_speller_get_matches</link>           (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         <link linkend="gsize">gsize</link> length);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictSpeller.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkVBox">GtkVBox</link>
+                                       +----GdictSpeller
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="GdictSpeller.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GdictSpeller implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link>,  <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="GtkOrientable">GtkOrientable</link>.</para>
+</refsect1>
+
+
+<refsect1 id="GdictSpeller.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictSpeller--context">context</link>&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct
+  &quot;<link linkend="GdictSpeller--database">database</link>&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write
+  &quot;<link linkend="GdictSpeller--strategy">strategy</link>&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictSpeller.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictSpeller-word-activated">word-activated</link>&quot;                                 : Run Last
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictSpeller.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+<link linkend="GdictSpeller"><type>GdictSpeller</type></link> is a widget showing a list of words returned by a 
+<link linkend="GdictContext"><type>GdictContext</type></link> query, using a specific database and a matching strategy.</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictSpeller.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictSpeller-struct" role="struct">
+<title>GdictSpeller</title>
+<indexterm zone="GdictSpeller-struct"><primary sortas="GdictSpeller">GdictSpeller</primary></indexterm><programlisting>typedef struct _GdictSpeller GdictSpeller;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictSpellerClass" role="struct">
+<title>GdictSpellerClass</title>
+<indexterm zone="GdictSpellerClass"><primary sortas="GdictSpellerClass">GdictSpellerClass</primary></indexterm><programlisting>typedef struct {
+  GtkVBoxClass parent_class;
+
+  void (*word_activated) (GdictSpeller *speller,
+		          const gchar  *word,
+			  const gchar  *database);
+
+  /* padding for future expansion */
+  void (*_gdict_speller_1) (void);
+  void (*_gdict_speller_2) (void);
+  void (*_gdict_speller_3) (void);
+  void (*_gdict_speller_4) (void);  
+} GdictSpellerClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-speller-new" role="function" condition="since:">
+<title>gdict_speller_new ()</title>
+<indexterm zone="gdict-speller-new"><primary sortas="gdict_speller_new">gdict_speller_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_speller_new                   (void);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> FIXME
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-speller-new-with-context" role="function" condition="since:">
+<title>gdict_speller_new_with_context ()</title>
+<indexterm zone="gdict-speller-new-with-context"><primary sortas="gdict_speller_new_with_context">gdict_speller_new_with_context</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_speller_new_with_context      (<link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> FIXME
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-speller-set-context" role="function" condition="since:">
+<title>gdict_speller_set_context ()</title>
+<indexterm zone="gdict-speller-set-context"><primary sortas="gdict_speller_set_context">gdict_speller_set_context</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_speller_set_context           (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-speller-get-context" role="function" condition="since:">
+<title>gdict_speller_get_context ()</title>
+<indexterm zone="gdict-speller-get-context"><primary sortas="gdict_speller_get_context">gdict_speller_get_context</primary></indexterm><programlisting><link linkend="GdictContext">GdictContext</link> *      gdict_speller_get_context           (<link linkend="GdictSpeller">GdictSpeller</link> *speller);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-speller-set-database" role="function" condition="since:">
+<title>gdict_speller_set_database ()</title>
+<indexterm zone="gdict-speller-set-database"><primary sortas="gdict_speller_set_database">gdict_speller_set_database</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_speller_set_database          (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         const <link linkend="gchar">gchar</link> *database);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>database</parameter>&#160;:</term>
+<listitem><simpara> FIXME
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-speller-get-database" role="function" condition="since:FIXME">
+<title>gdict_speller_get_database ()</title>
+<indexterm zone="gdict-speller-get-database" role="FIXME"><primary sortas="gdict_speller_get_database">gdict_speller_get_database</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_speller_get_database          (<link linkend="GdictSpeller">GdictSpeller</link> *speller);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> FIXME
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since FIXME</para></refsect2>
+<refsect2 id="gdict-speller-set-strategy" role="function" condition="since:FIXME">
+<title>gdict_speller_set_strategy ()</title>
+<indexterm zone="gdict-speller-set-strategy" role="FIXME"><primary sortas="gdict_speller_set_strategy">gdict_speller_set_strategy</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_speller_set_strategy          (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         const <link linkend="gchar">gchar</link> *strategy);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>strategy</parameter>&#160;:</term>
+<listitem><simpara> FIXME
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since FIXME</para></refsect2>
+<refsect2 id="gdict-speller-get-strategy" role="function" condition="since:FIXME">
+<title>gdict_speller_get_strategy ()</title>
+<indexterm zone="gdict-speller-get-strategy" role="FIXME"><primary sortas="gdict_speller_get_strategy">gdict_speller_get_strategy</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_speller_get_strategy          (<link linkend="GdictSpeller">GdictSpeller</link> *speller);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> FIXME
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since FIXME</para></refsect2>
+<refsect2 id="gdict-speller-clear" role="function" condition="since:FIXME">
+<title>gdict_speller_clear ()</title>
+<indexterm zone="gdict-speller-clear" role="FIXME"><primary sortas="gdict_speller_clear">gdict_speller_clear</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_speller_clear                 (<link linkend="GdictSpeller">GdictSpeller</link> *speller);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since FIXME</para></refsect2>
+<refsect2 id="gdict-speller-match" role="function" condition="since:FIXME">
+<title>gdict_speller_match ()</title>
+<indexterm zone="gdict-speller-match" role="FIXME"><primary sortas="gdict_speller_match">gdict_speller_match</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_speller_match                 (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         const <link linkend="gchar">gchar</link> *word);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>word</parameter>&#160;:</term>
+<listitem><simpara> FIXME
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since FIXME</para></refsect2>
+<refsect2 id="gdict-speller-count-matches" role="function">
+<title>gdict_speller_count_matches ()</title>
+<indexterm zone="gdict-speller-count-matches"><primary sortas="gdict_speller_count_matches">gdict_speller_count_matches</primary></indexterm><programlisting><link linkend="gint">gint</link>                gdict_speller_count_matches         (<link linkend="GdictSpeller">GdictSpeller</link> *speller);</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-speller-get-matches" role="function" condition="since:FIXME">
+<title>gdict_speller_get_matches ()</title>
+<indexterm zone="gdict-speller-get-matches" role="FIXME"><primary sortas="gdict_speller_get_matches">gdict_speller_get_matches</primary></indexterm><programlisting><link linkend="gchar">gchar</link> **            gdict_speller_get_matches           (<link linkend="GdictSpeller">GdictSpeller</link> *speller,
+                                                         <link linkend="gsize">gsize</link> length);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>speller</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSpeller"><type>GdictSpeller</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>length</parameter>&#160;:</term>
+<listitem><simpara> FIXME
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> FIXME
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since FIXME</para></refsect2>
+
+</refsect1>
+<refsect1 id="GdictSpeller.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictSpeller--context" role="property"><title>The <literal>&quot;context&quot;</literal> property</title>
+<indexterm zone="GdictSpeller--context"><primary sortas="GdictSpeller:context">GdictSpeller:context</primary></indexterm><programlisting>  &quot;context&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct</programlisting>
+<para>The GdictContext object used to get the word definition.</para></refsect2>
+<refsect2 id="GdictSpeller--database" role="property"><title>The <literal>&quot;database&quot;</literal> property</title>
+<indexterm zone="GdictSpeller--database"><primary sortas="GdictSpeller:database">GdictSpeller:database</primary></indexterm><programlisting>  &quot;database&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>The database used to query the GdictContext.</para><para>Default value: "*"</para>
+</refsect2>
+<refsect2 id="GdictSpeller--strategy" role="property"><title>The <literal>&quot;strategy&quot;</literal> property</title>
+<indexterm zone="GdictSpeller--strategy"><primary sortas="GdictSpeller:strategy">GdictSpeller:strategy</primary></indexterm><programlisting>  &quot;strategy&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>The strategy used to query the GdictContext.</para><para>Default value: "."</para>
+</refsect2>
+</refsect1>
+
+<refsect1 id="GdictSpeller.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictSpeller-word-activated" role="signal"><title>The <literal>&quot;word-activated&quot;</literal> signal</title>
+<indexterm zone="GdictSpeller-word-activated"><primary sortas="GdictSpeller::word-activated">GdictSpeller::word-activated</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictSpeller">GdictSpeller</link> *gdictspeller,
+                                                        <link linkend="gchar">gchar</link>        *arg1,
+                                                        <link linkend="gchar">gchar</link>        *arg2,
+                                                        <link linkend="gpointer">gpointer</link>      user_data)         : Run Last</programlisting>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>gdictspeller</parameter>&#160;:</term>
+<listitem><simpara>the object which received the signal.
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg1</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>arg2</parameter>&#160;:</term>
+<listitem><simpara>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

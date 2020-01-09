@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="GDICT-VERSION--CAPS"><link linkend="GDICT-VERSION--CAPS">GDICT_VERSION</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GDICT-VERSION-HEX--CAPS"><link linkend="GDICT-VERSION-HEX--CAPS">GDICT_VERSION_HEX</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GDICT-VERSION-S--CAPS"><link linkend="GDICT-VERSION-S--CAPS">GDICT_VERSION_S</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,14 @@
+[Desktop Entry]
+_Name=Take Screenshot
+_Comment=Save images of your desktop or individual windows
+Exec=gnome-screenshot --interactive
+Terminal=false
+Type=Application
+Icon=applets-screenshooter
+StartupNotify=true
+Categories=GTK;GNOME;Utility;
+NotShowIn=KDE;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=gnome-utils
+X-GNOME-Bugzilla-Component=screenshot
+X-GNOME-Bugzilla-OtherBinaries=gnome-panel-screenshot

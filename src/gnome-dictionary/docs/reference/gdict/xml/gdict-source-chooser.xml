@@ -1,0 +1,409 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictSourceChooser">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictSourceChooser.top_of_page">GdictSourceChooser</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictSourceChooser</refname>
+<refpurpose>Display the list of available sources</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictSourceChooser.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictSourceChooser-struct">GdictSourceChooser</link>;
+                    <link linkend="GdictSourceChooserClass">GdictSourceChooserClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-source-chooser-new">gdict_source_chooser_new</link>            (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-source-chooser-new-with-loader">gdict_source_chooser_new_with_loader</link>
+                                                        (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);
+<link linkend="GdictSourceLoader">GdictSourceLoader</link> * <link linkend="gdict-source-chooser-get-loader">gdict_source_chooser_get_loader</link>     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);
+<link linkend="void">void</link>                <link linkend="gdict-source-chooser-set-loader">gdict_source_chooser_set_loader</link>     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         <link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);
+<link linkend="gchar">gchar</link> **            <link linkend="gdict-source-chooser-get-sources">gdict_source_chooser_get_sources</link>    (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         <link linkend="gsize">gsize</link> *length);
+<link linkend="gint">gint</link>                <link linkend="gdict-source-chooser-count-sources">gdict_source_chooser_count_sources</link>  (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-source-chooser-has-source">gdict_source_chooser_has_source</link>     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);
+<link linkend="void">void</link>                <link linkend="gdict-source-chooser-refresh">gdict_source_chooser_refresh</link>        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-source-chooser-select-source">gdict_source_chooser_select_source</link>  (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-source-chooser-unselect-source">gdict_source_chooser_unselect_source</link>
+                                                        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);
+<link linkend="gchar">gchar</link> *             <link linkend="gdict-source-chooser-get-current-source">gdict_source_chooser_get_current_source</link>
+                                                        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-source-chooser-set-current-source">gdict_source_chooser_set_current_source</link>
+                                                        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-source-chooser-add-button">gdict_source_chooser_add_button</link>     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *button_text);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictSourceChooser.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkVBox">GtkVBox</link>
+                                       +----GdictSourceChooser
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="GdictSourceChooser.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GdictSourceChooser implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link>,  <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="GtkOrientable">GtkOrientable</link>.</para>
+</refsect1>
+
+
+<refsect1 id="GdictSourceChooser.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictSourceChooser--count">count</link>&quot;                    <link linkend="gint">gint</link>                  : Read
+  &quot;<link linkend="GdictSourceChooser--loader">loader</link>&quot;                   <link linkend="GdictSourceLoader">GdictSourceLoader</link>*    : Read / Write / Construct
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictSourceChooser.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictSourceChooser-selection-changed">selection-changed</link>&quot;                              : Run Last
+  &quot;<link linkend="GdictSourceChooser-source-activated">source-activated</link>&quot;                               : Run Last
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictSourceChooser.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+<link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> is a widget that shows the list of available
+dictionary sources using a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> instance as a model.
+It can be used to allow choosing the current dictionary source.
+</para>
+<para>
+<link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> is available since Gdict 0.12.</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictSourceChooser.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictSourceChooser-struct" role="struct">
+<title>GdictSourceChooser</title>
+<indexterm zone="GdictSourceChooser-struct"><primary sortas="GdictSourceChooser">GdictSourceChooser</primary></indexterm><programlisting>typedef struct _GdictSourceChooser GdictSourceChooser;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictSourceChooserClass" role="struct">
+<title>GdictSourceChooserClass</title>
+<indexterm zone="GdictSourceChooserClass"><primary sortas="GdictSourceChooserClass">GdictSourceChooserClass</primary></indexterm><programlisting>typedef struct {
+  void (*source_activated)  (GdictSourceChooser *chooser,
+                             const gchar        *source_name,
+                             GdictSource        *source);
+  void (*selection_changed) (GdictSourceChooser *chooser);
+} GdictSourceChooserClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-source-chooser-new" role="function" condition="since:0.12">
+<title>gdict_source_chooser_new ()</title>
+<indexterm zone="gdict-source-chooser-new" role="0.12"><primary sortas="gdict_source_chooser_new">gdict_source_chooser_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_source_chooser_new            (void);</programlisting>
+<para>
+Creates a new <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> widget. This widget can be used to
+display the list of available dictionary sources.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> widget.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-new-with-loader" role="function" condition="since:0.12">
+<title>gdict_source_chooser_new_with_loader ()</title>
+<indexterm zone="gdict-source-chooser-new-with-loader" role="0.12"><primary sortas="gdict_source_chooser_new_with_loader">gdict_source_chooser_new_with_loader</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_source_chooser_new_with_loader
+                                                        (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);</programlisting>
+<para>
+Creates a new <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> widget and sets <parameter>loader</parameter> as the
+<link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> object to be used to retrieve the list of
+available dictionary sources.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> widget.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-get-loader" role="function" condition="since:0.12">
+<title>gdict_source_chooser_get_loader ()</title>
+<indexterm zone="gdict-source-chooser-get-loader" role="0.12"><primary sortas="gdict_source_chooser_get_loader">gdict_source_chooser_get_loader</primary></indexterm><programlisting><link linkend="GdictSourceLoader">GdictSourceLoader</link> * gdict_source_chooser_get_loader     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);</programlisting>
+<para>
+Retrieves the <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> used by <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> or <link linkend="NULL--CAPS"><literal>NULL</literal></link> is none is set
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-set-loader" role="function" condition="since:0.12">
+<title>gdict_source_chooser_set_loader ()</title>
+<indexterm zone="gdict-source-chooser-set-loader" role="0.12"><primary sortas="gdict_source_chooser_set_loader">gdict_source_chooser_set_loader</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_source_chooser_set_loader     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         <link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);</programlisting>
+<para>
+Sets the <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> to be used by the source chooser
+widget.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> or <link linkend="NULL--CAPS"><literal>NULL</literal></link> to unset it
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-get-sources" role="function" condition="since:0.12">
+<title>gdict_source_chooser_get_sources ()</title>
+<indexterm zone="gdict-source-chooser-get-sources" role="0.12"><primary sortas="gdict_source_chooser_get_sources">gdict_source_chooser_get_sources</primary></indexterm><programlisting><link linkend="gchar">gchar</link> **            gdict_source_chooser_get_sources    (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         <link linkend="gsize">gsize</link> *length);</programlisting>
+<para>
+Retrieves the names of the available dictionary sources.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSouceChooser"><type>GdictSouceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>length</parameter>&#160;:</term>
+<listitem><simpara> return location for the length of the returned vector
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated, <link linkend="NULL--CAPS"><literal>NULL</literal></link> terminated string vector
+  containing the names of the available sources. Use <link linkend="g-strfreev"><function>g_strfreev()</function></link>
+  when done using it.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-count-sources" role="function" condition="since:0.12">
+<title>gdict_source_chooser_count_sources ()</title>
+<indexterm zone="gdict-source-chooser-count-sources" role="0.12"><primary sortas="gdict_source_chooser_count_sources">gdict_source_chooser_count_sources</primary></indexterm><programlisting><link linkend="gint">gint</link>                gdict_source_chooser_count_sources  (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);</programlisting>
+<para>
+Retrieve the number of available dictionary sources.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the number of available sources, or -1 if no
+  <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> has been set
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-has-source" role="function" condition="since:0.12">
+<title>gdict_source_chooser_has_source ()</title>
+<indexterm zone="gdict-source-chooser-has-source" role="0.12"><primary sortas="gdict_source_chooser_has_source">gdict_source_chooser_has_source</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_source_chooser_has_source     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);</programlisting>
+<para>
+Checks whether <parameter>chooser</parameter> has a dictionary source named <parameter>source_name</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source_name</parameter>&#160;:</term>
+<listitem><simpara> the name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the dictionary source was found
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-refresh" role="function" condition="since:0.12">
+<title>gdict_source_chooser_refresh ()</title>
+<indexterm zone="gdict-source-chooser-refresh" role="0.12"><primary sortas="gdict_source_chooser_refresh">gdict_source_chooser_refresh</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_source_chooser_refresh        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);</programlisting>
+<para>
+Forces a refresh on the contents of the source chooser widget</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-select-source" role="function" condition="since:0.12">
+<title>gdict_source_chooser_select_source ()</title>
+<indexterm zone="gdict-source-chooser-select-source" role="0.12"><primary sortas="gdict_source_chooser_select_source">gdict_source_chooser_select_source</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_source_chooser_select_source  (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);</programlisting>
+<para>
+Selects the dictionary source named <parameter>source_name</parameter> inside <parameter>chooser</parameter>.
+The selection is moved but the row containing the dictionary source
+is not activated.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source_name</parameter>&#160;:</term>
+<listitem><simpara> the name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the source was found and selected
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-unselect-source" role="function" condition="since:0.12">
+<title>gdict_source_chooser_unselect_source ()</title>
+<indexterm zone="gdict-source-chooser-unselect-source" role="0.12"><primary sortas="gdict_source_chooser_unselect_source">gdict_source_chooser_unselect_source</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_source_chooser_unselect_source
+                                                        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);</programlisting>
+<para>
+Unselects <parameter>source_name</parameter> inside <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source_name</parameter>&#160;:</term>
+<listitem><simpara> the name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the source was found and unselected
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-get-current-source" role="function" condition="since:0.12">
+<title>gdict_source_chooser_get_current_source ()</title>
+<indexterm zone="gdict-source-chooser-get-current-source" role="0.12"><primary sortas="gdict_source_chooser_get_current_source">gdict_source_chooser_get_current_source</primary></indexterm><programlisting><link linkend="gchar">gchar</link> *             gdict_source_chooser_get_current_source
+                                                        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser);</programlisting>
+<para>
+Retrieves the currently selected source.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated string containing the name of
+  the currently selected source. Use <link linkend="g-free"><function>g_free()</function></link> when done using it
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-set-current-source" role="function" condition="since:0.12">
+<title>gdict_source_chooser_set_current_source ()</title>
+<indexterm zone="gdict-source-chooser-set-current-source" role="0.12"><primary sortas="gdict_source_chooser_set_current_source">gdict_source_chooser_set_current_source</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_source_chooser_set_current_source
+                                                        (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *source_name);</programlisting>
+<para>
+Sets the current dictionary source named <parameter>source_name</parameter>. The row
+of the source, if found, will be selected and activated.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source_name</parameter>&#160;:</term>
+<listitem><simpara> the name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the source was found
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-source-chooser-add-button" role="function" condition="since:0.12">
+<title>gdict_source_chooser_add_button ()</title>
+<indexterm zone="gdict-source-chooser-add-button" role="0.12"><primary sortas="gdict_source_chooser_add_button">gdict_source_chooser_add_button</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_source_chooser_add_button     (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *button_text);</programlisting>
+<para>
+Adds a <link linkend="GtkButton"><type>GtkButton</type></link> with <parameter>button_text</parameter> to the button area on
+the bottom of <parameter>chooser</parameter>. The <parameter>button_text</parameter> can also be a
+stock ID.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>button_text</parameter>&#160;:</term>
+<listitem><simpara> text of the button
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly packed button.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+
+</refsect1>
+<refsect1 id="GdictSourceChooser.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictSourceChooser--count" role="property"><title>The <literal>&quot;count&quot;</literal> property</title>
+<indexterm zone="GdictSourceChooser--count" role="0.12"><primary sortas="GdictSourceChooser:count">GdictSourceChooser:count</primary></indexterm><programlisting>  &quot;count&quot;                    <link linkend="gint">gint</link>                  : Read</programlisting>
+<para>
+The number of available dictionary sources, or -1 if no
+<link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> is set.</para>
+<para>
+</para><para>Allowed values: &gt;= -1</para>
+<para>Default value: -1</para>
+<para>Since 0.12</para>
+</refsect2>
+<refsect2 id="GdictSourceChooser--loader" role="property"><title>The <literal>&quot;loader&quot;</literal> property</title>
+<indexterm zone="GdictSourceChooser--loader" role="0.12"><primary sortas="GdictSourceChooser:loader">GdictSourceChooser:loader</primary></indexterm><programlisting>  &quot;loader&quot;                   <link linkend="GdictSourceLoader">GdictSourceLoader</link>*    : Read / Write / Construct</programlisting>
+<para>
+The <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> used to retrieve the list of available
+dictionary sources.</para>
+<para>
+</para><para>Since 0.12</para>
+</refsect2>
+</refsect1>
+
+<refsect1 id="GdictSourceChooser.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictSourceChooser-selection-changed" role="signal"><title>The <literal>&quot;selection-changed&quot;</literal> signal</title>
+<indexterm zone="GdictSourceChooser-selection-changed" role="0.12"><primary sortas="GdictSourceChooser::selection-changed">GdictSourceChooser::selection-changed</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                        <link linkend="gpointer">gpointer</link>            user_data)      : Run Last</programlisting>
+<para>
+The ::selection-changed signal is emitted each time the
+selection inside the source chooser widget has been changed.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> the <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> that received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 0.12</para></refsect2><refsect2 id="GdictSourceChooser-source-activated" role="signal"><title>The <literal>&quot;source-activated&quot;</literal> signal</title>
+<indexterm zone="GdictSourceChooser-source-activated" role="0.12"><primary sortas="GdictSourceChooser::source-activated">GdictSourceChooser::source-activated</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictSourceChooser">GdictSourceChooser</link> *chooser,
+                                                        <link linkend="gchar">gchar</link>              *source_name,
+                                                        <link linkend="GdictSource">GdictSource</link>        *source,
+                                                        <link linkend="gpointer">gpointer</link>            user_data)        : Run Last</programlisting>
+<para>
+The ::source-activated signal is emitted each time the user
+activates a row in the source chooser widget, either by double
+clicking on it or by a keyboard event.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> the <link linkend="GdictSourceChooser"><type>GdictSourceChooser</type></link> that received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source_name</parameter>&#160;:</term>
+<listitem><simpara> the name of the activated source
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source</parameter>&#160;:</term>
+<listitem><simpara> the activated <link linkend="GdictSource"><type>GdictSource</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 0.12</para></refsect2>
+</refsect1>
+
+
+
+</refentry>

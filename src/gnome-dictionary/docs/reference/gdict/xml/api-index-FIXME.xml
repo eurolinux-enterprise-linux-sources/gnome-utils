@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="gdict-speller-clear"><link linkend="gdict-speller-clear">gdict_speller_clear</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-speller-get-database"><link linkend="gdict-speller-get-database">gdict_speller_get_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-speller-get-matches"><link linkend="gdict-speller-get-matches">gdict_speller_get_matches</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-speller-get-strategy"><link linkend="gdict-speller-get-strategy">gdict_speller_get_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-speller-match"><link linkend="gdict-speller-match">gdict_speller_match</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-speller-set-strategy"><link linkend="gdict-speller-set-strategy">gdict_speller_set_strategy</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

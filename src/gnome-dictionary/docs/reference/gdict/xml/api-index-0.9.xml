@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="gdict-strategy-chooser-get-strategies"><link linkend="gdict-strategy-chooser-get-strategies">gdict_strategy_chooser_get_strategies</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-has-strategy"><link linkend="gdict-strategy-chooser-has-strategy">gdict_strategy_chooser_has_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-new"><link linkend="gdict-strategy-chooser-new">gdict_strategy_chooser_new</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-new-with-context"><link linkend="gdict-strategy-chooser-new-with-context">gdict_strategy_chooser_new_with_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-set-context"><link linkend="gdict-strategy-chooser-set-context">gdict_strategy_chooser_set_context</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

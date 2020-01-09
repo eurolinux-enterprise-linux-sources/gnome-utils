@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="GdictDefbox--context"><link linkend="GdictDefbox--context">GdictDefbox:context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictDefbox--database"><link linkend="GdictDefbox--database">GdictDefbox:database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-clear"><link linkend="gdict-defbox-clear">gdict_defbox_clear</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-copy-to-clipboard"><link linkend="gdict-defbox-copy-to-clipboard">gdict_defbox_copy_to_clipboard</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-count-definitions"><link linkend="gdict-defbox-count-definitions">gdict_defbox_count_definitions</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-find-next"><link linkend="gdict-defbox-find-next">gdict_defbox_find_next</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-find-previous"><link linkend="gdict-defbox-find-previous">gdict_defbox_find_previous</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-context"><link linkend="gdict-defbox-get-context">gdict_defbox_get_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-database"><link linkend="gdict-defbox-get-database">gdict_defbox_get_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-show-find"><link linkend="gdict-defbox-get-show-find">gdict_defbox_get_show_find</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-text"><link linkend="gdict-defbox-get-text">gdict_defbox_get_text</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-jump-to-definition"><link linkend="gdict-defbox-jump-to-definition">gdict_defbox_jump_to_definition</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-lookup"><link linkend="gdict-defbox-lookup">gdict_defbox_lookup</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-new"><link linkend="gdict-defbox-new">gdict_defbox_new</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-new-with-context"><link linkend="gdict-defbox-new-with-context">gdict_defbox_new_with_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-select-all"><link linkend="gdict-defbox-select-all">gdict_defbox_select_all</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-set-context"><link linkend="gdict-defbox-set-context">gdict_defbox_set_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-set-database"><link linkend="gdict-defbox-set-database">gdict_defbox_set_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-set-show-find"><link linkend="gdict-defbox-set-show-find">gdict_defbox_set_show_find</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

@@ -1,0 +1,312 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictClientContext">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictClientContext.top_of_page">GdictClientContext</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictClientContext</refname>
+<refpurpose>DICT client transport</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictClientContext.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictClientContext-struct">GdictClientContext</link>;
+                    <link linkend="GdictClientContextClass">GdictClientContextClass</link>;
+enum                <link linkend="GdictClientContextError">GdictClientContextError</link>;
+<link linkend="GdictContext">GdictContext</link> *      <link linkend="gdict-client-context-new">gdict_client_context_new</link>            (const <link linkend="gchar">gchar</link> *hostname,
+                                                         <link linkend="gint">gint</link> port);
+<link linkend="void">void</link>                <link linkend="gdict-client-context-set-hostname">gdict_client_context_set_hostname</link>   (<link linkend="GdictClientContext">GdictClientContext</link> *context,
+                                                         const <link linkend="gchar">gchar</link> *hostname);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-client-context-get-hostname">gdict_client_context_get_hostname</link>   (<link linkend="GdictClientContext">GdictClientContext</link> *context);
+<link linkend="void">void</link>                <link linkend="gdict-client-context-set-port">gdict_client_context_set_port</link>       (<link linkend="GdictClientContext">GdictClientContext</link> *context,
+                                                         <link linkend="gint">gint</link> port);
+<link linkend="guint">guint</link>               <link linkend="gdict-client-context-get-port">gdict_client_context_get_port</link>       (<link linkend="GdictClientContext">GdictClientContext</link> *context);
+<link linkend="void">void</link>                <link linkend="gdict-client-context-set-client">gdict_client_context_set_client</link>     (<link linkend="GdictClientContext">GdictClientContext</link> *context,
+                                                         const <link linkend="gchar">gchar</link> *client);
+const <link linkend="gchar">gchar</link> *       <link linkend="gdict-client-context-get-client">gdict_client_context_get_client</link>     (<link linkend="GdictClientContext">GdictClientContext</link> *context);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictClientContext.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----GdictClientContext
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="GdictClientContext.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GdictClientContext implements
+</para>
+</refsect1>
+
+
+<refsect1 id="GdictClientContext.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictClientContext--client-name">client-name</link>&quot;              <link linkend="gchar">gchar</link>*                : Read / Write
+  &quot;<link linkend="GdictClientContext--hostname">hostname</link>&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write
+  &quot;<link linkend="GdictClientContext--port">port</link>&quot;                     <link linkend="guint">guint</link>                 : Read / Write
+  &quot;<link linkend="GdictClientContext--status">status</link>&quot;                   <link linkend="GdictStatusCode">GdictStatusCode</link>       : Read
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictClientContext.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictClientContext-connected">connected</link>&quot;                                      : Run Last
+  &quot;<link linkend="GdictClientContext-disconnected">disconnected</link>&quot;                                   : Run Last
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictClientContext.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+<link linkend="GdictClientContext"><type>GdictClientContext</type></link> is an implementation of the <link linkend="GdictContext"><type>GdictContext</type></link> interface.
+It implements the Dictionary Protocol as defined by the RFC 2229 in order
+to connect to a dictionary server.
+</para>
+<para>
+You should rarely instantiate this object directely: use an appropriate
+<link linkend="GdictSource"><type>GdictSource</type></link> instead.</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictClientContext.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictClientContext-struct" role="struct">
+<title>GdictClientContext</title>
+<indexterm zone="GdictClientContext-struct"><primary sortas="GdictClientContext">GdictClientContext</primary></indexterm><programlisting>typedef struct _GdictClientContext GdictClientContext;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictClientContextClass" role="struct">
+<title>GdictClientContextClass</title>
+<indexterm zone="GdictClientContextClass"><primary sortas="GdictClientContextClass">GdictClientContextClass</primary></indexterm><programlisting>typedef struct {
+  /* signals monitoring the lifetime of the connection with
+   * the dictionary server
+   */
+  void (*connected)    (GdictClientContext *context);
+  void (*disconnected) (GdictClientContext *context);
+} GdictClientContextClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictClientContextError" role="enum">
+<title>enum GdictClientContextError</title>
+<indexterm zone="GdictClientContextError"><primary sortas="GdictClientContextError">GdictClientContextError</primary></indexterm><programlisting>typedef enum {
+  GDICT_CLIENT_CONTEXT_ERROR_SOCKET,
+  GDICT_CLIENT_CONTEXT_ERROR_LOOKUP,
+  GDICT_CLIENT_CONTEXT_ERROR_NO_CONNECTION,
+  GDICT_CLIENT_CONTEXT_ERROR_SERVER_DOWN
+} GdictClientContextError;
+</programlisting>
+<para>
+<link linkend="GdictClientContext"><type>GdictClientContext</type></link> error enumeration</para>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-client-context-new" role="function">
+<title>gdict_client_context_new ()</title>
+<indexterm zone="gdict-client-context-new"><primary sortas="gdict_client_context_new">gdict_client_context_new</primary></indexterm><programlisting><link linkend="GdictContext">GdictContext</link> *      gdict_client_context_new            (const <link linkend="gchar">gchar</link> *hostname,
+                                                         <link linkend="gint">gint</link> port);</programlisting>
+<para>
+Creates a new <link linkend="GdictClientContext"><type>GdictClientContext</type></link> object for <parameter>hostname</parameter>. Use this
+object to connect and query the dictionary server using the Dictionary
+Protocol as defined by RFC 2229.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>hostname</parameter>&#160;:</term>
+<listitem><simpara> the hostname of a dictionary server, or <link linkend="NULL--CAPS"><literal>NULL</literal></link> for the
+   default server
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>port</parameter>&#160;:</term>
+<listitem><simpara> port to be used when connecting to the dictionary server,
+   or -1 for the default port
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictClientContext"><type>GdictClientContext</type></link> object.  You should
+  free it using <link linkend="g-object-unref"><function>g_object_unref()</function></link>.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-client-context-set-hostname" role="function">
+<title>gdict_client_context_set_hostname ()</title>
+<indexterm zone="gdict-client-context-set-hostname"><primary sortas="gdict_client_context_set_hostname">gdict_client_context_set_hostname</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_client_context_set_hostname   (<link linkend="GdictClientContext">GdictClientContext</link> *context,
+                                                         const <link linkend="gchar">gchar</link> *hostname);</programlisting>
+<para>
+Sets <parameter>hostname</parameter> as the hostname of the dictionary server to be used.
+If <parameter>hostname</parameter> is <link linkend="NULL--CAPS"><literal>NULL</literal></link>, the default dictionary server will be used.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictClientContext"><type>GdictClientContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>hostname</parameter>&#160;:</term>
+<listitem><simpara> the hostname of a Dictionary server, or <link linkend="NULL--CAPS"><literal>NULL</literal></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-client-context-get-hostname" role="function">
+<title>gdict_client_context_get_hostname ()</title>
+<indexterm zone="gdict-client-context-get-hostname"><primary sortas="gdict_client_context_get_hostname">gdict_client_context_get_hostname</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_client_context_get_hostname   (<link linkend="GdictClientContext">GdictClientContext</link> *context);</programlisting>
+<para>
+Gets the hostname of the dictionary server used by <parameter>context</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictClientContext"><type>GdictClientContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the hostname of a dictionary server. The returned string is
+  owned by the <link linkend="GdictClientContext"><type>GdictClientContext</type></link> object and should never be modified or
+  freed.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-client-context-set-port" role="function">
+<title>gdict_client_context_set_port ()</title>
+<indexterm zone="gdict-client-context-set-port"><primary sortas="gdict_client_context_set_port">gdict_client_context_set_port</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_client_context_set_port       (<link linkend="GdictClientContext">GdictClientContext</link> *context,
+                                                         <link linkend="gint">gint</link> port);</programlisting>
+<para>
+Sets the port of the dictionary server to be used when connecting.
+</para>
+<para>
+If <parameter>port</parameter> is -1, the default port will be used.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictClientContext"><type>GdictClientContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>port</parameter>&#160;:</term>
+<listitem><simpara> port of the dictionary server to be used, or -1
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-client-context-get-port" role="function">
+<title>gdict_client_context_get_port ()</title>
+<indexterm zone="gdict-client-context-get-port"><primary sortas="gdict_client_context_get_port">gdict_client_context_get_port</primary></indexterm><programlisting><link linkend="guint">guint</link>               gdict_client_context_get_port       (<link linkend="GdictClientContext">GdictClientContext</link> *context);</programlisting>
+<para>
+Gets the port of the dictionary server used by <parameter>context</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictClientContext"><type>GdictClientContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the number of the port.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-client-context-set-client" role="function">
+<title>gdict_client_context_set_client ()</title>
+<indexterm zone="gdict-client-context-set-client"><primary sortas="gdict_client_context_set_client">gdict_client_context_set_client</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_client_context_set_client     (<link linkend="GdictClientContext">GdictClientContext</link> *context,
+                                                         const <link linkend="gchar">gchar</link> *client);</programlisting>
+<para>
+Sets <parameter>client</parameter> as the client name to be used when advertising ourselves when
+a connection the the dictionary server has been established.
+If <parameter>client</parameter> is <link linkend="NULL--CAPS"><literal>NULL</literal></link>, the default client name will be used.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictClientContext"><type>GdictClientContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>client</parameter>&#160;:</term>
+<listitem><simpara> the client name to use, or <link linkend="NULL--CAPS"><literal>NULL</literal></link>
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+<refsect2 id="gdict-client-context-get-client" role="function">
+<title>gdict_client_context_get_client ()</title>
+<indexterm zone="gdict-client-context-get-client"><primary sortas="gdict_client_context_get_client">gdict_client_context_get_client</primary></indexterm><programlisting>const <link linkend="gchar">gchar</link> *       gdict_client_context_get_client     (<link linkend="GdictClientContext">GdictClientContext</link> *context);</programlisting>
+<para>
+Gets the client name used by <parameter>context</parameter>. See <link linkend="gdict-client-context-set-client"><function>gdict_client_context_set_client()</function></link>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictClientContext"><type>GdictClientContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the client name. The returned string is owned by the
+  <link linkend="GdictClientContext"><type>GdictClientContext</type></link> object and should never be modified or freed.
+</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+
+</refsect1>
+<refsect1 id="GdictClientContext.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictClientContext--client-name" role="property"><title>The <literal>&quot;client-name&quot;</literal> property</title>
+<indexterm zone="GdictClientContext--client-name" role="1.0"><primary sortas="GdictClientContext:client-name">GdictClientContext:client-name</primary></indexterm><programlisting>  &quot;client-name&quot;              <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>
+The name of the client using this context; it will be advertised when
+connecting to the dictionary server.</para>
+<para>
+</para><para>Default value: NULL</para>
+<para>Since 1.0</para>
+</refsect2>
+<refsect2 id="GdictClientContext--hostname" role="property"><title>The <literal>&quot;hostname&quot;</literal> property</title>
+<indexterm zone="GdictClientContext--hostname" role="1.0"><primary sortas="GdictClientContext:hostname">GdictClientContext:hostname</primary></indexterm><programlisting>  &quot;hostname&quot;                 <link linkend="gchar">gchar</link>*                : Read / Write</programlisting>
+<para>
+The hostname of the dictionary server to connect to.</para>
+<para>
+</para><para>Default value: NULL</para>
+<para>Since 1.0</para>
+</refsect2>
+<refsect2 id="GdictClientContext--port" role="property"><title>The <literal>&quot;port&quot;</literal> property</title>
+<indexterm zone="GdictClientContext--port" role="1.0"><primary sortas="GdictClientContext:port">GdictClientContext:port</primary></indexterm><programlisting>  &quot;port&quot;                     <link linkend="guint">guint</link>                 : Read / Write</programlisting>
+<para>
+The port of the dictionary server to connect to.</para>
+<para>
+</para><para>Allowed values: &lt;= 65535</para>
+<para>Default value: 2628</para>
+<para>Since 1.0</para>
+</refsect2>
+<refsect2 id="GdictClientContext--status" role="property"><title>The <literal>&quot;status&quot;</literal> property</title>
+<indexterm zone="GdictClientContext--status" role="1.0"><primary sortas="GdictClientContext:status">GdictClientContext:status</primary></indexterm><programlisting>  &quot;status&quot;                   <link linkend="GdictStatusCode">GdictStatusCode</link>       : Read</programlisting>
+<para>
+The status code as returned by the dictionary server.</para>
+<para>
+</para><para>Default value: GDICT_STATUS_INVALID</para>
+<para>Since 1.0</para>
+</refsect2>
+</refsect1>
+
+<refsect1 id="GdictClientContext.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictClientContext-connected" role="signal"><title>The <literal>&quot;connected&quot;</literal> signal</title>
+<indexterm zone="GdictClientContext-connected" role="1.0"><primary sortas="GdictClientContext::connected">GdictClientContext::connected</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictClientContext">GdictClientContext</link> *client,
+                                                        <link linkend="gpointer">gpointer</link>            user_data)      : Run Last</programlisting>
+<para>
+Emitted when a <link linkend="GdictClientContext"><type>GdictClientContext</type></link> has successfully established a
+connection with a dictionary server.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>client</parameter>&#160;:</term>
+<listitem><simpara> the object which received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 1.0</para></refsect2><refsect2 id="GdictClientContext-disconnected" role="signal"><title>The <literal>&quot;disconnected&quot;</literal> signal</title>
+<indexterm zone="GdictClientContext-disconnected" role="1.0"><primary sortas="GdictClientContext::disconnected">GdictClientContext::disconnected</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictClientContext">GdictClientContext</link> *client,
+                                                        <link linkend="gpointer">gpointer</link>            user_data)      : Run Last</programlisting>
+<para>
+Emitted when a <link linkend="GdictClientContext"><type>GdictClientContext</type></link> has disconnected from a dictionary
+server.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>client</parameter>&#160;:</term>
+<listitem><simpara> the object which received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 1.0</para></refsect2>
+</refsect1>
+
+
+
+</refentry>

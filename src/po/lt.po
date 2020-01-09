@@ -1,0 +1,3615 @@
+# translation of lt.po to Lithuanian
+# Lithuanian translation of gnome-utils
+# Copyright (C) 2000-2009 Free Software Foundation, Inc.
+#
+#
+# Gediminas Paulauskas <menesis@chatsubo.lt>, 2000-2002.
+# Mantas Kriaučiūnas <mantas@akl.lt>, 2002-2003.
+# Tomas Kuliavas <tokul@users.sourceforge.net>, 2003.
+# Žygimantas Beručka <zygis@gnome.org>, 2003-2006, 2009.
+# Gintautas Miliauskas <gintas@akl.lt>, 2006, 2007, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: lt\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-03-06 23:52+0200\n"
+"PO-Revision-Date: 2009-03-07 00:20+0200\n"
+"Last-Translator: Žygimantas Beručka <zygis@gnome.org>\n"
+"Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%"
+"100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../baobab/data/baobab.desktop.in.in.h:1
+msgid "Check folder sizes and available disk space"
+msgstr "Tikrinti aplankų dydžius ir laisvą vietą"
+
+#: ../baobab/data/baobab.desktop.in.in.h:2 ../baobab/data/baobab.glade.h:2
+msgid "Disk Usage Analyzer"
+msgstr "Disko naudojimo analizatorius"
+
+#: ../baobab/data/baobab.glade.h:1
+msgid "All_ocated Space"
+msgstr "Išskirta _vieta"
+
+#: ../baobab/data/baobab.glade.h:3
+msgid "Disk Usage Analyzer Preferences"
+msgstr "Disko naudojimo analizatoriaus nustatymai"
+
+#: ../baobab/data/baobab.glade.h:4
+msgid "Refresh"
+msgstr "Atnaujinti"
+
+#: ../baobab/data/baobab.glade.h:5
+msgid "S_can Remote Folder..."
+msgstr "Skaityti _nutolusį aplanką..."
+
+#: ../baobab/data/baobab.glade.h:6
+msgid "Scan F_older..."
+msgstr "Skaityti _aplanką..."
+
+#: ../baobab/data/baobab.glade.h:7
+msgid "Scan Filesystem"
+msgstr "Skaityti failų sistemą"
+
+#: ../baobab/data/baobab.glade.h:8
+msgid "Scan Folder"
+msgstr "Skaityti aplanką"
+
+#: ../baobab/data/baobab.glade.h:9
+msgid "Scan Home"
+msgstr "Skaityti namų aplanką"
+
+#: ../baobab/data/baobab.glade.h:10
+msgid "Scan Remote Folder"
+msgstr "Skaityti nutolusį aplanką"
+
+#: ../baobab/data/baobab.glade.h:11
+msgid "Scan _Filesystem"
+msgstr "Skaityti _failų sistemą"
+
+#: ../baobab/data/baobab.glade.h:12
+msgid "Scan _Home Folder"
+msgstr "Skaityti na_mų aplanką"
+
+#: ../baobab/data/baobab.glade.h:13
+msgid "Scan a folder"
+msgstr "Skaityti aplanką"
+
+#: ../baobab/data/baobab.glade.h:14
+msgid "Scan a remote folder"
+msgstr "Skanuoti nutolusį aplanką"
+
+#: ../baobab/data/baobab.glade.h:15
+msgid "Scan filesystem"
+msgstr "Skaityti failų sistemą"
+
+#: ../baobab/data/baobab.glade.h:16
+msgid "Scan home folder"
+msgstr "Skaityti namų aplanką"
+
+#: ../baobab/data/baobab.glade.h:17
+msgid "Select _devices to include in filesystem scan:"
+msgstr ""
+"Pasirinkite į_renginius, kuriuos norite įtraukti į failų sistemų skaitymą:"
+
+#: ../baobab/data/baobab.glade.h:18
+msgid "St_atusbar"
+msgstr "_Būsenos juosta"
+
+#: ../baobab/data/baobab.glade.h:19
+msgid "Stop scanning"
+msgstr "Sustabdyti skanavimą"
+
+#: ../baobab/data/baobab.glade.h:20
+msgid "_Analyzer"
+msgstr "_Analizatorius"
+
+#: ../baobab/data/baobab.glade.h:21
+msgid "_Collapse All"
+msgstr "Sutr_aukti visus"
+
+#. Help menu
+#: ../baobab/data/baobab.glade.h:22
+#: ../gnome-dictionary/src/gdict-window.c:1234 ../logview/logview-window.c:663
+msgid "_Contents"
+msgstr "_Turinys"
+
+#: ../baobab/data/baobab.glade.h:23
+#: ../gnome-dictionary/src/gdict-window.c:1181 ../logview/logview-window.c:638
+msgid "_Edit"
+msgstr "_Keisti"
+
+#: ../baobab/data/baobab.glade.h:24
+msgid "_Expand All"
+msgstr "_Išskleisti visus"
+
+#: ../baobab/data/baobab.glade.h:25
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:3
+#: ../gnome-dictionary/src/gdict-window.c:1184 ../logview/logview-window.c:640
+msgid "_Help"
+msgstr "_Žinynas"
+
+#: ../baobab/data/baobab.glade.h:26
+msgid "_Monitor changes to your home folder"
+msgstr "_Stebėti pakeitimus namų aplanke"
+
+#: ../baobab/data/baobab.glade.h:27
+msgid "_Toolbar"
+msgstr "Į_rankinė"
+
+#: ../baobab/data/baobab.glade.h:28
+#: ../gnome-dictionary/src/gdict-window.c:1182 ../logview/logview-window.c:639
+msgid "_View"
+msgstr "_Rodymas"
+
+#: ../baobab/data/baobab.schemas.in.h:1
+msgid "A list of uri for partitions to be excluded from scanning."
+msgstr "Neskaitytinų skirsnių URI sąrašas"
+
+#: ../baobab/data/baobab.schemas.in.h:2
+msgid "Enable monitoring of home directory"
+msgstr "Įjungti namų aplanko stebėjimą"
+
+#: ../baobab/data/baobab.schemas.in.h:3
+msgid "Exluded partitions uris"
+msgstr "Išskirti skirsnių URI"
+
+#: ../baobab/data/baobab.schemas.in.h:4
+msgid "Status Bar is Visible"
+msgstr "Būsenos juosta matoma"
+
+#: ../baobab/data/baobab.schemas.in.h:5
+msgid "Subfolders tooltips visible"
+msgstr "Poaplankių paaiškinimai matomi"
+
+#: ../baobab/data/baobab.schemas.in.h:6
+msgid "Toolbar is Visible"
+msgstr "Įrankinė matoma"
+
+#: ../baobab/data/baobab.schemas.in.h:7
+msgid "Whether any change to the home directory should be monitored."
+msgstr "Ar turėtų būti stebimas kiekvienas namų aplanko pakeitimas."
+
+#: ../baobab/data/baobab.schemas.in.h:8
+msgid "Whether the status bar at the bottom of main window should be visible."
+msgstr "Ar būsenos juosta turėtų būti matoma pagrindinio lango apačioje."
+
+#: ../baobab/data/baobab.schemas.in.h:9
+msgid "Whether the subfolders tooltips of the selected folder are drawn."
+msgstr "Ar rodyti pasirinkto aplanko poaplankių paaiškinimus."
+
+#: ../baobab/data/baobab.schemas.in.h:10
+msgid "Whether the toolbar should be visible in main window."
+msgstr "Ar įrankinė turėtų būti matoma pagrindiniame lange."
+
+#: ../baobab/src/baobab.c:121 ../baobab/src/baobab.c:299
+msgid "Scanning..."
+msgstr "Skanuojama..."
+
+#. set statusbar, percentage and allocated/normal size
+#: ../baobab/src/baobab.c:183 ../baobab/src/baobab.c:241
+#: ../baobab/src/callbacks.c:302
+msgid "Calculating percentage bars..."
+msgstr "Skaičiuojami procentų gabalėliai..."
+
+#: ../baobab/src/baobab.c:193 ../baobab/src/baobab.c:998
+#: ../baobab/src/callbacks.c:306
+msgid "Ready"
+msgstr "Paruošta"
+
+#: ../baobab/src/baobab.c:338
+msgid "Total filesystem usage:"
+msgstr "Bendras failų sistemos naudojimas:"
+
+#: ../baobab/src/baobab.c:377
+msgid "contains hardlinks for:"
+msgstr "turi nuorodas (hardlinks) į:"
+
+#: ../baobab/src/baobab.c:386
+#, c-format
+msgid "% 5d item"
+msgid_plural "% 5d items"
+msgstr[0] "% 5d elementas"
+msgstr[1] "% 5d elementai"
+msgstr[2] "% 5d elementų"
+
+#: ../baobab/src/baobab.c:737
+msgid "Could not initialize monitoring"
+msgstr "Nepavyko inicializuoti stebėjimo"
+
+#: ../baobab/src/baobab.c:738
+msgid "Changes to your home folder will not be monitored."
+msgstr "Pasikeitimai namų aplanke nebus stebimi."
+
+#: ../baobab/src/baobab.c:783
+msgid "Move to parent folder"
+msgstr "Eiti į aukštesnįjį aplanką"
+
+#: ../baobab/src/baobab.c:787
+msgid "Zoom in"
+msgstr "Pritraukti"
+
+#: ../baobab/src/baobab.c:791
+msgid "Zoom out"
+msgstr "Atitraukti"
+
+#: ../baobab/src/baobab.c:795
+msgid "Save snapshot"
+msgstr "Įrašyti nuotrauką"
+
+#: ../baobab/src/baobab.c:843
+msgid "View as Rings Chart"
+msgstr "Rodyti kaip žiedinę diagramą"
+
+#: ../baobab/src/baobab.c:845
+msgid "View as Treemap Chart"
+msgstr "Rodyti kaip medžio diagramą"
+
+#: ../baobab/src/baobab.c:917
+msgid "Cannot check an excluded folder!"
+msgstr "Nepavyko patikrinti išskirto aplanko!"
+
+#: ../baobab/src/baobab.c:968
+msgid "Could not detect any mount point."
+msgstr "Nepavyko rasti prijungimo taškų."
+
+#: ../baobab/src/baobab.c:971
+msgid "Without mount points disk usage cannot be analyzed."
+msgstr "Be prijungimo taškų negali būti išanalizuotas disko naudojimas"
+
+#: ../baobab/src/baobab-chart.c:202
+msgid "Maximum depth"
+msgstr "Maksimalus gylis"
+
+#: ../baobab/src/baobab-chart.c:203
+msgid "The maximum depth drawn in the chart from the root"
+msgstr "Maksimalus gylis nuo šaknies"
+
+#: ../baobab/src/baobab-chart.c:212
+msgid "Chart model"
+msgstr "Diagramos modelis"
+
+#: ../baobab/src/baobab-chart.c:213
+msgid "Set the model of the chart"
+msgstr "Nustatykite diagramos modelį"
+
+#: ../baobab/src/baobab-chart.c:220
+msgid "Chart root node"
+msgstr "Diagramos šakninė viršūnė"
+
+#: ../baobab/src/baobab-chart.c:221
+msgid "Set the root node from the model"
+msgstr "Nustatykite šakninę viršūnę modelyje"
+
+#: ../baobab/src/baobab-chart.c:1685
+msgid "Cannot create pixbuf image!"
+msgstr "Nepavyko sukurti pixbuf paveikslėlio!"
+
+#. Popup the File chooser dialog
+#: ../baobab/src/baobab-chart.c:1693
+msgid "Save Snapshot"
+msgstr "Išsaugoti nuotrauką"
+
+#: ../baobab/src/baobab-chart.c:1716
+msgid "_Image type:"
+msgstr "Paveikslėlio _tipas:"
+
+#: ../baobab/src/baobab-prefs.c:171
+msgid "Scan"
+msgstr "Skaityti"
+
+#: ../baobab/src/baobab-prefs.c:178
+msgid "Device"
+msgstr "Įrenginys"
+
+#: ../baobab/src/baobab-prefs.c:186
+msgid "Mount Point"
+msgstr "Prijungimo kelias"
+
+#: ../baobab/src/baobab-prefs.c:194
+msgid "Filesystem Type"
+msgstr "Failų sistemos tipas"
+
+#: ../baobab/src/baobab-prefs.c:202
+msgid "Total Size"
+msgstr "Bendras dydis"
+
+#: ../baobab/src/baobab-prefs.c:211
+msgid "Available"
+msgstr "Laisva"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:77
+#, c-format
+msgid "Cannot scan location \"%s\""
+msgstr "Nepavyko nuskaityti vietos „%s“"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:176
+msgid "Custom Location"
+msgstr "Kita vieta"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:178
+msgid "SSH"
+msgstr "SSH"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:181
+msgid "Public FTP"
+msgstr "Viešas FTP"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:183
+msgid "FTP (with login)"
+msgstr "FTP (su prisijungimu)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:186
+msgid "Windows share"
+msgstr "Windows viešinys"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:188
+msgid "WebDAV (HTTP)"
+msgstr "WebDAV (HTTP)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:190
+msgid "Secure WebDAV (HTTPS)"
+msgstr "Saugus WebDAV (HTTPS)"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:250
+msgid "Cannot Connect to Server. You must enter a name for the server."
+msgstr ""
+"Nepavyko prisijungti prie serverio.  Turite įvesti serverio pavadinimą."
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:253
+msgid "Please enter a name and try again."
+msgstr "Įveskite pavadinimą ir bandykite dar kartą."
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:444
+msgid "_Location (URI):"
+msgstr "_Vieta (URI):"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:466
+msgid "_Server:"
+msgstr "_Serveris:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:485
+msgid "Optional information:"
+msgstr "Neprivaloma informacija:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:497
+msgid "_Share:"
+msgstr "_Viešinys:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:518
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:10
+msgid "_Port:"
+msgstr "_Prievadas:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:538
+msgid "_Folder:"
+msgstr "_Aplankas:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:558
+msgid "_User Name:"
+msgstr "_Naudotojo vardas:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:579
+msgid "_Domain Name:"
+msgstr "_Srities vardas:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:646
+msgid "Connect to Server"
+msgstr "Prisijungti prie serverio"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:663
+msgid "Service _type:"
+msgstr "Paslaugos _tipas:"
+
+#: ../baobab/src/baobab-remote-connect-dialog.c:782
+msgid "_Scan"
+msgstr "_Skaityti"
+
+#: ../baobab/src/baobab-treeview.c:209 ../gsearchtool/gsearchtool.c:2497
+msgid "Folder"
+msgstr "Aplankas"
+
+#: ../baobab/src/baobab-treeview.c:231
+msgid "Usage"
+msgstr "Naudojimas"
+
+#: ../baobab/src/baobab-treeview.c:245 ../gsearchtool/gsearchtool.c:2509
+msgid "Size"
+msgstr "Dydis"
+
+#: ../baobab/src/baobab-treeview.c:261
+msgid "Contents"
+msgstr "Turinys"
+
+#: ../baobab/src/baobab-utils.c:110
+msgid "Select Folder"
+msgstr "Pasirinkite aplanką"
+
+#. add extra widget
+#: ../baobab/src/baobab-utils.c:122
+msgid "_Show hidden folders"
+msgstr "_Rodyti paslėptus aplankus"
+
+#: ../baobab/src/baobab-utils.c:304
+#, c-format
+msgid "\"%s\" is not a valid folder"
+msgstr "„%s“ nėra tinkamas aplankas"
+
+#: ../baobab/src/baobab-utils.c:307
+msgid "Could not analyze disk usage."
+msgstr "Grafinis įrankis disko naudojimo analizavimui."
+
+#: ../baobab/src/baobab-utils.c:348
+msgid "_Open Folder"
+msgstr "Atverti a_planką"
+
+#: ../baobab/src/baobab-utils.c:354 ../gsearchtool/gsearchtool.c:183
+msgid "Mo_ve to Trash"
+msgstr "Per_kelti į Šiukšlinę"
+
+#: ../baobab/src/baobab-utils.c:380
+msgid "Total filesystem capacity:"
+msgstr "Bendra failų sistemos talpa:"
+
+#: ../baobab/src/baobab-utils.c:381
+msgid "used:"
+msgstr "naudojama:"
+
+#: ../baobab/src/baobab-utils.c:382
+msgid "available:"
+msgstr "prieinama:"
+
+#: ../baobab/src/baobab-utils.c:426
+#, c-format
+msgid "Could not open folder \"%s\""
+msgstr "Nepavyko atverti aplanko „%s“"
+
+#: ../baobab/src/baobab-utils.c:429
+msgid "There is no installed viewer capable of displaying the folder."
+msgstr "Nėra įdiegta šį aplanką galinti parodyti programa."
+
+#: ../baobab/src/baobab-utils.c:498
+#, c-format
+msgid "Could not move \"%s\" to the Trash"
+msgstr "Nepavyko perkelti „%s“ į šiukšlinę"
+
+#: ../baobab/src/baobab-utils.c:506
+msgid "Could not move file to the Trash"
+msgstr "Nepavyko perkelti failo į šiukšlinę"
+
+#: ../baobab/src/baobab-utils.c:508
+#, c-format
+msgid "Details: %s"
+msgstr "Detalės: %s"
+
+#: ../baobab/src/baobab-utils.c:527
+msgid "Rescan your home folder?"
+msgstr "Perskaityti iš naujo namų aplanką?"
+
+#: ../baobab/src/baobab-utils.c:528
+msgid ""
+"The content of your home folder has changed. Select rescan to update the "
+"disk usage details."
+msgstr ""
+"Jūsų namų aplanko turinys pakito. Pasirinkite „Perskaityti iš naujo“, jei "
+"norite atnaujinti disko naudojimo informaciją."
+
+#: ../baobab/src/baobab-utils.c:529
+msgid "_Rescan"
+msgstr "_Perskaityti iš naujo"
+
+#: ../baobab/src/baobab-utils.c:569
+msgid "There was an error displaying help."
+msgstr "Rodant žinyną įvyko klaida."
+
+#: ../baobab/src/callbacks.c:97
+msgid "Baobab"
+msgstr "Baobabas"
+
+#: ../baobab/src/callbacks.c:98
+msgid "A graphical tool to analyze disk usage."
+msgstr "Grafinis įrankis disko naudojimui analizuoti."
+
+#. translator credits
+#: ../baobab/src/callbacks.c:106 ../gnome-dictionary/src/gdict-about.c:55
+#: ../logview/logview-about.h:63
+msgid "translator-credits"
+msgstr ""
+"Paskutinysis vertėjas:\n"
+"Žygimantas Beručka <zygis@gnome.org>\n"
+"\n"
+"Ankstesnieji vertėjai:\n"
+"Tomas Kuliavas <tokul@users.sourceforge.net>\n"
+"Mantas Kriaučiūnas <mantas@akl.lt>\n"
+"Gediminas Paulauskas <menesis@chatsubo.lt>"
+
+#: ../baobab/src/callbacks.c:202 ../gsearchtool/gsearchtool-callbacks.c:472
+#: ../gsearchtool/gsearchtool-callbacks.c:824
+msgid "The document does not exist."
+msgstr "Toks dokumentas neegzistuoja."
+
+#: ../baobab/src/callbacks.c:356
+msgid "The folder does not exist."
+msgstr "Šis aplankas neegzistuoja."
+
+#: ../gfloppy/gfloppy.desktop.in.h:1 ../gfloppy/src/gfloppy2.glade.h:9
+msgid "Floppy Formatter"
+msgstr "Diskelių formatavimas"
+
+#: ../gfloppy/gfloppy.desktop.in.h:2
+msgid "Format floppy disks"
+msgstr "Formatuoti diskelius"
+
+#: ../gfloppy/gfloppy.schemas.in.h:1
+msgid ""
+"0 for the quick format, 1 for a standard one (adds a low-level format) and "
+"finally 2 for a thorough format (adds a bad blocks scan)."
+msgstr ""
+"0 reiškia greitą formatavimą, 1 - standartinį (su žemesnio lygio "
+"formatavimu), o 2 - kruopštų (su blogų sektorių testais)."
+
+#: ../gfloppy/gfloppy.schemas.in.h:2
+msgid "ADVANCED USERS ONLY - Default backend for FAT formatting"
+msgstr "TIK PATYRUSIEMS VARTOTOJAMS - Įprasta FAT formatavimo programa"
+
+#: ../gfloppy/gfloppy.schemas.in.h:3
+msgid "Default filesystem type"
+msgstr "Numatytasis failų sistemos tipas"
+
+#: ../gfloppy/gfloppy.schemas.in.h:4
+msgid "Default formatting mode"
+msgstr "Numatytasis formatavimo režimas"
+
+#: ../gfloppy/gfloppy.schemas.in.h:5
+msgid ""
+"TRUE to set mkdosfs as the preferred FAT formatting backend or FALSE to set "
+"mtools as the preferred FAT formatting backend."
+msgstr ""
+"TRUE nustato, kad mkdosfs yra pagrindinis FAT formatavimo įrankis, o FALSE "
+"FAT formatavimui naudos mtools programas."
+
+#: ../gfloppy/gfloppy.schemas.in.h:6
+msgid "ext2 for the linux native filesystem or fat for the DOS filesystem."
+msgstr "ext2 yra linux failų sistema, o fat - DOS failų sistema."
+
+#: ../gfloppy/src/badblocks.c:89
+msgid "Internal Error: Unable to seek to the correct location."
+msgstr "Vidinė klaida: Nepavyko pereiti į reikiamą padėtį."
+
+#: ../gfloppy/src/badblocks.c:98
+#, c-format
+msgid "Internal Error: Weird value (%ld) in do_test\n"
+msgstr "Vidinė klaida: Neįprasta do_test reikšmė (%ld)\n"
+
+#. while (!i)
+#. ;
+#: ../gfloppy/src/badblocks.c:256
+msgid "Checking for bad blocks..."
+msgstr "Ieškoma blogų blokų..."
+
+#: ../gfloppy/src/badblocks.c:268
+#, c-format
+msgid "Failed to open device %s for badblock checking\n"
+msgstr "Nepavyko atverti %s įrenginio blogų blokų patikrinimui\n"
+
+#: ../gfloppy/src/badblocks.c:288 ../gfloppy/src/gfloppy.c:531
+msgid "Checking for bad blocks... Done"
+msgstr "Ieškoma blogų blokų... Atlika"
+
+#: ../gfloppy/src/fdformat.c:46
+msgid "Formatting the disk..."
+msgstr "Formatuojamas diskelis..."
+
+#: ../gfloppy/src/fdformat.c:49
+msgid "I don't know what this is, but it's very wrong."
+msgstr "Nežinia kas čia yra, bet tai kažkas labai blogo."
+
+#: ../gfloppy/src/fdformat.c:57 ../gfloppy/src/fdformat.c:70
+#, c-format
+msgid "Error formatting track #%d"
+msgstr "Įvyko klaida, formatuojant takelį #%d"
+
+#: ../gfloppy/src/fdformat.c:79
+msgid "Error during completion of formatting"
+msgstr "Įvyko klaida, užbaigiant formatavimą"
+
+#. XXXX - need to tell parent we're finished
+#: ../gfloppy/src/fdformat.c:83
+msgid "Formatting the disk... Done"
+msgstr "Formatuojamas diskelis... Atlikta"
+
+#. XXXX - tell parent we're starting verify stage
+#: ../gfloppy/src/fdformat.c:99
+msgid "Verifying the format..."
+msgstr "Tikrinamas formatas..."
+
+#: ../gfloppy/src/fdformat.c:104 ../gfloppy/src/fdformat.c:189
+msgid ""
+"Unable to write to the floppy.\n"
+"\n"
+"Please confirm that it is not write-protected."
+msgstr ""
+"Nepavyko rašyti į diskelį.\n"
+"\n"
+"Prašau patvirtinti, kad į jį nėra uždrausta įrašyti."
+
+#: ../gfloppy/src/fdformat.c:107 ../gfloppy/src/fdformat.c:192
+#, c-format
+msgid "Insufficient permissions to open floppy device %s."
+msgstr "Nepakankamos teisės, kad atidaryčiau diskelio įrenginį %s."
+
+#: ../gfloppy/src/fdformat.c:111 ../gfloppy/src/fdformat.c:196
+#, c-format
+msgid ""
+"Unable to access the floppy disk.\n"
+"\n"
+"Please confirm that it is in the drive\n"
+"with the drive door shut."
+msgstr ""
+"Nepavyko pasiekti diskelio.\n"
+"\n"
+"Prašau patvirtinti, kad jis yraįrenginyje, o durelės uždarytos."
+
+#: ../gfloppy/src/fdformat.c:114
+#, c-format
+msgid ""
+"Generic error accessing floppy device %s.\n"
+"\n"
+"Error code %s:%d"
+msgstr ""
+"Paprasta klaida prieinant prie diskelio įrenginio %s.\n"
+"\n"
+"Klaidos kodas %s:%d"
+
+#: ../gfloppy/src/fdformat.c:137
+#, c-format
+msgid ""
+"Read Error:\n"
+"Problem reading cylinder %d, expected %d, read %d"
+msgstr ""
+"Skaitymo klaida:\n"
+"Problema skaitant cilindrą %d - tikėtasi %d, perskaityta %d"
+
+#: ../gfloppy/src/fdformat.c:140
+#, c-format
+msgid "Problem reading cylinder %d, expected %d, read %d"
+msgstr "Problema skaitant cilindrą %d - tikėtasi %d, perskaityta %d"
+
+#: ../gfloppy/src/fdformat.c:151
+#, c-format
+msgid "Bad data in cyl %d.  Continuing... "
+msgstr "Blogi duomenys cilindre %d. Tęsiame toliau... "
+
+#: ../gfloppy/src/fdformat.c:160
+#, c-format
+msgid "Error closing device %s"
+msgstr "Klaida uždarant įrenginį %s"
+
+#: ../gfloppy/src/fdformat.c:167
+msgid "Verifying the format... Done"
+msgstr "Tikrinamas formatas... Atlikta"
+
+#: ../gfloppy/src/fdformat.c:179
+#, c-format
+msgid "Unable to write to device %s"
+msgstr "Negalima rašyti į įrenginį %s"
+
+#: ../gfloppy/src/fdformat.c:199
+#, c-format
+msgid ""
+"Generic error accessing floppy device %s.\n"
+"\n"
+"Error code %s"
+msgstr ""
+"Paprasta klaida prieinant prie diskelio įrenginio %s.\n"
+"\n"
+"Klaidos kodas %s"
+
+#: ../gfloppy/src/fdformat.c:211
+msgid "Could not determine current floppy geometry."
+msgstr "Nepavyko atpažinti esamo diskelio tipo"
+
+#: ../gfloppy/src/gfloppy.c:219
+msgid "Error while creating a unique filename for the bad blocks list file."
+msgstr "Įvyko klaida kuriant failą, skirtą blogų blokų sąrašui."
+
+#: ../gfloppy/src/gfloppy.c:239
+msgid "Error while filling the bad blocks list file."
+msgstr "Įvyko klaida pildant blogų sektorių failą."
+
+#: ../gfloppy/src/gfloppy.c:302
+#, c-format
+msgid "Error while spawning the (%s) command: %s."
+msgstr "Įvyko klaida paleidžiant komandą (%s): %s."
+
+#: ../gfloppy/src/gfloppy.c:328
+msgid "Unknown mke2fs starting signature, cancelling."
+msgstr "Nežinomas mke2fs pradžios ženklas, atšaukiama."
+
+#: ../gfloppy/src/gfloppy.c:342
+#, c-format
+msgid ""
+"The filesystem creation utility (%s) reported the following errors:\n"
+"\n"
+"%s (%d)"
+msgstr ""
+"Failų sistemos kūrimo programa (%s) išvedė šias klaidas:\n"
+"\n"
+"%s (%d)"
+
+#: ../gfloppy/src/gfloppy.c:359
+msgid "Abnormal child process termination."
+msgstr "Nenormali antrinio proceso pabaiga."
+
+#: ../gfloppy/src/gfloppy.c:384
+#, c-format
+msgid "Error while spawning the mbadblocks command: %s."
+msgstr "Įvyko klaida paleidžiant mbadblocks komandą: %s."
+
+#: ../gfloppy/src/gfloppy.c:396
+#, c-format
+msgid ""
+"The bad blocks checking utility (mbadblocks) reported the following errors:\n"
+"%s."
+msgstr ""
+"Sektorių tikrinimo programa (mbadblocks) pranešė apie šias klaidas:\n"
+"%s."
+
+#: ../gfloppy/src/gfloppy.c:439
+msgid "Abnormal mbadblocks child process termination."
+msgstr "Nenormali mbadblocks antrinio proceso darbo pabaiga."
+
+#. make the filesystem
+#: ../gfloppy/src/gfloppy.c:465 ../gfloppy/src/gfloppy.c:505
+msgid "Making filesystem on disk..."
+msgstr "Kuriama failų sistema diske..."
+
+#: ../gfloppy/src/gfloppy.c:473
+msgid "Unable to create filesystem correctly."
+msgstr "Nepavyko teisingai sukurti failų sistemos."
+
+#: ../gfloppy/src/gfloppy.c:478 ../gfloppy/src/gfloppy.c:517
+msgid "Making filesystem on disk... Done"
+msgstr "Kuriama failų sistema diske... Atlikta"
+
+#: ../gfloppy/src/gfloppy.c:522
+msgid "Checking for bad blocks... (this might take a while)"
+msgstr "Ieškoma blogų blokų... (tai gali šiek tiek užtrukti)"
+
+#: ../gfloppy/src/gfloppy.c:527
+msgid "Error while checking the bad blocks."
+msgstr "Įvyko klaida ieškant blogų blokų."
+
+#: ../gfloppy/src/gfloppy2.glade.h:1
+msgid "    "
+msgstr "    "
+
+#: ../gfloppy/src/gfloppy2.glade.h:2
+#: ../gnome-screenshot/gnome-screenshot.ui.h:1
+msgid "*"
+msgstr "*"
+
+#: ../gfloppy/src/gfloppy2.glade.h:3
+msgid ""
+"<small><i><b>Note</b>: The mbadblocks utility isn't installed on this "
+"system.  It must be installed in order to perform a thorough DOS (fat) "
+"formatting.</i></small>"
+msgstr ""
+"<small><i><b>Pastaba</b>: mbadblocks programa nėra įdiegta šioje sistemoje. "
+"Ši programa yra būtina norint vykdyti kruopštų DOS (fat) failų sistemos "
+"formatavimą.</i></small>"
+
+#: ../gfloppy/src/gfloppy2.glade.h:4
+msgid "DOS (FAT)"
+msgstr "DOS (FAT)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:5
+msgid "Double Density 3.5\" (720KB)"
+msgstr "Dvigubo tankumo 3.5\" (720KB)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:6
+msgid "Double Density 5.25\" (360KB)"
+msgstr "Dvigubo tankumo 5.25\" (360KB)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:7
+msgid "File system _type:"
+msgstr "Failų sistemos _tipas:"
+
+#: ../gfloppy/src/gfloppy2.glade.h:8
+msgid "Filesystem Settings"
+msgstr "Failų sistemos nustatymai"
+
+#: ../gfloppy/src/gfloppy2.glade.h:10
+msgid "Floppy _density:"
+msgstr "Diskelio t_ankumas:"
+
+#: ../gfloppy/src/gfloppy2.glade.h:11
+msgid "Floppy de_vice:"
+msgstr "Diskelio į_renginys:"
+
+#: ../gfloppy/src/gfloppy2.glade.h:12
+msgid "Formatting Mode"
+msgstr "Formatavimo veiksena"
+
+#: ../gfloppy/src/gfloppy2.glade.h:13
+msgid "High Density 3.5\" (1.44MB)"
+msgstr "Didelio tankumo 3.5\" (1.44MB)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:14
+msgid "High Density 5.25\" (1.2MB)"
+msgstr "Didelio tankumo 5.25\" (1.2MB)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:15
+msgid "Linux Native (ext2)"
+msgstr "Linux Native (ext2)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:16
+msgid "Physical Settings"
+msgstr "Fiziniai nustatymai"
+
+#: ../gfloppy/src/gfloppy2.glade.h:17
+msgid "Thorou_gh (adds a bad blocks check to the standard mode)"
+msgstr "_Kruopštus (prideda blogų sektorių testus)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:18
+msgid "Volume _name:"
+msgstr "Laikmenos _pavadinimas:"
+
+#. This is the "format" verb (not the noun).
+#: ../gfloppy/src/gfloppy2.glade.h:20
+msgid "_Format"
+msgstr "_Formatuoti"
+
+#: ../gfloppy/src/gfloppy2.glade.h:21
+msgid "_Quick (only creates the filesystem)"
+msgstr "_Greitas (tik sukuria failų sistemą)"
+
+#: ../gfloppy/src/gfloppy2.glade.h:22
+msgid "_Standard (adds a low-level format to the quick mode)"
+msgstr ""
+"_Standartinis (prie failų sistemos sužymėjimo prideda žemesnio lygio "
+"formatavimą)"
+
+#: ../gfloppy/src/main.c:257
+msgid "Cannot Format"
+msgstr "Nepavyko formatuoti"
+
+#: ../gfloppy/src/main.c:258
+msgid ""
+"Neither the mke2fs nor the mkdosfs/mformat applications are installed. You "
+"can't format a floppy without one of them."
+msgstr ""
+"Neįdiegtos nei mke2fs, nei mkdosfs/mformat programos. Jūs negalite "
+"formatuoti diskelių be šių programų."
+
+#: ../gfloppy/src/main.c:278
+#, c-format
+msgid "Unable to open the device %s, formatting cannot continue."
+msgstr "Formatuoti negalima - nepavyko atverti %s įrenginio."
+
+#: ../gfloppy/src/main.c:281 ../gfloppy/src/main.c:343
+#, c-format
+msgid ""
+"The device %s is disconnected.\n"
+"Please attach device to continue."
+msgstr ""
+"Įrenginys %s yra atjungtas.\n"
+"Jei neorite tęsti - prijunkite įrenginį."
+
+#: ../gfloppy/src/main.c:284 ../gfloppy/src/main.c:346
+#, c-format
+msgid ""
+"You do not have the proper permissions to write to %s, formatting will not "
+"be possible.\n"
+"Contact your system administrator about getting write permissions."
+msgstr ""
+"Formatavimas neįmanomas - Jūs neturite reikiamų teisių rašymui į %s.\n"
+"Susisiekite su sistemos administratoriumi, kad gautumėte rašymo teises."
+
+#: ../gfloppy/src/main.c:291 ../gfloppy/src/main.c:354
+msgid "Cannot initialize device"
+msgstr "Nepavyko inicializuoti įrenginio"
+
+#: ../gfloppy/src/main.c:340
+#, c-format
+msgid "Unable to open any device, formatting cannot continue."
+msgstr "Nepavyko atverti jokio įrenginio, formatavimas negali būti tęsiamas."
+
+#: ../gfloppy/src/main.c:343 ../gfloppy/src/main.c:346
+msgid "/dev/floppy/0 or /dev/fd0"
+msgstr "/dev/floppy/0 arba /dev/fd0"
+
+#: ../gfloppy/src/main.c:507
+msgid "Could not display help for the floppy formatter."
+msgstr "Nepavyko parodyti diskelių formatavimo programos žinyno."
+
+#: ../gfloppy/src/main.c:526
+msgid "Incorrect volume name"
+msgstr "Neteisingas laikmenos vardas"
+
+#: ../gfloppy/src/main.c:527
+msgid "The volume name can't contain any blank space."
+msgstr "Skirsnio vardas negali turėti jokių tarpų."
+
+#: ../gfloppy/src/main.c:571
+msgid "The device to format"
+msgstr "Formatuojamas įrenginys"
+
+#: ../gfloppy/src/main.c:571
+msgid "DEVICE"
+msgstr "ĮRENGINYS"
+
+#: ../gfloppy/src/main.c:581
+msgid "- Floppy Formatter"
+msgstr "- Diskelių formatavimas"
+
+#: ../gfloppy/src/progress.c:126
+#, c-format
+msgid ""
+"The floppy has been formatted, but <b>%d bad block</b> (out of %d) has been "
+"found and marked."
+msgid_plural ""
+"The floppy has been formatted, but <b>%d bad blocks</b> (out of %d) have "
+"been found and marked."
+msgstr[0] ""
+"Diskelis buvo suformatuotas, bet buvo aptiktas ir pažymėtas <b>%d blogas "
+"sektorius</b> (iš viso sektorių yra %d)."
+msgstr[1] ""
+"Diskelis buvo suformatuotas, bet buvo aptikti ir pažymėti <b>%d blogi "
+"sektoriai</b> (iš viso sektorių yra %d)."
+msgstr[2] ""
+"Diskelis buvo suformatuotas, bet buvo aptikta ir pažymėta <b>%d blogų "
+"sektorių</b> (iš viso sektorių yra %d)."
+
+#: ../gfloppy/src/progress.c:129
+msgid "Floppy formatted successfully."
+msgstr "Diskelis suformatuotas sėkmingai."
+
+#: ../gfloppy/src/progress.c:135
+msgid "Floppy formatting cancelled."
+msgstr "Diskelio formatavimas nutrauktas."
+
+#: ../gfloppy/src/progress.c:178
+msgid "Format Progress"
+msgstr "Formatavimo pažanga"
+
+#: ../gnome-dictionary/data/default.desktop.in.h:1
+msgid "Default Dictionary Server"
+msgstr "Numatytasis žodyno serveris"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:1
+msgid "Dictionary Look up"
+msgstr "Paieška žodyne"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in.h:2
+msgid "Look up words in a dictionary"
+msgstr "Ieškoti žodyne žodžių"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:1
+msgid "Cl_ear"
+msgstr "Išval_yti"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:2
+#: ../gnome-dictionary/src/gdict-window.c:1236 ../logview/logview-window.c:665
+msgid "_About"
+msgstr "_Apie"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:4
+msgid "_Look Up Selected Text"
+msgstr "_Ieškoti pažymėto teksto"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:5
+#: ../gnome-dictionary/src/gdict-window.c:1210
+msgid "_Preferences"
+msgstr "_Nustatymai"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:6
+msgid "_Print"
+msgstr "S_pausdinti"
+
+#: ../gnome-dictionary/data/GNOME_DictionaryApplet.xml.h:7
+msgid "_Save"
+msgstr "Iš_saugoti"
+
+#: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:1
+msgid "Check word definitions and spellings in an online dictionary"
+msgstr "Pasitikrinkite žodžių apibrėžimus ir rašybą internetiniame žodyne"
+
+#: ../gnome-dictionary/data/gnome-dictionary.desktop.in.in.h:2
+#: ../gnome-dictionary/src/gdict-about.c:78
+#: ../gnome-dictionary/src/gdict-app.c:385
+#: ../gnome-dictionary/src/gdict-window.c:608
+#: ../gnome-dictionary/src/gdict-window.c:1953
+msgid "Dictionary"
+msgstr "Žodynas"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:1
+msgid "Dictionary server (Deprecated)"
+msgstr "Žodyno serveris (nebenaudojama)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:2
+msgid "Port used to connect to server (Deprecated)"
+msgstr "Prievadas, naudojamas prisijungti prie serverio (nebenaudojama)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:3
+msgid ""
+"Specify whether to use smart lookup. This key is dependant on whether the "
+"dictionary server supports this option. The default is TRUE. This key is "
+"deprecated and no longer in use."
+msgstr ""
+"Nurodykite ar naudoti gudrią paiešką. Šis raktas yra priklausomas nuo to ar "
+"žodyno serveris palaiko šią galimybę. Numatytoji reikšmė - TEIGIAMA. Šis "
+"raktas pasenęs ir daugiau nebenaudojamas."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:4
+msgid "The default database to use"
+msgstr "Numatytoji duomenų bazė"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:5
+msgid "The default height of the application window"
+msgstr "Numatytasis programos lango aukštis"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:6
+msgid "The default search strategy to use"
+msgstr "Numatytoji paieškos strategija"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:7
+msgid "The default width of the application window"
+msgstr "Numatytasis programos lango plotis"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:8
+msgid ""
+"The dictionary server to connect to. The default server is dict.org. See "
+"http://www.dict.org for details on other servers. This key is deprecated and "
+"no longer in use."
+msgstr ""
+"Naudojamas žodyno serveris. Numatytasis serveris yra dict.org. Informacijos "
+"apie kitus serverius ieškokite http://www.dict.org. Šis raktas pasenęs ir "
+"daugiau nebenaudojamas."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:9
+msgid "The font to be used when printing"
+msgstr "Šriftas naudojamas spausdinant"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:10
+msgid "The font to be used when printing a definition."
+msgstr "Šriftas naudojamas spausdinant apibrėžimą."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:11
+msgid ""
+"The name of the default individual database or meta-database to use on a "
+"dictionary source. An exclamation mark (\"!\") means that all the databases "
+"present in a dictionary source should be searched"
+msgstr ""
+"Numatytosios žodyno šaltinyje naudojamos individualios duomenų bazės ar "
+"metaduomenų bazės pavadinimas. Šauktukas („!“) reiškia, kad turėtų būti "
+"ieškoma visose žodyno šaltinyje esančiose duomenų bazėse"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:12
+msgid ""
+"The name of the default search strategy to use on a dictionary source, if "
+"available. The default strategy is 'exact', that is match exact words."
+msgstr ""
+"Numatytosios paieškos strategijos (jei tokia prieinama) naudojamos žodyno "
+"šaltinyje pavadinimas. Numatytoji strategija yra „exact“, t.y. atitikti "
+"tikslius žodžius."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:13
+msgid "The name of the dictionary source used"
+msgstr "Naudojamo žodyno šaltinio vardas"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:14
+msgid ""
+"The name of the dictionary source used to retrieve the definitions of words."
+msgstr "Žodyno šaltinio, naudojamo gauti žodžių apibrėžimus, vardas."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:15
+msgid "The page of the sidebar to show"
+msgstr "Rodytinas šoninės juostos puslapis"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:16
+msgid ""
+"The port number to connect to. The default port is 2628. This key is "
+"deprecated and no longer in use."
+msgstr ""
+"Prievado, prie kurio jungiamasi, numeris. Numatytasis prievadas yra 2628. "
+"Šis raktas yra pasenęs ir daugiau nebenaudojamas."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:17
+msgid "The width of the sidebar"
+msgstr "Šoninės juostos plotis"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:18
+msgid ""
+"This key defines the width of the sidebar and it's used to remember the "
+"setting across sessions."
+msgstr ""
+"Šis raktas nurodo šoninės juostos plotį ir yra naudojamas šio parametro"
+"atsiminimui tarp seansų."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:19
+msgid ""
+"This key defines the window height and it's used to remember the size of the "
+"dictionary window across sessions. Setting it to -1 will make the dictionary "
+"window use a height based on the font size."
+msgstr ""
+"Šiame rakte nurodomas lango aukštis, jis naudojamas žodyno lango dydžio "
+"atsiminimui tarp seansų. Nustačius jį į -1, žodyno langui bus naudojamas "
+"numatytasis aukštis."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:20
+msgid ""
+"This key defines the window width and it's used to remember the size of the "
+"dictionary window across sessions. Setting it to -1 will make the dictionary "
+"window use a width based on the font size."
+msgstr ""
+"Šiame rakte nurodomas lango plotis, jis naudojamas žodyno lango dydžio "
+"atsiminimui tarp seansų. Nustačius jį į -1, žodyno langui bus naudojamas "
+"numatytasis plotis."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:21
+msgid ""
+"This key defines whether the sidebar should be visible and it's used to "
+"remember the state of the sidebar across sessions. Setting it to TRUE will "
+"make the sidebar always be displayed."
+msgstr ""
+"Šiame rakte nurodoma ar šoninė juosta turėtų būti matoma, tai naudojama "
+"šoninės juostos būsenos atsiminimui tarp seansų. Nustačius teigiamą reikšmę, "
+"šoninė juosta bus rodoma visada."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:22
+msgid ""
+"This key defines whether the statusbar should be visible and it's used to "
+"remember the state of the statusbar across sessions. Setting it to TRUE will "
+"make the statusbar always be displayed."
+msgstr ""
+"Šiame rakte nurodoma ar būsenos juosta turėtų būti matoma, tai naudojama "
+"būsenos juostos būsenos atsiminimui tarp seansų. Nustačius teigiamą reikšmę, "
+"būsenos juosta bus rodoma visada."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:23
+msgid ""
+"This key defines whether the window should be maximized and it's used to "
+"remember the state of the dictionary window across sessions. Setting it to "
+"TRUE will make the window always appear as maximized."
+msgstr ""
+"Šiame rakte nurodoma ar langas turėtų būti išdidintas, jis naudojamas "
+"žodyno lango būsenos atsiminimui tarp seansų. Nustačius teigiamą reikšmę, "
+"langas visada bus išdidintas."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:24
+msgid ""
+"This key defines which page of the sidebar should be displayed and it's used "
+"to remember the setting across sessions.. It can be \"speller\" or "
+"\"databases\"."
+msgstr ""
+"Šiame rakte nurodoma kuris šoninės juostos puslapis turėtų būti rodomas, tai "
+"naudojama šio parametro atsiminimui tarp seansų. Tai gali būti „speller“ arba "
+"„databases“."
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:25
+msgid "Use smart lookup (Deprecated)"
+msgstr "Naudoti išmanią paiešką (nebenaudojama)"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:26
+msgid "Whether the application window should be maximized"
+msgstr "Ar programos langas turėtų būti išdidintas"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:27
+msgid "Whether the sidebar should be visible"
+msgstr "Ar šoninė juosta turėtų būti matoma"
+
+#: ../gnome-dictionary/data/gnome-dictionary.schemas.in.h:28
+msgid "Whether the statusbar should be visible"
+msgstr "Ar būsenos juosta turėtų būti matoma"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:1
+msgid "Dictionaries"
+msgstr "Žodynai"
+
+#. Transport methods
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:3
+msgid "Dictionary Server"
+msgstr "Žodyno serveris"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:4
+msgid "H_ostname:"
+msgstr "Kompiuteri_o vardas:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:5
+msgid "Print"
+msgstr "Spausdinti"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:6
+msgid "Source"
+msgstr "Šaltinis"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:7
+msgid "Source Name"
+msgstr "Šaltinio pavadinimas"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:8
+msgid "Strategies"
+msgstr "Strategijos"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:9
+msgid "_Description:"
+msgstr "_Aprašymas:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:11
+msgid "_Print font:"
+msgstr "S_pausdinimo šriftas:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:12
+msgid "_Select a dictionary source for looking up words:"
+msgstr "_Pasirinkti žodyno šaltinį naudojamą ieškant žodžių:"
+
+#: ../gnome-dictionary/data/gnome-dictionary-preferences.glade.h:13
+msgid "_Transport:"
+msgstr "_Transportas:"
+
+#: ../gnome-dictionary/data/spanish.desktop.in.h:1
+msgid "Spanish Dictionaries"
+msgstr "Ispaniški žodynai"
+
+#: ../gnome-dictionary/data/thai.desktop.in.h:1
+msgid "Longdo Thai-English Dictionaries"
+msgstr "Longdo tailandiečių-anglų kalbų žodynai"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:283
+msgid "Client Name"
+msgstr "Kliento vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:284
+msgid "The name of the client of the context object"
+msgstr "Konteksto objekto kliento vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:297
+msgid "Hostname"
+msgstr "Kompiuterio vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:298
+msgid "The hostname of the dictionary server to connect to"
+msgstr "Žodyno serverio, prie kurio jungtis, vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:311
+msgid "Port"
+msgstr "Prievadas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:312
+msgid "The port of the dictionary server to connect to"
+msgstr "Žodyno serverio, prie kurio jungtis, prievadas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:327
+msgid "Status"
+msgstr "Būsena"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:328
+msgid "The status code as returned by the dictionary server"
+msgstr "Žodyno serverio grąžintas būsenos kodas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:777
+#, c-format
+msgid "No connection to the dictionary server at '%s:%d'"
+msgstr "Nėra ryšio su žodyno serveriu „%s:%d“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1054
+#, c-format
+msgid "Lookup failed for hostname '%s': no suitable resources found"
+msgstr "Nepavyko rasti kompiuterio „%s“: nerasta tinkamų resursų"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1085
+#, c-format
+msgid "Lookup failed for host '%s': %s"
+msgstr "Nepavyko rasti kompiuterio „%s“: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1119
+#, c-format
+msgid "Lookup failed for host '%s': host not found"
+msgstr "Nepavyko rasti kompiuterio „%s“: kompiuteris nerastas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1171
+#, c-format
+msgid ""
+"Unable to connect to the dictionary server at '%s:%d'. The server replied "
+"with code %d (server down)"
+msgstr ""
+"Nepavyko prisijungti prie žodyno serverio „%s:%d“. Serveris grąžino kodą %d "
+"(serveris neveikia)"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1190
+#, c-format
+msgid ""
+"Unable to parse the dictionary server reply\n"
+": '%s'"
+msgstr ""
+"Nepavyko apdoroti žodyno serverio atsako\n"
+": „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1219
+#, c-format
+msgid "No definitions found for '%s'"
+msgstr "„%s“ apibrėžimų nerasta"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1234
+#, c-format
+msgid "Invalid database '%s'"
+msgstr "Netinkama duomenų bazė „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1249
+#, c-format
+msgid "Invalid strategy '%s'"
+msgstr "Netinkama strategija „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1264
+#, c-format
+msgid "Bad command '%s'"
+msgstr "Bloga komanda „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1279
+#, c-format
+msgid "Bad parameters for command '%s'"
+msgstr "Blogi parametrai komandai „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1294
+#, c-format
+msgid "No databases found on dictionary server at '%s'"
+msgstr "Žodyno serveryje „%s“ nerasta duomenų bazių"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1309
+#, c-format
+msgid "No strategies found on dictionary server at '%s'"
+msgstr "Žodyno serveryje „%s“ nerasta strategijų"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1742
+#, c-format
+msgid "Connection failed to the dictionary server at %s:%d"
+msgstr "Nepavyko prisijungti prie žodyno serverio %s:%d"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1781
+#, c-format
+msgid ""
+"Error while reading reply from server:\n"
+"%s"
+msgstr ""
+"Klaida skaitant serverio atsaką:\n"
+"%s"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1851
+#, c-format
+msgid "Connection timeout for the dictionary server at '%s:%d'"
+msgstr "Nepavyko prisijungti prie žodyno serverio „%s:%d“"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1885
+#, c-format
+msgid "No hostname defined for the dictionary server"
+msgstr "Nenurodyta žodyno serverio kompiuterio vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1921
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1936
+#, c-format
+msgid "Unable to create socket"
+msgstr "Nepavyko sukurti lizdo"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1962
+#, c-format
+msgid "Unable to set the channel as non-blocking: %s"
+msgstr "Nepavyko nustatyti kanalo kaip ne blokuojamo: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-client-context.c:1977
+#, c-format
+msgid "Unable to connect to the dictionary server at '%s:%d'"
+msgstr "Nepavyko prisijungti prie žodyno serverio „%s:%d“"
+
+#: ../gnome-dictionary/libgdict/gdict-context.c:218
+msgid "Local Only"
+msgstr "Tik vietinis"
+
+#: ../gnome-dictionary/libgdict/gdict-context.c:219
+msgid "Whether the context uses only local dictionaries or not"
+msgstr "Ar kontekstui naudojama tik vietiniai žodynai ar ne"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:382
+msgid "Reload the list of available databases"
+msgstr "Atnaujinti prieinamų duomenų bazių sąrašą"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:394
+msgid "Clear the list of available databases"
+msgstr "Išvalyti prieinamų duomenų bazių sąrašą"
+
+#: ../gnome-dictionary/libgdict/gdict-database-chooser.c:841
+#: ../gnome-dictionary/libgdict/gdict-speller.c:779
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:789
+msgid "Error while matching"
+msgstr "Klaida ieškant atitikmens"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1134
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1228
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1262
+#: ../logview/logview-window.c:507
+msgid "Not found"
+msgstr "Nerasta"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1323
+msgid "F_ind:"
+msgstr "_Rasti:"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1336
+msgid "_Previous"
+msgstr "_Ankstesnis"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:1344
+msgid "_Next"
+msgstr "_Sekantis"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2519
+msgid "Error while looking up definition"
+msgstr "Klaida ieškant apibrėžimo"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2561
+#: ../gnome-dictionary/libgdict/gdict-speller.c:737
+msgid "Another search is in progress"
+msgstr "Šiuo metu vykdoma kita paieška"
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2562
+#: ../gnome-dictionary/libgdict/gdict-speller.c:738
+msgid "Please wait until the current search ends."
+msgstr "Palaukite kol ši paieška bus baigta."
+
+#: ../gnome-dictionary/libgdict/gdict-defbox.c:2601
+msgid "Error while retrieving the definition"
+msgstr "Klaida gaunant apibrėžimą"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:232
+msgid "Filename"
+msgstr "Failo vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:233
+msgid "The filename used by this dictionary source"
+msgstr "Failo vardas, naudojamas žodyno šaltinyje"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:246
+#: ../gsearchtool/gsearchtool.c:2473
+msgid "Name"
+msgstr "Vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:247
+msgid "The display name of this dictonary source"
+msgstr "Šio žodyno šaltinio rodomas vardas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:260
+msgid "Description"
+msgstr "Aprašymas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:261
+msgid "The description of this dictionary source"
+msgstr "Šio žodyno šaltinio aprašymas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:274
+#: ../gnome-dictionary/libgdict/gdict-speller.c:384
+msgid "Database"
+msgstr "Duomenų bazė"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:275
+msgid "The default database of this dictonary source"
+msgstr "Šio žodyno šaltinio numatytoji duomenų bazė"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:288
+#: ../gnome-dictionary/libgdict/gdict-speller.c:391
+msgid "Strategy"
+msgstr "Strategija"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:289
+msgid "The default strategy of this dictonary source"
+msgstr "Šio žodyno šaltinio numatytoji strategija"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:302
+msgid "Transport"
+msgstr "Transportas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:303
+msgid "The transport mechanism used by this dictionary source"
+msgstr "Šio žodyno šaltinio naudojamas perdavimo mechanizmas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:317
+#: ../gnome-dictionary/libgdict/gdict-speller.c:377
+msgid "Context"
+msgstr "Kontekstas"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:318
+msgid "The GdictContext bound to this source"
+msgstr "GdictContext susietas su šiuo šaltiniu"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:413
+#, c-format
+msgid "Invalid transport type '%d'"
+msgstr "Netinkamas transporto tipas „%d“"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:441
+#, c-format
+msgid "No '%s' group found inside the dictionary source definition"
+msgstr "Žodyno šaltinio apibrėžme nerasta grupė „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:457
+#: ../gnome-dictionary/libgdict/gdict-source.c:481
+#: ../gnome-dictionary/libgdict/gdict-source.c:505
+#: ../gnome-dictionary/libgdict/gdict-source.c:530
+#, c-format
+msgid "Unable to get the '%s' key inside the dictionary source definition: %s"
+msgstr "Nepavyko gauti rakto „%s“ žodyno šaltinio apibrėžime: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:555
+#, c-format
+msgid ""
+"Unable to get the '%s' key inside the dictionary source definition file: %s"
+msgstr "Nepavyko gauti rakto „%s“ žodyno šaltinio apibrėžimo faile: %s"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:741
+#, c-format
+msgid "Dictionary source does not have name"
+msgstr "Žodynų šaltinis neturi pavadinimo"
+
+#: ../gnome-dictionary/libgdict/gdict-source.c:750
+#, c-format
+msgid "Dictionary source '%s' has invalid transport '%s'"
+msgstr "Žodyno šaltinis „%s“ turi netinkamą transportą „%s“"
+
+#: ../gnome-dictionary/libgdict/gdict-source-chooser.c:299
+msgid "Reload the list of available sources"
+msgstr "Atnaujinti prieinamų šaltinių sąrašą"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:171
+msgid "Paths"
+msgstr "Keliai"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:172
+msgid "Search paths used by this object"
+msgstr "Ieškoti šio objekto naudojamų kelių"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:184
+msgid "Sources"
+msgstr "Šaltiniai"
+
+#: ../gnome-dictionary/libgdict/gdict-source-loader.c:185
+msgid "Dictionary sources found"
+msgstr "Rasti žodyno šaltiniai"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:354
+msgid "Clear the list of similar words"
+msgstr "Išvalyti panašių žodžių sąrašą"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:378
+msgid "The GdictContext object used to get the word definition"
+msgstr "GdictContext objektas naudojamas gauti žodžio apibrėžimui"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:385
+msgid "The database used to query the GdictContext"
+msgstr "Duomenų bazė naudojam užklausti GdictContext"
+
+#: ../gnome-dictionary/libgdict/gdict-speller.c:392
+msgid "The strategy used to query the GdictContext"
+msgstr "Strategija naudojama užklausti GdictContext"
+
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:365
+msgid "Reload the list of available strategies"
+msgstr "Atnaujinti prieinamų strategijų sąrašą"
+
+#: ../gnome-dictionary/libgdict/gdict-strategy-chooser.c:377
+msgid "Clear the list of available strategies"
+msgstr "Išvalyti prieinamų strategijų sąrašą"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:97
+msgid "GDict debugging flags to set"
+msgstr "Nustatynos GDict derinimo žymos"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:97
+#: ../gnome-dictionary/libgdict/gdict-utils.c:99
+msgid "FLAGS"
+msgstr "ŽYMOS"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:99
+msgid "GDict debugging flags to unset"
+msgstr "Pašalintinos GDict derinimo žymos"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:157
+msgid "GDict Options"
+msgstr "GDict parinktys"
+
+#: ../gnome-dictionary/libgdict/gdict-utils.c:158
+msgid "Show GDict Options"
+msgstr "Rodyti GDict parinktis"
+
+#: ../gnome-dictionary/src/gdict-about.c:57
+#: ../gnome-dictionary/src/gdict-applet.c:591
+msgid "Look up words in dictionaries"
+msgstr "Ieškoti žodynuose žodžių"
+
+#. Translators: the first is the word found, the second is the
+#. * database name and the last is the definition's text; please
+#. * keep the new lines.
+#: ../gnome-dictionary/src/gdict-app.c:217
+#, c-format
+msgid ""
+"Definition for '%s'\n"
+"  From '%s':\n"
+"\n"
+"%s\n"
+msgstr ""
+"„%s“ apibrėžimas\n"
+"  Iš „%s“:\n"
+"\n"
+"%s\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:231
+#, c-format
+msgid "Error: %s\n"
+msgstr "Klaida: %s\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:257
+#, c-format
+msgid "See gnome-dictionary --help for usage\n"
+msgstr "Norėdami pamatyti, kaip naudotis, žr. gnome-dictionary --help\n"
+
+#: ../gnome-dictionary/src/gdict-app.c:270
+msgid "Unable to find a suitable dictionary source"
+msgstr "Nepavyko rasti tinkamo žodyno šaltinio"
+
+#: ../gnome-dictionary/src/gdict-app.c:304
+#, c-format
+msgid ""
+"Error while looking up the definition of \"%s\":\n"
+"%s"
+msgstr ""
+"Klaida ieškant „%s“ apibrėžimo:\n"
+"%s"
+
+#: ../gnome-dictionary/src/gdict-app.c:337
+#: ../gnome-dictionary/src/gdict-app.c:351
+msgid "Words to look up"
+msgstr "Ieškotini žodžiai"
+
+#: ../gnome-dictionary/src/gdict-app.c:337
+#: ../gnome-dictionary/src/gdict-app.c:339
+#: ../gnome-dictionary/src/gdict-app.c:351
+msgid "word"
+msgstr "žodis"
+
+#: ../gnome-dictionary/src/gdict-app.c:339
+msgid "Words to match"
+msgstr "Žodžiai atitikimui"
+
+#: ../gnome-dictionary/src/gdict-app.c:341
+msgid "Dictionary source to use"
+msgstr "Naudotinas žodyno šaltinis"
+
+#: ../gnome-dictionary/src/gdict-app.c:341
+msgid "source"
+msgstr "šaltinis"
+
+#: ../gnome-dictionary/src/gdict-app.c:343
+msgid "Show available dictionary sources"
+msgstr "Rodyti prieinamus žodynų šaltinius"
+
+#: ../gnome-dictionary/src/gdict-app.c:345
+msgid "Print result to the console"
+msgstr "Spausdinti rezultatus konsolėje"
+
+#: ../gnome-dictionary/src/gdict-app.c:347
+msgid "Database to use"
+msgstr "Naudotina duomenų bazė"
+
+#: ../gnome-dictionary/src/gdict-app.c:347
+msgid "db"
+msgstr "db"
+
+#: ../gnome-dictionary/src/gdict-app.c:349
+msgid "Strategy to use"
+msgstr "Naudotina strategija"
+
+#: ../gnome-dictionary/src/gdict-app.c:349
+msgid "strat"
+msgstr "strat"
+
+#. create the new option context
+#: ../gnome-dictionary/src/gdict-app.c:367
+msgid " - Look up words in dictionaries"
+msgstr " – Ieškoti žodynuose žodžių"
+
+#: ../gnome-dictionary/src/gdict-applet.c:205
+#: ../gnome-dictionary/src/gdict-window.c:837
+msgid "Save a Copy"
+msgstr "Išsaugoti kopiją"
+
+#: ../gnome-dictionary/src/gdict-applet.c:215
+#: ../gnome-dictionary/src/gdict-window.c:847
+msgid "Untitled document"
+msgstr "Bevardis dokumentas"
+
+#: ../gnome-dictionary/src/gdict-applet.c:236
+#: ../gnome-dictionary/src/gdict-window.c:868
+#, c-format
+msgid "Error while writing to '%s'"
+msgstr "Klaida rašant į „%s“"
+
+#: ../gnome-dictionary/src/gdict-applet.c:361
+msgid "Clear the definitions found"
+msgstr "Išvalyti rastus apibrėžimus"
+
+#: ../gnome-dictionary/src/gdict-applet.c:363
+msgid "Clear definition"
+msgstr "Išvalyti apibrėžimą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:364
+msgid "Clear the text of the definition"
+msgstr "Išvalyti apibrėžimo tekstą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:371
+msgid "Print the definitions found"
+msgstr "Spausdinti rastus apibrėžimus"
+
+#: ../gnome-dictionary/src/gdict-applet.c:373
+msgid "Print definition"
+msgstr "Spausdinti apibrėžimą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:374
+msgid "Print the text of the definition"
+msgstr "Spausdinti apibrėžimo tekstą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:381
+msgid "Save the definitions found"
+msgstr "Įrašyti rastus apibrėžimus"
+
+#: ../gnome-dictionary/src/gdict-applet.c:383
+msgid "Save definition"
+msgstr "Įrašyti apibrėžimą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:384
+msgid "Save the text of the definition to a file"
+msgstr "Įrašyti apibrėžimo tekstą į failą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:533
+msgid "Click to view the dictionary window"
+msgstr "Spustelėkite, norėdami pamatyti žodyno langą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:535
+msgid "Toggle dictionary window"
+msgstr "Perjungti žodyno langą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:536
+msgid "Show or hide the definition window"
+msgstr "Rodyti arba paslėpti apibrėžimų langą"
+
+#: ../gnome-dictionary/src/gdict-applet.c:588
+msgid "Type the word you want to look up"
+msgstr "Įveskite norimą rasti žodį"
+
+#: ../gnome-dictionary/src/gdict-applet.c:590
+msgid "Dictionary entry"
+msgstr "Žodyno įrašas"
+
+#: ../gnome-dictionary/src/gdict-applet.c:724
+#: ../gnome-dictionary/src/gdict-window.c:1001
+msgid "Dictionary Preferences"
+msgstr "Žodyno nustatymai"
+
+#: ../gnome-dictionary/src/gdict-applet.c:750
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:505
+#: ../gnome-dictionary/src/gdict-source-dialog.c:495
+#: ../gnome-dictionary/src/gdict-window.c:1145
+#, c-format
+msgid "There was an error while displaying help"
+msgstr "Rodant žinyną įvyko klaida"
+
+#: ../gnome-dictionary/src/gdict-applet.c:902
+#: ../gnome-dictionary/src/gdict-window.c:517
+#, c-format
+msgid "No dictionary source available with name '%s'"
+msgstr "Žodyno šaltinis pavadinimu „%s“ neprieinamas"
+
+#: ../gnome-dictionary/src/gdict-applet.c:906
+#: ../gnome-dictionary/src/gdict-window.c:521
+msgid "Unable to find dictionary source"
+msgstr "Nepavyko rasti žodyno šaltinio"
+
+#: ../gnome-dictionary/src/gdict-applet.c:922
+#: ../gnome-dictionary/src/gdict-window.c:537
+#, c-format
+msgid "No context available for source '%s'"
+msgstr "Šaltiniui „%s“ kontekstas neprieinamas"
+
+#: ../gnome-dictionary/src/gdict-applet.c:926
+#: ../gnome-dictionary/src/gdict-window.c:541
+msgid "Unable to create a context"
+msgstr "Nepavyko sukurti konteksto"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1191
+#: ../gnome-dictionary/src/gdict-window.c:2084
+msgid "Unable to connect to GConf"
+msgstr "Nepavyko prisijungti prie GConf"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1204
+#: ../gnome-dictionary/src/gdict-window.c:2097
+msgid "Unable to get notification for preferences"
+msgstr "Nepavyko gauti nustatymų pranešimo"
+
+#: ../gnome-dictionary/src/gdict-applet.c:1218
+#: ../gnome-dictionary/src/gdict-window.c:2110
+msgid "Unable to get notification for the document font"
+msgstr "Nepavyko gauti dokumentų šrifto pranešimo"
+
+#: ../gnome-dictionary/src/gdict-common.c:79
+#, c-format
+msgid "Unable to rename file '%s' to '%s': %s"
+msgstr "Nepavyko pervadinti failo „%s“ į „%s“: %s"
+
+#: ../gnome-dictionary/src/gdict-common.c:103
+#: ../gnome-dictionary/src/gdict-common.c:126
+#, c-format
+msgid "Unable to create the data directory '%s': %s"
+msgstr "Nepavyko sukurti duomenų aplanko „%s“: %s"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:245
+msgid "Edit Dictionary Source"
+msgstr "Keisti žodyno šaltinį"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:309
+msgid "Add Dictionary Source"
+msgstr "Pridėti žodyno šaltinį"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:355
+#, c-format
+msgid "Remove \"%s\"?"
+msgstr "Pašalinti „%s“?"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:357
+msgid "This will permanently remove the dictionary source from the list."
+msgstr ""
+"Atlikus šį veiksmą žodyno šaltinis iš sąrašo bus pašalintas negrįžtamai."
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:387
+#, c-format
+msgid "Unable to remove source '%s'"
+msgstr "Nepavyko pašalinti šaltinio „%s“"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:663
+msgid "Add a new dictionary source"
+msgstr "Pridėti naują žodyno šaltinį"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:669
+msgid "Remove the currently selected dictionary source"
+msgstr "Pašalinti dabar pasirinktą žodyno šaltinį"
+
+#: ../gnome-dictionary/src/gdict-pref-dialog.c:682
+msgid "Set the font used for printing the definitions"
+msgstr "Nustatyti šriftą naudojama spausdinant apibrėžimus"
+
+#: ../gnome-dictionary/src/gdict-print.c:249
+#: ../gnome-dictionary/src/gdict-print.c:313
+#, c-format
+msgid "Unable to display the preview: %s"
+msgstr "Nepavyko parodyti peržiūros: %s"
+
+#: ../gnome-dictionary/src/gdict-source-dialog.c:357
+#: ../gnome-dictionary/src/gdict-source-dialog.c:450
+msgid "Unable to create a source file"
+msgstr "Nepavyko sukurti šaltinio failo"
+
+#: ../gnome-dictionary/src/gdict-source-dialog.c:375
+#: ../gnome-dictionary/src/gdict-source-dialog.c:468
+msgid "Unable to save source file"
+msgstr "Nepavyko išsaugoti šaltinio failo"
+
+#: ../gnome-dictionary/src/gdict-window.c:316
+#, c-format
+msgid "Searching for '%s'..."
+msgstr "Ieškoma „%s“..."
+
+#: ../gnome-dictionary/src/gdict-window.c:348
+#: ../gnome-dictionary/src/gdict-window.c:407
+msgid "No definitions found"
+msgstr "Apibrėžimų nerasta"
+
+#: ../gnome-dictionary/src/gdict-window.c:350
+#, c-format
+msgid "A definition found"
+msgid_plural "%d definitions found"
+msgstr[0] "Rastas %d apibrėžimas"
+msgstr[1] "Rasti %d apibrėžimai"
+msgstr[2] "Rasta %d apibrėžimų"
+
+#: ../gnome-dictionary/src/gdict-window.c:606
+#, c-format
+msgid "%s - Dictionary"
+msgstr "%s - Žodynas"
+
+#: ../gnome-dictionary/src/gdict-window.c:1180 ../logview/logview-window.c:637
+msgid "_File"
+msgstr "_Failas"
+
+#: ../gnome-dictionary/src/gdict-window.c:1183
+msgid "_Go"
+msgstr "_Eiti"
+
+#. File menu
+#: ../gnome-dictionary/src/gdict-window.c:1187
+msgid "_New"
+msgstr "_Nauja"
+
+#: ../gnome-dictionary/src/gdict-window.c:1188
+msgid "New look up"
+msgstr "Nauja paieška"
+
+#: ../gnome-dictionary/src/gdict-window.c:1189
+msgid "_Save a Copy..."
+msgstr "Iš_saugoti kopiją..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1191
+msgid "P_review..."
+msgstr "P_eržiūra..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1192
+msgid "Preview this document"
+msgstr "Peržiūrėti šį dokumentą"
+
+#: ../gnome-dictionary/src/gdict-window.c:1193
+msgid "_Print..."
+msgstr "S_pausdinti..."
+
+#: ../gnome-dictionary/src/gdict-window.c:1194
+msgid "Print this document"
+msgstr "Spausdinti šį dokumentą"
+
+#: ../gnome-dictionary/src/gdict-window.c:1201 ../logview/logview-window.c:651
+msgid "Select _All"
+msgstr "Pažymėti _viską"
+
+#: ../gnome-dictionary/src/gdict-window.c:1204
+msgid "Find a word or phrase in the document"
+msgstr "Dokumente rasti žodį ar frazę"
+
+#: ../gnome-dictionary/src/gdict-window.c:1206
+msgid "Find Ne_xt"
+msgstr "Rasti se_kantį"
+
+#: ../gnome-dictionary/src/gdict-window.c:1208
+msgid "Find Pre_vious"
+msgstr "Rasti _ankstesnį"
+
+#. Go menu
+#: ../gnome-dictionary/src/gdict-window.c:1214
+msgid "_Previous Definition"
+msgstr "_Ankstesnis apibrėžimas"
+
+#: ../gnome-dictionary/src/gdict-window.c:1215
+msgid "Go to the previous definition"
+msgstr "Eiti į ankstesnį apibrėžimą"
+
+#: ../gnome-dictionary/src/gdict-window.c:1216
+msgid "_Next Definition"
+msgstr "_Sekantis apibrėžimas"
+
+#: ../gnome-dictionary/src/gdict-window.c:1217
+msgid "Go to the next definition"
+msgstr "Eiti į sekantį apibrėžimą"
+
+#: ../gnome-dictionary/src/gdict-window.c:1218
+msgid "_First Definition"
+msgstr "_Pirmas apibrėžimas"
+
+#: ../gnome-dictionary/src/gdict-window.c:1219
+msgid "Go to the first definition"
+msgstr "Eiti į pirmąjį apibrėžimą"
+
+#: ../gnome-dictionary/src/gdict-window.c:1220
+msgid "_Last Definition"
+msgstr "Pas_kutinis apibrėžimas"
+
+#: ../gnome-dictionary/src/gdict-window.c:1221
+msgid "Go to the last definition"
+msgstr "Eiti į paskutinį apibrėžimą"
+
+#. View menu
+#: ../gnome-dictionary/src/gdict-window.c:1224
+msgid "Similar _Words"
+msgstr "Panašūs ž_odžiai"
+
+#: ../gnome-dictionary/src/gdict-window.c:1226
+msgid "Dictionary Sources"
+msgstr "Žodyno šaltiniai"
+
+#: ../gnome-dictionary/src/gdict-window.c:1228
+msgid "Available _Databases"
+msgstr "Prieinamos _duomenų bazės"
+
+#: ../gnome-dictionary/src/gdict-window.c:1230
+msgid "Available St_rategies"
+msgstr "Prieinamos _strategijos"
+
+#. View menu
+#: ../gnome-dictionary/src/gdict-window.c:1247
+msgid "_Sidebar"
+msgstr "Š_oninis skydelis"
+
+#: ../gnome-dictionary/src/gdict-window.c:1249
+msgid "S_tatusbar"
+msgstr "_Būsenos juosta"
+
+#: ../gnome-dictionary/src/gdict-window.c:1370
+#, c-format
+msgid "Dictionary source `%s' selected"
+msgstr "Pasirinktas žodyno šaltinis „%s“"
+
+#: ../gnome-dictionary/src/gdict-window.c:1391
+#, c-format
+msgid "Strategy `%s' selected"
+msgstr "Pasirinkta strategija „%s“"
+
+#: ../gnome-dictionary/src/gdict-window.c:1411
+#, c-format
+msgid "Database `%s' selected"
+msgstr "Pasirinkta duomenų bazė „%s“"
+
+#: ../gnome-dictionary/src/gdict-window.c:1431
+#, c-format
+msgid "Word `%s' selected"
+msgstr "Pasirinktas žodis „%s“"
+
+#. speller
+#: ../gnome-dictionary/src/gdict-window.c:1453
+msgid "Double-click on the word to look up"
+msgstr "Du kartus spragtelėkite ieškotiną žodį"
+
+#. strat-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1459
+msgid "Double-click on the matching strategy to use"
+msgstr "Du kartus spragtelėkite naudotiną strategiją"
+
+#. source-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1464
+msgid "Double-click on the source to use"
+msgstr "Dukart spragtelėkite naudotiną šaltinį"
+
+#. db-chooser
+#: ../gnome-dictionary/src/gdict-window.c:1473
+msgid "Double-click on the database to use"
+msgstr "Du kartus spragtelėkite naudotiną duomenų bazę"
+
+#: ../gnome-dictionary/src/gdict-window.c:1761
+msgid "Look _up:"
+msgstr "_Ieškoti:"
+
+#: ../gnome-dictionary/src/gdict-window.c:1835
+msgid "Similar words"
+msgstr "Panašūs žodžiai"
+
+#: ../gnome-dictionary/src/gdict-window.c:1848
+msgid "Available dictionaries"
+msgstr "Prieinami žodynai"
+
+#: ../gnome-dictionary/src/gdict-window.c:1861
+msgid "Available strategies"
+msgstr "Prieinamos strategijos"
+
+#: ../gnome-dictionary/src/gdict-window.c:1872
+msgid "Dictionary sources"
+msgstr "Žodyno šaltiniai"
+
+#: ../gnome-screenshot/gnome-screenshot.c:131
+msgid "Error loading the help page"
+msgstr "Klaida įkeliant žinyno puslapį"
+
+#: ../gnome-screenshot/gnome-screenshot.c:242
+msgid "None"
+msgstr "Nieko"
+
+#: ../gnome-screenshot/gnome-screenshot.c:243
+msgid "Drop shadow"
+msgstr "Šešėliai"
+
+#: ../gnome-screenshot/gnome-screenshot.c:244
+msgid "Border"
+msgstr "Kraštinė"
+
+#. * Include pointer *
+#: ../gnome-screenshot/gnome-screenshot.c:347
+msgid "Include _pointer"
+msgstr "Įtraukti _žymiklį"
+
+#. * Include window border *
+#: ../gnome-screenshot/gnome-screenshot.c:356
+msgid "Include the window _border"
+msgstr "Į ekrano nuotrauką įtraukti ir lango _rėmelį"
+
+#: ../gnome-screenshot/gnome-screenshot.c:371
+msgid "Apply _effect:"
+msgstr "Pritaikyti _efektą:"
+
+#: ../gnome-screenshot/gnome-screenshot.c:433
+msgid "Grab the whole _desktop"
+msgstr "Nufotografuoti _visą darbastalį"
+
+#: ../gnome-screenshot/gnome-screenshot.c:445
+msgid "Grab the current _window"
+msgstr "Nufotografuoti esamą _langą"
+
+#: ../gnome-screenshot/gnome-screenshot.c:457
+msgid "Grab a selected _area"
+msgstr "Nufotografuoti pasirinktą s_ritį"
+
+#. translators: this is the first part of the "grab after a
+#. * delay of <spin button> seconds".
+#.
+#: ../gnome-screenshot/gnome-screenshot.c:474
+msgid "Grab _after a delay of"
+msgstr "Nufotografuoti _po"
+
+#. translators: this is the last part of the "grab after a
+#. * delay of <spin button> seconds".
+#.
+#: ../gnome-screenshot/gnome-screenshot.c:494
+#: ../gnome-screenshot/gnome-screenshot.c:1246
+msgid "seconds"
+msgstr "sekundžių"
+
+#: ../gnome-screenshot/gnome-screenshot.c:510
+#: ../gnome-screenshot/gnome-screenshot.c:520
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:2
+msgid "Take Screenshot"
+msgstr "Nufotografuoti ekraną"
+
+#: ../gnome-screenshot/gnome-screenshot.c:521
+msgid "Effects"
+msgstr "Efektai"
+
+#: ../gnome-screenshot/gnome-screenshot.c:527
+msgid "Take _Screenshot"
+msgstr "Nufotografuoti _ekraną"
+
+#: ../gnome-screenshot/gnome-screenshot.c:653
+msgid "Error while saving screenshot"
+msgstr "Klaida įrašant ekrano nuotrauką"
+
+#: ../gnome-screenshot/gnome-screenshot.c:657
+#, c-format
+msgid ""
+"Impossible to save the screenshot to %s.\n"
+" Error was %s.\n"
+" Please choose another location and retry."
+msgstr ""
+"Nepavyko įrašyti nuotraukos vietoje %s.\n"
+" Klaida: %s.\n"
+" Pasirinkite kitą vietą ir bandykite dar kartą."
+
+#: ../gnome-screenshot/gnome-screenshot.c:804
+msgid "Unable to take a screenshot of the current window"
+msgstr "Nepavyko padaryti esamo lango nuotraukos"
+
+#: ../gnome-screenshot/gnome-screenshot.c:852
+#, c-format
+msgid "Screenshot-%s.png"
+msgstr "Nuotrauka-%s.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if a specific window is
+#. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:859
+#, c-format
+msgid "Screenshot-%s-%d.png"
+msgstr "Nuotrauka-%s-%d.png"
+
+#. translators: this is the name of the file that gets made up
+#. * with the screenshot if the entire screen is taken
+#: ../gnome-screenshot/gnome-screenshot.c:869
+#: ../gnome-screenshot/screenshot-dialog.c:356
+#: ../gnome-screenshot/screenshot-save.c:196
+msgid "Screenshot.png"
+msgstr "Nuotrauka.png"
+
+#. translators: this is the name of the file that gets
+#. * made up with the screenshot if the entire screen is
+#. * taken
+#: ../gnome-screenshot/gnome-screenshot.c:876
+#, c-format
+msgid "Screenshot-%d.png"
+msgstr "Nuotrauka-%d.png"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1242
+msgid "Grab a window instead of the entire screen"
+msgstr "Vietoje viso ekrano fotografuoti tik langą"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1243
+msgid "Grab an area of the screen instead of the entire screen"
+msgstr "Vietoje viso ekrano fotografuoti tik tam tikrą sritį"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1244
+msgid "Include the window border with the screenshot"
+msgstr "Į ekrano nuotrauką įtraukti ir lango rėmelį"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1245
+msgid "Remove the window border from the screenshot"
+msgstr "Iš ekrano nuotraukos pašalinti lango rėmelį"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1246
+msgid "Take screenshot after specified delay [in seconds]"
+msgstr "Padaryti nuotrauką po nurodyto laiko [sekundėmis]"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1247
+msgid "Effect to add to the border (shadow, border or none)"
+msgstr "Efektas, pridedamas rėmeliui (šešėlis, rėmelis arba nieko)"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1247
+msgid "effect"
+msgstr "efektas"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1248
+msgid "Interactively set options"
+msgstr "Interaktyviai nustatyti parinktis"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1259
+msgid "Take a picture of the screen"
+msgstr "Padaryti ekrano nuotrauką"
+
+#: ../gnome-screenshot/gnome-screenshot.c:1277
+#, c-format
+msgid ""
+"Conflicting options: --window and --area should not be used at the same "
+"time.\n"
+msgstr ""
+"Besikertančios parinktys: --window ir --area neturėtų būti naudojamos tuo "
+"pačiu metu.\n"
+
+#: ../gnome-screenshot/gnome-screenshot.desktop.in.h:1
+msgid "Save images of your desktop or individual windows"
+msgstr "Išsaugoti jūsų darbastalio ar atskirų langų nuotraukas"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:2
+msgid "C_opy to Clipboard"
+msgstr "_Kopijuoti į iškarpinę"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:3
+msgid "Save Screenshot"
+msgstr "Išsaugoti nuotrauką"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:4
+msgid "Save in _folder:"
+msgstr "Išsaugoti _aplanke:"
+
+#: ../gnome-screenshot/gnome-screenshot.ui.h:5
+msgid "_Name:"
+msgstr "_Pavadinimas:"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:1
+msgid "Border Effect"
+msgstr "Rėmelio efektas"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:2
+msgid ""
+"Effect to add to the outside of a border. Possible values are \"shadow\", "
+"\"none\", and \"border\"."
+msgstr ""
+"Efektas, pridedamas rėmelio išorėje. Galimos reikšmės yra „shadow“, „none“ "
+"ir „border“."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:3
+msgid ""
+"Grab just the current window, rather than the whole desktop. This key has "
+"been deprecated and it is no longer in use."
+msgstr ""
+"Fotografuoti tik esamą langą, o ne visą darbastalį. Šis raktas pasenęs ir "
+"nebenaudojamas."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:4
+msgid "Include Border"
+msgstr "Įtraukti rėmelį"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:5
+msgid "Include Pointer"
+msgstr "Įtraukti žymiklį"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:6
+msgid "Include the pointer in the screenshot"
+msgstr "Į ekrano nuotrauką įtraukti ir žymiklį"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:7
+msgid "Include the window manager border along with the screenshot"
+msgstr "Kartu su ekrano nuotrauka įtraukti ir langų tvarkyklės rėmelį"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:8
+msgid "Screenshot delay"
+msgstr "Ekrano nuotraukos delsa"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:9
+msgid "Screenshot directory"
+msgstr "Ekrano nuotraukos aplankas"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:10
+msgid "The directory the last screenshot was saved in."
+msgstr "Aplankas, kuriame buvo išsaugota paskutinioji ekrano nuotrauka."
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:11
+msgid "The number of seconds to wait before taking the screenshot."
+msgstr "Sekundžių skaičius prieš ekrano nuotrauką"
+
+#: ../gnome-screenshot/gnome-screenshot.schemas.in.h:12
+msgid "Window-specific screenshot (deprecated)"
+msgstr "Lango nuotrauka (nebenaudojama)"
+
+#: ../gnome-screenshot/screenshot-dialog.c:239
+msgid ""
+"UI definition file for the screenshot program is missing.\n"
+"Please check your installation of gnome-utils"
+msgstr ""
+"Trūksta ekrano nuotraukų programai reikalingo sąsajos aprašo failo.\n"
+"Patikrinkite, ar gnome-utils įdiegtas korektiškai."
+
+#: ../gnome-screenshot/screenshot-dialog.c:260
+msgid "Select a folder"
+msgstr "Pasirinkite aplanką"
+
+#: ../gnome-screenshot/screenshot-save.c:57
+#, c-format
+msgid ""
+"Unable to clear the temporary folder:\n"
+"%s"
+msgstr ""
+"Nepavyko išvalyti laikinojo aplanko:\n"
+"%s"
+
+#: ../gnome-screenshot/screenshot-save.c:95
+msgid ""
+"The child save process unexpectedly exited.  We are unable to write the "
+"screenshot to disk."
+msgstr ""
+"Dukterinis saugojimo procesas netikėtai užsidarė. Negalima įšsaugoti "
+"nuotraukos į diską."
+
+#: ../gnome-screenshot/screenshot-save.c:223
+msgid "Unknown error saving screenshot to disk"
+msgstr "Saugant ekrano nuotrauką į diską, įvyko klaida"
+
+#. TODO: maybe we should also look at WM_NAME and WM_CLASS?
+#: ../gnome-screenshot/screenshot-utils.c:828
+msgid "Untitled Window"
+msgstr "Neįvardintas langas"
+
+#: ../gnome-screenshot/screenshot-xfer.c:74
+msgid "File already exists"
+msgstr "Failas jau egzistuoja"
+
+#: ../gnome-screenshot/screenshot-xfer.c:77
+#, c-format
+msgid "The file \"%s\" already exists. Would you like to replace it?"
+msgstr "Failas „%s“ jau egzistuoja.  Ar norite jį pakeisti?"
+
+#: ../gnome-screenshot/screenshot-xfer.c:84
+#: ../gsearchtool/gsearchtool-callbacks.c:1469
+msgid "_Replace"
+msgstr "_Pakeisti"
+
+#: ../gnome-screenshot/screenshot-xfer.c:122
+msgid "Saving file..."
+msgstr "Įrašomas failas..."
+
+#: ../gnome-screenshot/screenshot-xfer.c:294
+msgid "Can't access source file"
+msgstr "Nepavyko pasiekti šaltinio failo"
+
+#: ../gsearchtool/gnome-search-tool.desktop.in.h:1
+msgid "Locate documents and folders on this computer by name or content"
+msgstr "Rasti kompiuteryje esančius dokumentus pagal pavadinimą ar turinį"
+
+#: ../gsearchtool/gnome-search-tool.desktop.in.h:2
+msgid "Search for Files..."
+msgstr "Ieškoti failų..."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:1
+msgid "Default Window Height"
+msgstr "Numatytasis lango aukštis"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:2
+msgid "Default Window Maximized"
+msgstr "Numatytasis langas išdidintas"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:3
+msgid "Default Window Width"
+msgstr "Numatytasis lango plotis"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:4
+msgid "Disable Quick Search"
+msgstr "Atjungti greitą paiešką"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:5
+msgid "Disable Quick Search Second Scan"
+msgstr "Atjungti greitos paieškos antrą skanavimą"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:6
+msgid "Quick Search Excluded Paths"
+msgstr "Greitoje paieškoje išskirti keliai"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:7
+msgid "Quick Search Second Scan Excluded Paths"
+msgstr "Greitos paieškos antro skanavimo išskirti keliai"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:8
+msgid "Search Result Columns Order"
+msgstr "Paieškos rezultatų stulpelių tvarka"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:11
+msgid "Select the search option \"Contains the text\""
+msgstr "Pasirinkite paieškos parametrą „Faile yra tekstas“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:14
+msgid "Select the search option \"Date modified less than\""
+msgstr "Pasirinkite paieškos parametrą „Pakeista prieš mažiau nei“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:17
+msgid "Select the search option \"Date modified more than\""
+msgstr "Pasirinkite paieškos parametrą „Pakeista prieš daugiau nei“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:20
+msgid "Select the search option \"File is empty\""
+msgstr "Pasirinkite paieškos parametrą „Failas yra tuščias“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:23
+msgid "Select the search option \"Follow symbolic links\""
+msgstr "Pasirinkite paieškos parametrą „Sekti simbolinėmis nuorodomis“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:26
+msgid "Select the search option \"Include other filesystems\""
+msgstr "Pasirinkite paieškos parametrą „Ieškoti ir kitose failų sistemose“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:29
+msgid "Select the search option \"Name does not contain\""
+msgstr "Pasirinkite paieškos parametrą „Varde nėra“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:32
+msgid "Select the search option \"Name matches regular expression\""
+msgstr "Pasirinkite paieškos parametrą „Vardas atitinka reguliarią išraišką“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:35
+msgid "Select the search option \"Owned by group\""
+msgstr "Pasirinkite paieškos parametrą „Priklauso grupei“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:38
+msgid "Select the search option \"Owned by user\""
+msgstr "Pasirinkite paieškos parametrą „Priklauso vartotojui“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:41
+msgid "Select the search option \"Owner is unrecognized\""
+msgstr "Pasirinkite paieškos parametrą „Nežinomas savininkas“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:44
+msgid "Select the search option \"Show hidden files and folders\""
+msgstr "Pasirinkite paieškos parametrą „Rodyti paslėptas failus ir aplankus“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:47
+msgid "Select the search option \"Size at least\""
+msgstr "Pasirinkite paieškos parametrą „Dydis nemažesnis kaip“"
+
+#. Translators: The quoted text is the label of an available
+#. search option that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:50
+msgid "Select the search option \"Size at most\""
+msgstr "Pasirinkite paieškos parametrą „Dydis nedidesnis kaip“"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:51
+msgid "Show Additional Options"
+msgstr "Rodyti daugiau parametrų"
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:52
+msgid ""
+"This key defines the order of the columns in the search results. This key "
+"should not be modified by the user."
+msgstr ""
+"Šis raktas nurodo paieškos rezultatų stulpelių tvarką. Naudotojas šio rakto "
+"neturėtų keisti."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:53
+msgid ""
+"This key defines the paths the search tool will exclude from a quick search. "
+"The wildcards '*' and '?' are supported. The default values are /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/*, and /var/*."
+msgstr ""
+"Šis raktas nurodo kelius, kuriuos paieškos įrankis išskirs iš greitos "
+"paieškos. Žymės „*“ ir „?“ yra palaikomos. Įprastos reikšmės yra /mnt/*, /"
+"media/*, /dev/*, /tmp/*, /proc/* ir /var/*."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:54
+msgid ""
+"This key defines the paths the search tool will exclude from a second scan "
+"when performing a quick search. The second scan uses the find command to "
+"search for files. The purpose of the second scan is to find files that have "
+"not been indexed. The wildcards '*' and '?' are supported. The default value "
+"is /."
+msgstr ""
+"Šiame rakte nurodomi keliai, kuriuos paieškos įrankis greitos paieškos metu "
+"išskirs iš antrojo perskaitymo. Antrasis perskaitymas failų paieškai naudoja "
+"„find“ komandą. Antrojo perskaitymo paskirtis yra surasti failus, kurie "
+"nebuvo suindeksuoti. Žymės „*“ ir „?“ yra palaikomos. Įprasta reikšmė yra /."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:55
+msgid ""
+"This key defines the window height, and it's used to remember the size of "
+"the search tool between sessions. Setting it to -1 will make the search tool "
+"use the default height."
+msgstr ""
+"Šiame rakte nurodomas lango aukštis, jis naudojamas atsiminti paieškos "
+"įrankio dydžiui tarp seansų. Nustačius jį į -1, paieškos įrankis naudos "
+"numatytąjį aukštį."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:56
+msgid ""
+"This key defines the window width, and it's used to remember the size of the "
+"search tool between sessions. Setting it to -1 will make the search tool use "
+"the default width."
+msgstr ""
+"Šiame rakte nurodomas lango plotis, jis naudojamas atsiminti paieškos "
+"įrankio dydžiui tarp seansų. Nustačius jį į -1, paieškos įrankis naudos "
+"numatytąjį plotį."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:57
+msgid ""
+"This key determines if the \"Contains the text\" search option is selected "
+"when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar paleidus paieškos įrankį yra pažymėtas parametras „yra "
+"tekstas“."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:58
+msgid ""
+"This key determines if the \"Date modified less than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „pakeista prieš mažiau nei“ parametras yra pažymėtas, "
+"kai paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:59
+msgid ""
+"This key determines if the \"Date modified more than\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „pakeista prieš daugiau nei“ parametras yra pažymėtas, "
+"kai paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:60
+msgid ""
+"This key determines if the \"File is empty\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „failas yra tuščias“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:61
+msgid ""
+"This key determines if the \"Follow symbolic links\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „sekti simbolines nuorodas“ parametras yra pažymėtas, "
+"kai paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:62
+msgid ""
+"This key determines if the \"Include other filesystems\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „įtraukti kitas failų sistemas“ parametras yra "
+"pažymėtas, kai paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:63
+msgid ""
+"This key determines if the \"Name does not contain\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „varde nėra“ parametras yra pažymėtas, kai paleidžiamas "
+"paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:64
+msgid ""
+"This key determines if the \"Name matches regular expression\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „vardas atitinka reguliarią išraišką“ parametras yra "
+"pažymėtas, kai paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:65
+msgid ""
+"This key determines if the \"Owned by group\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „priklauso grupei“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:66
+msgid ""
+"This key determines if the \"Owned by user\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „priklauso vartotojui“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:67
+msgid ""
+"This key determines if the \"Owner is unrecognized\" search option is "
+"selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „nežinomas savininkas“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
+
+#. Translators: The quoted text is the label of the additional
+#. options expander that is translated elsewhere.
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:70
+msgid ""
+"This key determines if the \"Select more options\" section is expanded when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar paleidus paieškos įrankį yra išplečiamas „Pasirinkti "
+"daugiau parametrų“ skyrius."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:71
+msgid ""
+"This key determines if the \"Show hidden files and folders\" search option "
+"is selected when the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „rodyti paslėptus failus ir aplankus“ parametras yra "
+"pažymėtas, kai paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:72
+msgid ""
+"This key determines if the \"Size at least\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „dydis nemažesnis kaip“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:73
+msgid ""
+"This key determines if the \"Size at most\" search option is selected when "
+"the search tool is started."
+msgstr ""
+"Šis raktas nurodo ar „dydis nedidesnis kaip“ parametras yra pažymėtas, kai "
+"paleidžiamas paieškos įrankis."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:74
+msgid ""
+"This key determines if the search tool disables the use of the find command "
+"after performing a quick search."
+msgstr ""
+"Šis raktas nurodo ar paieškos įrankis išjungia „find“ komandos naudojimą po "
+"greitos paieškos įvykdymo."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:75
+msgid ""
+"This key determines if the search tool disables the use of the locate "
+"command when performing simple file name searches."
+msgstr ""
+"Šis raktas nurodo ar paieškos įrankis atjungia „locate“ komandos naudojimą "
+"vykdant paprastas failų vardų paieškas."
+
+#: ../gsearchtool/gnome-search-tool.schemas.in.h:76
+msgid ""
+"This key determines if the search tool window starts in a maximized state."
+msgstr "Šis raktas nurodo ar paieškos įrankio langas paleidžiamas išdidintas."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:186
+msgid "Could not open help document."
+msgstr "Nepavyko atverti žinyno dokumento."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:321
+#, c-format
+msgid "Are you sure you want to open %d document?"
+msgid_plural "Are you sure you want to open %d documents?"
+msgstr[0] "Ar tikrai norite atverti %d dokumentą?"
+msgstr[1] "Ar tikrai norite atverti %d dokumentus?"
+msgstr[2] "Ar tikrai norite atverti %d dokumentų?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:326
+#: ../gsearchtool/gsearchtool-callbacks.c:517
+#, c-format
+msgid "This will open %d separate window."
+msgid_plural "This will open %d separate windows."
+msgstr[0] "Bus atvertas %d atskiras langas."
+msgstr[1] "Bus atverti %d atskiri langai."
+msgstr[2] "Bus atverta %d atskirų langų."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:366
+#, c-format
+msgid "Could not open document \"%s\"."
+msgstr "Nepavyko atverti dokumento „%s“."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:395
+#, c-format
+msgid "Could not open folder \"%s\"."
+msgstr "Nepavyko atverti aplanko „%s“."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:403
+msgid "The nautilus file manager is not running."
+msgstr "Nautilus failų tvarkyklė nepaleista."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:487
+msgid "There is no installed viewer capable of displaying the document."
+msgstr "Nėra įdiegta šio tipo dokumentus galinti skaityti programa."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:512
+#, c-format
+msgid "Are you sure you want to open %d folder?"
+msgid_plural "Are you sure you want to open %d folders?"
+msgstr[0] "Ar tikrai norite atverti %d katalogą?"
+msgstr[1] "Ar tikrai norite atverti %d katalogus?"
+msgstr[2] "Ar tikrai norite atverti %d katalogų?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:644
+#, c-format
+msgid "Could not move \"%s\" to trash."
+msgstr "Nepavyko perkelti „%s“ į šiukšlinę."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:675
+#, c-format
+msgid "Do you want to delete \"%s\" permanently?"
+msgstr "Ar norite ištrinti „%s“ visam laikui?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:678
+#, c-format
+msgid "Trash is unavailable.  Could not move \"%s\" to the trash."
+msgstr "Šiukšlinė neprieinama.  Nepavyko perkelti „%s“ į šiukšlinę."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:717
+#, c-format
+msgid "Could not delete \"%s\"."
+msgstr "Nepavyko ištrinti „%s“."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:864
+#, c-format
+msgid "Moving \"%s\" failed: %s."
+msgstr "Perkelti „%s“ nepavyko: %s."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:900
+#, c-format
+msgid "Deleting \"%s\" failed: %s."
+msgstr "Ištrinti „%s“ nepavyko: %s."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1354
+msgid "Save Search Results As..."
+msgstr "Išsaugoti paieškos rezultatus kaip..."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1385
+msgid "Could not save document."
+msgstr "Nepavyko išsaugoti dokumento."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1386
+msgid "You did not select a document name."
+msgstr "Jūs nepasirinkote dokumento vardo."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1416
+#, c-format
+msgid "Could not save \"%s\" document to \"%s\"."
+msgstr "Nepavyko išsaugoti „%s“ dokumento „%s“."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1450
+#, c-format
+msgid "The document \"%s\" already exists.  Would you like to replace it?"
+msgstr "Dokumentas „%s“ jau egzistuoja.  Ar Jūs norite jį pakeisti?"
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1454
+msgid "If you replace an existing file, its contents will be overwritten."
+msgstr "Jeigu pakeisite jau egzistuojantį failą, jo turinys bus perrašytas."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1519
+msgid "The document name you selected is a folder."
+msgstr "Jūsų pasirinkto dokumento vardas yra aplankas."
+
+#: ../gsearchtool/gsearchtool-callbacks.c:1568
+msgid "You may not have write permissions to the document."
+msgstr "Jūs neturite teisės rašyti į šį dokumentą."
+
+#: ../gsearchtool/gsearchtool-support.c:71
+#, c-format
+msgid ""
+"GConf error:\n"
+"  %s"
+msgstr ""
+"GConf klaida:\n"
+"  %s"
+
+#. Translators:  Below are the strings displayed in the 'Date Modified'
+#. column of the list view.  The format of this string can vary depending
+#. on age of a file.  Please modify the format of the timestamp to match
+#. your locale.  For example, to display 24 hour time replace the '%-I'
+#. with '%-H' and remove the '%p'.  (See bugzilla report #120434.)
+#: ../gsearchtool/gsearchtool-support.c:640
+msgid "today at %-I:%M %p"
+msgstr "šiandien %-H:%M"
+
+#: ../gsearchtool/gsearchtool-support.c:642
+msgid "yesterday at %-I:%M %p"
+msgstr "vakar %-H:%M"
+
+#: ../gsearchtool/gsearchtool-support.c:644
+#: ../gsearchtool/gsearchtool-support.c:646
+msgid "%A, %B %-d %Y at %-I:%M:%S %p"
+msgstr "%Y %B %-d, %A  %H:%M:%S"
+
+#: ../gsearchtool/gsearchtool-support.c:825
+msgid "link (broken)"
+msgstr "nuoroda (neveikianti)"
+
+#: ../gsearchtool/gsearchtool-support.c:829
+#, c-format
+msgid "link to %s"
+msgstr "nuorodą į %s"
+
+#. START OF NAUTILUS/EEL FUNCTIONS: USED FOR HANDLING OF DUPLICATE FILENAMES
+#. Localizers:
+#. * Feel free to leave out the st, nd, rd and th suffix or
+#. * make some or all of them match.
+#.
+#. localizers: tag used to detect the first copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1525
+msgid " (copy)"
+msgstr " (kopija)"
+
+#. localizers: tag used to detect the second copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1527
+msgid " (another copy)"
+msgstr " (kita kopija)"
+
+#. localizers: tag used to detect the x11th copy of a file
+#. localizers: tag used to detect the x12th copy of a file
+#. localizers: tag used to detect the x13th copy of a file
+#. localizers: tag used to detect the xxth copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1530
+#: ../gsearchtool/gsearchtool-support.c:1532
+#: ../gsearchtool/gsearchtool-support.c:1534
+#: ../gsearchtool/gsearchtool-support.c:1544
+msgid "th copy)"
+msgstr "-oji kopija)"
+
+#. localizers: tag used to detect the x1st copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1537
+msgid "st copy)"
+msgstr "-oji kopija)"
+
+#. localizers: tag used to detect the x2nd copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1539
+msgid "nd copy)"
+msgstr "-oji kopija)"
+
+#. localizers: tag used to detect the x3rd copy of a file
+#: ../gsearchtool/gsearchtool-support.c:1541
+msgid "rd copy)"
+msgstr "-oji kopija)"
+
+#. localizers: appended to first file copy
+#: ../gsearchtool/gsearchtool-support.c:1558
+#, c-format
+msgid "%s (copy)%s"
+msgstr "%s (kopija)%s"
+
+#. localizers: appended to second file copy
+#: ../gsearchtool/gsearchtool-support.c:1560
+#, c-format
+msgid "%s (another copy)%s"
+msgstr "%s (kita kopija)%s"
+
+#. localizers: appended to x11th file copy
+#. localizers: appended to x12th file copy
+#. localizers: appended to x13th file copy
+#. localizers: appended to xxth file copy
+#: ../gsearchtool/gsearchtool-support.c:1563
+#: ../gsearchtool/gsearchtool-support.c:1565
+#: ../gsearchtool/gsearchtool-support.c:1567
+#: ../gsearchtool/gsearchtool-support.c:1576
+#, c-format
+msgid "%s (%dth copy)%s"
+msgstr "%s (%d-oji kopija)%s"
+
+#. localizers: appended to x1st file copy
+#: ../gsearchtool/gsearchtool-support.c:1570
+#, c-format
+msgid "%s (%dst copy)%s"
+msgstr "%s (%d-oji kopija)%s"
+
+#. localizers: appended to x2nd file copy
+#: ../gsearchtool/gsearchtool-support.c:1572
+#, c-format
+msgid "%s (%dnd copy)%s"
+msgstr "%s (%d-oji kopija)%s"
+
+#. localizers: appended to x3rd file copy
+#: ../gsearchtool/gsearchtool-support.c:1574
+#, c-format
+msgid "%s (%drd copy)%s"
+msgstr "%s (%d-oji kopija)%s"
+
+#: ../gsearchtool/gsearchtool-support.c:1621
+msgid " (invalid Unicode)"
+msgstr " (neteisingas Unikodas)"
+
+#. localizers: opening parentheses to match the "th copy)" string
+#: ../gsearchtool/gsearchtool-support.c:1710
+msgid " ("
+msgstr " ("
+
+#. localizers: opening parentheses of the "th copy)" string
+#: ../gsearchtool/gsearchtool-support.c:1718
+#, c-format
+msgid " (%d"
+msgstr " (%d"
+
+#: ../gsearchtool/gsearchtool.c:82
+msgid "Contains the _text"
+msgstr "_Turi tekstą"
+
+#: ../gsearchtool/gsearchtool.c:84
+msgid "_Date modified less than"
+msgstr "Pakeista prieš _mažiau nei"
+
+#: ../gsearchtool/gsearchtool.c:84 ../gsearchtool/gsearchtool.c:85
+msgid "days"
+msgstr "dienų"
+
+#: ../gsearchtool/gsearchtool.c:85
+msgid "Date modified more than"
+msgstr "Pakeista prieš daugiau nei"
+
+#: ../gsearchtool/gsearchtool.c:87
+msgid "S_ize at least"
+msgstr "Mažiausias galimas _dydis"
+
+#: ../gsearchtool/gsearchtool.c:87 ../gsearchtool/gsearchtool.c:88
+msgid "kilobytes"
+msgstr "kilobaitų"
+
+#: ../gsearchtool/gsearchtool.c:88
+msgid "Si_ze at most"
+msgstr "Didžiausias galimas d_ydis"
+
+#: ../gsearchtool/gsearchtool.c:89
+msgid "File is empty"
+msgstr "Failas yra tuščias"
+
+#: ../gsearchtool/gsearchtool.c:91
+msgid "Owned by _user"
+msgstr "Prikla_uso naudotojui"
+
+#: ../gsearchtool/gsearchtool.c:92
+msgid "Owned by _group"
+msgstr "Priklauso _grupei"
+
+#: ../gsearchtool/gsearchtool.c:93
+msgid "Owner is unrecognized"
+msgstr "Neatpažintas savininkas"
+
+#: ../gsearchtool/gsearchtool.c:95
+msgid "Na_me does not contain"
+msgstr "Varde _nėra"
+
+#: ../gsearchtool/gsearchtool.c:96
+msgid "Name matches regular e_xpression"
+msgstr "Vardas atitinka _reguliarią išraišką"
+
+#: ../gsearchtool/gsearchtool.c:98
+msgid "Show hidden and backup files"
+msgstr "Rodyti paslėptus ir atsarginius failus"
+
+#: ../gsearchtool/gsearchtool.c:99
+msgid "Follow symbolic links"
+msgstr "Sekti simbolinėmis nuorodomis"
+
+#: ../gsearchtool/gsearchtool.c:100
+msgid "Include other filesystems"
+msgstr "Ieškoti ir kitose failų sistemose"
+
+#: ../gsearchtool/gsearchtool.c:158 ../gsearchtool/gsearchtool.c:163
+#: ../gsearchtool/gsearchtool.c:172
+msgid "STRING"
+msgstr "SEKA"
+
+#: ../gsearchtool/gsearchtool.c:159
+msgid "PATH"
+msgstr "KELIAS"
+
+#: ../gsearchtool/gsearchtool.c:160
+msgid "VALUE"
+msgstr "REIKŠMĖ"
+
+#: ../gsearchtool/gsearchtool.c:164 ../gsearchtool/gsearchtool.c:165
+msgid "DAYS"
+msgstr "DIENOS"
+
+#: ../gsearchtool/gsearchtool.c:166 ../gsearchtool/gsearchtool.c:167
+msgid "KILOBYTES"
+msgstr "KILOBAITAI"
+
+#: ../gsearchtool/gsearchtool.c:169
+msgid "USER"
+msgstr "NAUDOTOJAS"
+
+#: ../gsearchtool/gsearchtool.c:170
+msgid "GROUP"
+msgstr "GRUPĖ"
+
+#: ../gsearchtool/gsearchtool.c:173
+msgid "PATTERN"
+msgstr "ŠABLONAS"
+
+#: ../gsearchtool/gsearchtool.c:181
+msgid "_Open"
+msgstr "_Atverti"
+
+#: ../gsearchtool/gsearchtool.c:182
+msgid "O_pen Folder"
+msgstr "Atverti a_planką"
+
+#: ../gsearchtool/gsearchtool.c:184
+msgid "_Save Results As..."
+msgstr "Išsaugoti rezultatus _kaip..."
+
+#: ../gsearchtool/gsearchtool.c:390
+msgid "A locate database has probably not been created."
+msgstr "Tikriausiai „locate“ duomenų bazė nebuvo sukurta."
+
+#: ../gsearchtool/gsearchtool.c:492
+#, c-format
+msgid "Character set conversion failed for \"%s\""
+msgstr "Nepavyko konvertuoti „%s“ simbolių rinkinio"
+
+#: ../gsearchtool/gsearchtool.c:516
+msgid "Searching..."
+msgstr "Ieškoma..."
+
+#: ../gsearchtool/gsearchtool.c:516 ../gsearchtool/gsearchtool.c:1021
+#: ../gsearchtool/gsearchtool.c:1299 ../gsearchtool/gsearchtool.c:3149
+msgid "Search for Files"
+msgstr "Ieškoti failų"
+
+#: ../gsearchtool/gsearchtool.c:967 ../gsearchtool/gsearchtool.c:996
+msgid "No files found"
+msgstr "Failų nerasta"
+
+#: ../gsearchtool/gsearchtool.c:989
+msgid "(stopped)"
+msgstr "(sustabdyta)"
+
+#: ../gsearchtool/gsearchtool.c:995
+msgid "No Files Found"
+msgstr "Failų nerasta"
+
+#: ../gsearchtool/gsearchtool.c:1000
+#, c-format
+msgid "%d File Found"
+msgid_plural "%d Files Found"
+msgstr[0] "Rastas %d failas"
+msgstr[1] "Rasti %d failai"
+msgstr[2] "Rasta %d failų"
+
+#: ../gsearchtool/gsearchtool.c:1004 ../gsearchtool/gsearchtool.c:1042
+#, c-format
+msgid "%d file found"
+msgid_plural "%d files found"
+msgstr[0] "Rastas %d failas"
+msgstr[1] "Rasti %d failai"
+msgstr[2] "Rasta %d failų"
+
+#: ../gsearchtool/gsearchtool.c:1133
+msgid "Entry changed called for a non entry option!"
+msgstr "Įrašo keitimo funkcija pritaikyta ne įrašo savybėms!"
+
+#: ../gsearchtool/gsearchtool.c:1384
+msgid "Set the text of \"Name contains\" search option"
+msgstr "Nustatyti paieškos parametro „Varde yra“ tekstą"
+
+#: ../gsearchtool/gsearchtool.c:1385
+msgid "Set the text of \"Look in folder\" search option"
+msgstr "Nustatyti paieškos parametro „Ieškoti aplanke“ tekstą"
+
+#: ../gsearchtool/gsearchtool.c:1386
+msgid "Sort files by one of the following: name, folder, size, type, or date"
+msgstr ""
+"Rikiuoti failus pagal vieną iš šių požymių: vardą, aplanką, dydį, tipą ar "
+"datą"
+
+#: ../gsearchtool/gsearchtool.c:1387
+msgid "Set sort order to descending, the default is ascending"
+msgstr "Rūšiuoti mažėjimo tvarka. Pagal nutylėjimą rūšiuojama didėjant"
+
+#: ../gsearchtool/gsearchtool.c:1388
+msgid "Automatically start a search"
+msgstr "Automatiškai pradėti paiešką"
+
+#: ../gsearchtool/gsearchtool.c:1394
+#, c-format
+msgid "Select the \"%s\" search option"
+msgstr "Pasirinkti paieškos parinktį „%s“"
+
+#: ../gsearchtool/gsearchtool.c:1397
+#, c-format
+msgid "Select and set the \"%s\" search option"
+msgstr "Pasirinkti ir nustatyti paieškos parinktį „%s“"
+
+#: ../gsearchtool/gsearchtool.c:1504
+msgid "Invalid option passed to sortby command line argument."
+msgstr "Netinkama parinktis pateikta sortby komandų eilutės argumentui."
+
+#: ../gsearchtool/gsearchtool.c:1802
+msgid ""
+"\n"
+"... Too many errors to display ..."
+msgstr ""
+"\n"
+"... Per daug klaidų, kad būtų rodomos ..."
+
+#: ../gsearchtool/gsearchtool.c:1816
+msgid ""
+"The search results may be invalid.  There were errors while performing this "
+"search."
+msgstr ""
+"Paieškos rezultatai gali būti neteisingi. Vykdant šią paiešką, iškilo klaidų."
+
+#: ../gsearchtool/gsearchtool.c:1828 ../gsearchtool/gsearchtool.c:1872
+msgid "Show more _details"
+msgstr "Ro_dyti išsamesnę informaciją"
+
+#: ../gsearchtool/gsearchtool.c:1858
+msgid ""
+"The search results may be out of date or invalid.  Do you want to disable "
+"the quick search feature?"
+msgstr ""
+"Paieškos rezultatai gali būti pasenę arba neteisingi. Ar norite atjungti "
+"greitos paieškos funkciją?"
+
+#: ../gsearchtool/gsearchtool.c:1883
+msgid "Disable _Quick Search"
+msgstr "Atjungti _greitą paiešką"
+
+#: ../gsearchtool/gsearchtool.c:1910
+#, c-format
+msgid "Failed to set process group id of child %d: %s.\n"
+msgstr "Nepavyko nustatyti proceso grupės id antrinio proceso %d: %s.\n"
+
+#: ../gsearchtool/gsearchtool.c:1935
+msgid "Error parsing the search command."
+msgstr "Įvyko klaida apdorojant paieškos komandą."
+
+#: ../gsearchtool/gsearchtool.c:1968
+msgid "Error running the search command."
+msgstr "Įvyko klaida paleidžiant paieškos komandą."
+
+#: ../gsearchtool/gsearchtool.c:2083
+#, c-format
+msgid "Enter a text value for the \"%s\" search option."
+msgstr "Įveskite tekstinę reikšmę paieškos parinkčiai „%s“."
+
+#. Translators:  Below is a string displaying the search options name
+#. and unit value.  For example, "\"Date modified less than\" in days".
+#: ../gsearchtool/gsearchtool.c:2088
+#, c-format
+msgid "\"%s\" in %s"
+msgstr "„%s“ per %s"
+
+#: ../gsearchtool/gsearchtool.c:2090
+#, c-format
+msgid "Enter a value in %s for the \"%s\" search option."
+msgstr "Įveskite %s reikšmę paieškos parinkčiai „%s“."
+
+#: ../gsearchtool/gsearchtool.c:2148
+#, c-format
+msgid "Remove \"%s\""
+msgstr "Pašalinti „%s“"
+
+#: ../gsearchtool/gsearchtool.c:2149
+#, c-format
+msgid "Click to remove the \"%s\" search option."
+msgstr "Spustelėkite, norėdami pašalinti paieškos parametrą „%s“."
+
+#: ../gsearchtool/gsearchtool.c:2242
+msgid "A_vailable options:"
+msgstr "_Galimos parinktys:"
+
+#: ../gsearchtool/gsearchtool.c:2271
+msgid "Available options"
+msgstr "Galimos parinktys"
+
+#: ../gsearchtool/gsearchtool.c:2272
+msgid "Select a search option from the drop-down list."
+msgstr "Išskleidžiamame meniu pasirinkite paieškos parinktį."
+
+#: ../gsearchtool/gsearchtool.c:2284
+msgid "Add search option"
+msgstr "Pridėti paieškos parinktį"
+
+#: ../gsearchtool/gsearchtool.c:2285
+msgid "Click to add the selected available search option."
+msgstr "Spustelėkite, norėdami pridėti pasirinktą galimą paieškos parinktį."
+
+#: ../gsearchtool/gsearchtool.c:2374
+msgid "S_earch results:"
+msgstr "_Paieškos rezultatai:"
+
+#: ../gsearchtool/gsearchtool.c:2413
+msgid "List View"
+msgstr "Sąrašo rodinys"
+
+#: ../gsearchtool/gsearchtool.c:2520
+msgid "Type"
+msgstr "Tipas"
+
+#: ../gsearchtool/gsearchtool.c:2531
+msgid "Date Modified"
+msgstr "Keitimo data"
+
+#: ../gsearchtool/gsearchtool.c:2932
+msgid "_Name contains:"
+msgstr "_Varde yra:"
+
+#: ../gsearchtool/gsearchtool.c:2946 ../gsearchtool/gsearchtool.c:2947
+msgid "Enter a filename or partial filename with or without wildcards."
+msgstr ""
+"Įveskite visą arba dalinį failo vardą (galima naudoti pakaitos simbolius)."
+
+#: ../gsearchtool/gsearchtool.c:2947
+msgid "Name contains"
+msgstr "Varde yra"
+
+#: ../gsearchtool/gsearchtool.c:2953
+msgid "_Look in folder:"
+msgstr "Ieškoti ap_lanke:"
+
+#: ../gsearchtool/gsearchtool.c:2959
+msgid "Browse"
+msgstr "Naršyti"
+
+#: ../gsearchtool/gsearchtool.c:2964
+msgid "Look in folder"
+msgstr "Ieškoti aplanke"
+
+#: ../gsearchtool/gsearchtool.c:2964
+msgid "Select the folder or device from which you want to begin the search."
+msgstr "Pasirinkite aplanką arbą įrenginį, kuriame norite pradėti paiešką"
+
+#: ../gsearchtool/gsearchtool.c:2975
+msgid "Select more _options"
+msgstr "Pasirin_kti daugiau parinkčių"
+
+#: ../gsearchtool/gsearchtool.c:2984
+msgid "Select more options"
+msgstr "Pasirinkti daugiau parinkčių"
+
+#: ../gsearchtool/gsearchtool.c:2984
+msgid "Click to expand or collapse the list of available options."
+msgstr ""
+"Spustelėkite, norėdami išskleisti arba sutraukti galimų parinkčių sąrašą."
+
+#: ../gsearchtool/gsearchtool.c:3008
+msgid "Click to display the help manual."
+msgstr "Spustelėkite, norėdami pamatyti žinyną."
+
+#: ../gsearchtool/gsearchtool.c:3016
+msgid "Click to close \"Search for Files\"."
+msgstr "Spustelėkite, norėdami užverti „Ieškoti failų...“."
+
+#: ../gsearchtool/gsearchtool.c:3042
+msgid "Click to perform a search."
+msgstr "Spustelėkite, norėdami pradėti paiešką."
+
+#: ../gsearchtool/gsearchtool.c:3043
+msgid "Click to stop a search."
+msgstr "Spustelėkite, norėdami sustabdyti paiešką."
+
+#: ../gsearchtool/gsearchtool.c:3134
+msgid "- the GNOME Search Tool"
+msgstr "– GNOME paieškos įrankis"
+
+#: ../logview/data/gnome-system-log.desktop.in.in.h:1
+msgid "Log File Viewer"
+msgstr "Žurnalų failų peržiūra"
+
+#: ../logview/data/gnome-system-log.desktop.in.in.h:2
+msgid "View or monitor system log files"
+msgstr "Peržiūrėti ar stebėti sistemos žurnalų failus"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:1
+msgid "Height of the main window in pixels"
+msgstr "Pagrindinio lango aukštis pikseliais"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:2
+msgid "Log file to open up on startup"
+msgstr "Paleidimo metu atveriamas žurnalo failas"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:3
+msgid "Log files to open up on startup"
+msgstr "Paleidimo metu atveriami žurnalų failai"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:4
+msgid "Size of the font used to display the log"
+msgstr "Šrifto, naudojamo žurnalo rodymui, dydis"
+
+#: ../logview/data/gnome-system-log.schemas.in.h:5
+msgid ""
+"Specifies a list of log files to open up at startup. A default list is "
+"created by reading /etc/syslog.conf."
+msgstr ""
+"Nurodo paleidimo metu atveriamų žurnalo failų sąrašą. Numatytasis sąrašas "
+"sukuriamas perskaitant /etc/syslog.conf."
+
+#: ../logview/data/gnome-system-log.schemas.in.h:6
+msgid "Specifies the height of the log viewer main window in pixels."
+msgstr "Nurodo pagrindinio žurnalų žiūryklės lango aukštį pikseliais."
+
+#: ../logview/data/gnome-system-log.schemas.in.h:7
+msgid ""
+"Specifies the log file displayed at startup. The default is either /var/adm/"
+"messages or /var/log/messages, depending on your operating system."
+msgstr ""
+"Nurodo programos paleidimo metu atveriamą žurnalą. Numatytasis yra /var/adm/"
+"messages arba /var/log/messages, tai priklauso nuo jūsų operacinės sistemos."
+
+#: ../logview/data/gnome-system-log.schemas.in.h:8
+msgid ""
+"Specifies the size of the fixed-width font used to display the log in the "
+"main tree view. The default is taken from the default terminal font size."
+msgstr ""
+"Nurodo žurnalo rodomo pagrindiniame medžio rodinyje naudojamo fiksuoto "
+"pločio šrifto dydį. Numatytasis toks pat kaip numatytasis terminalo šrifto "
+"dydis."
+
+#: ../logview/data/gnome-system-log.schemas.in.h:9
+msgid "Specifies the width of the log viewer main window in pixels."
+msgstr "Nurodo pagrindinio žurnalų peržiūros programos lango plotį pikseliais."
+
+#: ../logview/data/gnome-system-log.schemas.in.h:10
+msgid "Width of the main window in pixels"
+msgstr "Pagrindinio lango plotis pikseliais"
+
+#: ../logview/logview-about.h:49
+msgid ""
+"Log Viewer is free software; you can redistribute it and/or modify it under "
+"the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"Žurnalų peržiūros programa yra laisva programinė įranga; galite ją platinti "
+"ir / arba modifikuoti GNU bendrosios viešosios licencijos sąlygomis, "
+"paskelbtomis Laisvosios programinės įrangos fondo; 2-osios arba (savo "
+"pasirinkimu) bet kurios vėlesnės licencijos versijos sąlygomis."
+
+#: ../logview/logview-about.h:53
+msgid ""
+"Log Viewer is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"Žurnalų peržiūros programa yra platinama tikintis, kad ji bus naudinga, "
+"tačiau BE JOKIŲ GARANTIJŲ; netgi be numanomų PARDAVIMO arba TINKAMUMO TAM "
+"TIKRAM TIKSLUI garantijų. Išsamesnę informaciją rasite GNU bendrojoje "
+"viešojoje licencijoje."
+
+#: ../logview/logview-about.h:57
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"the Log Viewer; if not, write to the Free Software Foundation, Inc., 51 "
+"Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA"
+msgstr ""
+"Turėjote gauti GNU bendrosios viešosios licencijos kopiją kartu su Žurnalų "
+"peržiūros programa; jeigu negavote, rašykite Free Software Foundation, "
+"Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA"
+
+#: ../logview/logview-app.c:375
+#, c-format
+msgid "Impossible to open the file %s"
+msgstr "Nepavyko atverti failo %s"
+
+#: ../logview/logview-findbar.c:169
+msgid "_Find:"
+msgstr "_Rasti:"
+
+#: ../logview/logview-findbar.c:184
+msgid "Find Previous"
+msgstr "Rasti ankstesnį"
+
+#: ../logview/logview-findbar.c:187
+msgid "Find previous occurrence of the search string"
+msgstr "Rasti ankstesnį ieškomos eilutės pasikartojimą"
+
+#: ../logview/logview-findbar.c:192
+msgid "Find Next"
+msgstr "Rasti kitą"
+
+#: ../logview/logview-findbar.c:195
+msgid "Find next occurrence of the search string"
+msgstr "Rasti kitą ieškomos eilutės pasikartojimą"
+
+#: ../logview/logview-findbar.c:202
+msgid "Clear the search string"
+msgstr "Išvalyti paieškos eilutę"
+
+#: ../logview/logview-log.c:595
+msgid "Error while uncompressing the GZipped log. The file might be corrupt."
+msgstr ""
+"Klaida išglaudinant su gzip suglaudintą žurnalą. Šis failas gali būti "
+"sugadintas."
+
+#: ../logview/logview-log.c:642
+msgid "You don't have enough permissions to read the file."
+msgstr "Neturite reikalingų teisių šiam failui skaityti."
+
+#: ../logview/logview-log.c:657
+msgid "The file is not a regular file or is not a text file."
+msgstr "Šis failas nėra įprastas failas arba tai ne tekstinis failas."
+
+#: ../logview/logview-log.c:739
+msgid "This version of System Log does not support GZipped logs."
+msgstr "Ši Sistemos žurnalo versija nepalaiko su gzip suglaudintų žurnalų."
+
+#: ../logview/logview-loglist.c:311
+msgid "Loading..."
+msgstr "Įkeliama..."
+
+#: ../logview/logview-main.c:62
+msgid "Show the application's version"
+msgstr "Rodyti programos versiją"
+
+#: ../logview/logview-main.c:64
+msgid "[LOGFILE...]"
+msgstr "[ŽURNALO FAILAS...]"
+
+#: ../logview/logview-main.c:68
+msgid " - Browse and monitor logs"
+msgstr "– Naršyti ir stebėti žurnalus"
+
+#: ../logview/logview-main.c:102
+msgid "Log Viewer"
+msgstr "Žurnalų peržiūra"
+
+#: ../logview/logview-window.c:39 ../logview/logview-window.c:596
+msgid "System Log Viewer"
+msgstr "Sistemos žurnalų peržiūra"
+
+#: ../logview/logview-window.c:206
+#, c-format
+msgid "last update: %s"
+msgstr "paskutinis atnaujinimas: %s"
+
+#: ../logview/logview-window.c:209
+#, c-format
+msgid "%d lines (%s) - %s"
+msgstr "%d eilutės (%s) - %s"
+
+#: ../logview/logview-window.c:337
+msgid "Open Log"
+msgstr "Atverti žurnalą"
+
+#: ../logview/logview-window.c:376
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "Rodant žinyną įvyko klaida: %s"
+
+#: ../logview/logview-window.c:492
+msgid "Wrapped"
+msgstr "Apgaubtas"
+
+#: ../logview/logview-window.c:601
+msgid "A system log viewer for GNOME."
+msgstr "GNOME sistemos žurnalų peržiūros programa"
+
+#: ../logview/logview-window.c:642
+msgid "_Open..."
+msgstr "_Atverti..."
+
+#: ../logview/logview-window.c:642
+msgid "Open a log from file"
+msgstr "Atverti žurnalą iš failo"
+
+#: ../logview/logview-window.c:644
+msgid "_Close"
+msgstr "_Užverti"
+
+#: ../logview/logview-window.c:644
+msgid "Close this log"
+msgstr "Užverti šį žurnalą"
+
+#: ../logview/logview-window.c:646
+msgid "_Quit"
+msgstr "Iš_eiti"
+
+#: ../logview/logview-window.c:646
+msgid "Quit the log viewer"
+msgstr "Užverti žurnalų peržiūros programą"
+
+#: ../logview/logview-window.c:649
+msgid "_Copy"
+msgstr "_Kopijuoti"
+
+#: ../logview/logview-window.c:649
+msgid "Copy the selection"
+msgstr "Kopijuoti pažymėtą tekstą"
+
+#: ../logview/logview-window.c:651
+msgid "Select the entire log"
+msgstr "Pažymėti visą žurnalą"
+
+#: ../logview/logview-window.c:653
+msgid "_Find..."
+msgstr "_Rasti..."
+
+#: ../logview/logview-window.c:653
+msgid "Find a word or phrase in the log"
+msgstr "Žurnale rasti žodį ar frazę"
+
+#: ../logview/logview-window.c:656
+msgid "Bigger text size"
+msgstr "Didesnis teksto dydis"
+
+#: ../logview/logview-window.c:658
+msgid "Smaller text size"
+msgstr "Mažesnis teksto dydis"
+
+#: ../logview/logview-window.c:660
+msgid "Normal text size"
+msgstr "Normalus teksto dydis"
+
+#: ../logview/logview-window.c:663
+msgid "Open the help contents for the log viewer"
+msgstr "Atverti žurnalų peržiūros programos žinyną"
+
+#: ../logview/logview-window.c:665
+msgid "Show the about dialog for the log viewer"
+msgstr "Parodyti žurnalų peržiūros programos „apie“ langą"
+
+#: ../logview/logview-window.c:670
+msgid "_Statusbar"
+msgstr "_Būsenos juosta"
+
+#: ../logview/logview-window.c:670
+msgid "Show Status Bar"
+msgstr "Rodyti būsenos juostą"
+
+#: ../logview/logview-window.c:672
+msgid "Side _Pane"
+msgstr "Š_oninis polangis"
+
+#: ../logview/logview-window.c:672
+msgid "Show Side Pane"
+msgstr "Rodyti šoninį polangį"
+
+#: ../logview/logview-window.c:1165
+msgid "Close"
+msgstr "Užverti"
+
+#: ../logview/logview-window.c:1205
+msgid "Version: "
+msgstr "Versija: "
+
+#: ../logview/logview-window.c:1305
+msgid "Could not open the following files:"
+msgstr "Nepavyko atverti šių failų:"

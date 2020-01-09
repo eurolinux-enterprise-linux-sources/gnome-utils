@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="GdictDatabaseChooser-selection-changed"><link linkend="GdictDatabaseChooser-selection-changed">GdictDatabaseChooser::selection-changed</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictDatabaseChooser--count"><link linkend="GdictDatabaseChooser--count">GdictDatabaseChooser:count</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceChooser-selection-changed"><link linkend="GdictSourceChooser-selection-changed">GdictSourceChooser::selection-changed</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceChooser-source-activated"><link linkend="GdictSourceChooser-source-activated">GdictSourceChooser::source-activated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceChooser--count"><link linkend="GdictSourceChooser--count">GdictSourceChooser:count</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictSourceChooser--loader"><link linkend="GdictSourceChooser--loader">GdictSourceChooser:loader</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-debug-init"><link linkend="gdict-debug-init">gdict_debug_init</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-selected-word"><link linkend="gdict-defbox-get-selected-word">gdict_defbox_get_selected_word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-defbox-get-word"><link linkend="gdict-defbox-get-word">gdict_defbox_get_word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-get-option-group"><link linkend="gdict-get-option-group">gdict_get_option_group</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-add-button"><link linkend="gdict-source-chooser-add-button">gdict_source_chooser_add_button</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-count-sources"><link linkend="gdict-source-chooser-count-sources">gdict_source_chooser_count_sources</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-get-current-source"><link linkend="gdict-source-chooser-get-current-source">gdict_source_chooser_get_current_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-get-loader"><link linkend="gdict-source-chooser-get-loader">gdict_source_chooser_get_loader</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-get-sources"><link linkend="gdict-source-chooser-get-sources">gdict_source_chooser_get_sources</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-has-source"><link linkend="gdict-source-chooser-has-source">gdict_source_chooser_has_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-new"><link linkend="gdict-source-chooser-new">gdict_source_chooser_new</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-new-with-loader"><link linkend="gdict-source-chooser-new-with-loader">gdict_source_chooser_new_with_loader</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-refresh"><link linkend="gdict-source-chooser-refresh">gdict_source_chooser_refresh</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-select-source"><link linkend="gdict-source-chooser-select-source">gdict_source_chooser_select_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-set-current-source"><link linkend="gdict-source-chooser-set-current-source">gdict_source_chooser_set_current_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-set-loader"><link linkend="gdict-source-chooser-set-loader">gdict_source_chooser_set_loader</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-chooser-unselect-source"><link linkend="gdict-source-chooser-unselect-source">gdict_source_chooser_unselect_source</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-source-loader-has-source"><link linkend="gdict-source-loader-has-source">gdict_source_loader_has_source</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

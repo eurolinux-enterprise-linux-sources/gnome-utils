@@ -1,0 +1,150 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="gdict-Gdict-Utilities">
+<refmeta>
+<refentrytitle role="top_of_page" id="gdict-Gdict-Utilities.top_of_page">Gdict Utilities</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>Gdict Utilities</refname>
+<refpurpose></refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="gdict-Gdict-Utilities.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+#define             <link linkend="GDICT-DEFAULT-DATABASE--CAPS">GDICT_DEFAULT_DATABASE</link>
+#define             <link linkend="GDICT-DEFAULT-STRATEGY--CAPS">GDICT_DEFAULT_STRATEGY</link>
+#define             <link linkend="GDICT-DEFAULT-FONT-NAME--CAPS">GDICT_DEFAULT_FONT_NAME</link>
+enum                <link linkend="GdictContextProp">GdictContextProp</link>;
+enum                <link linkend="GdictStatusCode">GdictStatusCode</link>;
+<link linkend="void">void</link>                <link linkend="gdict-debug-init">gdict_debug_init</link>                    (<link linkend="gint">gint</link> *argc,
+                                                         <link linkend="gchar">gchar</link> ***argv);
+<link linkend="GOptionGroup">GOptionGroup</link> *      <link linkend="gdict-get-option-group">gdict_get_option_group</link>              (void);
+</synopsis>
+</refsynopsisdiv>
+
+
+
+
+
+
+
+
+
+<refsect1 id="gdict-Gdict-Utilities.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="gdict-Gdict-Utilities.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GDICT-DEFAULT-DATABASE--CAPS" role="macro">
+<title>GDICT_DEFAULT_DATABASE</title>
+<indexterm zone="GDICT-DEFAULT-DATABASE--CAPS"><primary sortas="GDICT_DEFAULT_DATABASE">GDICT_DEFAULT_DATABASE</primary></indexterm><programlisting>#define GDICT_DEFAULT_DATABASE	"*"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GDICT-DEFAULT-STRATEGY--CAPS" role="macro">
+<title>GDICT_DEFAULT_STRATEGY</title>
+<indexterm zone="GDICT-DEFAULT-STRATEGY--CAPS"><primary sortas="GDICT_DEFAULT_STRATEGY">GDICT_DEFAULT_STRATEGY</primary></indexterm><programlisting>#define GDICT_DEFAULT_STRATEGY	"."
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GDICT-DEFAULT-FONT-NAME--CAPS" role="macro">
+<title>GDICT_DEFAULT_FONT_NAME</title>
+<indexterm zone="GDICT-DEFAULT-FONT-NAME--CAPS"><primary sortas="GDICT_DEFAULT_FONT_NAME">GDICT_DEFAULT_FONT_NAME</primary></indexterm><programlisting>#define GDICT_DEFAULT_FONT_NAME "Sans 10"
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictContextProp" role="enum">
+<title>enum GdictContextProp</title>
+<indexterm zone="GdictContextProp"><primary sortas="GdictContextProp">GdictContextProp</primary></indexterm><programlisting>typedef enum {
+  GDICT_CONTEXT_PROP_FIRST      = 0x1000,
+  GDICT_CONTEXT_PROP_LOCAL_ONLY = GDICT_CONTEXT_PROP_FIRST,
+  GDICT_CONTEXT_PROP_LAST
+} GdictContextProp;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictStatusCode" role="enum">
+<title>enum GdictStatusCode</title>
+<indexterm zone="GdictStatusCode"><primary sortas="GdictStatusCode">GdictStatusCode</primary></indexterm><programlisting>typedef enum {
+  GDICT_STATUS_INVALID                   = 0,
+    
+  GDICT_STATUS_N_DATABASES_PRESENT       = 110,
+  GDICT_STATUS_N_STRATEGIES_PRESENT      = 111,
+  GDICT_STATUS_DATABASE_INFO             = 112,
+  GDICT_STATUS_HELP_TEXT                 = 113,
+  GDICT_STATUS_SERVER_INFO               = 114,
+  GDICT_STATUS_CHALLENGE                 = 130,
+  GDICT_STATUS_N_DEFINITIONS_RETRIEVED   = 150,
+  GDICT_STATUS_WORD_DB_NAME              = 151,
+  GDICT_STATUS_N_MATCHES_FOUND           = 152,
+  GDICT_STATUS_CONNECT                   = 220,
+  GDICT_STATUS_QUIT                      = 221,
+  GDICT_STATUS_AUTH_OK                   = 230,
+  GDICT_STATUS_OK                        = 250,
+  GDICT_STATUS_SEND_RESPONSE             = 330,
+  /* Connect response codes */
+  GDICT_STATUS_SERVER_DOWN               = 420,
+  GDICT_STATUS_SHUTDOWN                  = 421,
+  /* Error codes */
+  GDICT_STATUS_BAD_COMMAND               = 500,
+  GDICT_STATUS_BAD_PARAMETERS            = 501,
+  GDICT_STATUS_COMMAND_NOT_IMPLEMENTED   = 502,
+  GDICT_STATUS_PARAMETER_NOT_IMPLEMENTED = 503,
+  GDICT_STATUS_NO_ACCESS                 = 530,
+  GDICT_STATUS_USE_SHOW_INFO             = 531,
+  GDICT_STATUS_UNKNOWN_MECHANISM         = 532,
+  GDICT_STATUS_BAD_DATABASE              = 550,
+  GDICT_STATUS_BAD_STRATEGY              = 551,
+  GDICT_STATUS_NO_MATCH                  = 552,
+  GDICT_STATUS_NO_DATABASES_PRESENT      = 554,
+  GDICT_STATUS_NO_STRATEGIES_PRESENT     = 555
+} GdictStatusCode;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-debug-init" role="function" condition="since:0.12">
+<title>gdict_debug_init ()</title>
+<indexterm zone="gdict-debug-init" role="0.12"><primary sortas="gdict_debug_init">gdict_debug_init</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_debug_init                    (<link linkend="gint">gint</link> *argc,
+                                                         <link linkend="gchar">gchar</link> ***argv);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>argc</parameter>&#160;:</term>
+<listitem><simpara> FIXME
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>argv</parameter>&#160;:</term>
+<listitem><simpara> FIXME
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+<refsect2 id="gdict-get-option-group" role="function" condition="since:0.12">
+<title>gdict_get_option_group ()</title>
+<indexterm zone="gdict-get-option-group" role="0.12"><primary sortas="gdict_get_option_group">gdict_get_option_group</primary></indexterm><programlisting><link linkend="GOptionGroup">GOptionGroup</link> *      gdict_get_option_group              (void);</programlisting>
+<para>
+FIXME</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> FIXME
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+
+</refsect1>
+
+
+
+
+</refentry>

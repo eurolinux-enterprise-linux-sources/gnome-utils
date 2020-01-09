@@ -1,0 +1,298 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictSourceLoader">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictSourceLoader.top_of_page">GdictSourceLoader</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictSourceLoader</refname>
+<refpurpose>Loader object for a set of dictionary sources</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictSourceLoader.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictSourceLoader-struct">GdictSourceLoader</link>;
+                    <link linkend="GdictSourceLoaderClass">GdictSourceLoaderClass</link>;
+<link linkend="GdictSourceLoader">GdictSourceLoader</link> * <link linkend="gdict-source-loader-new">gdict_source_loader_new</link>             (void);
+<link linkend="void">void</link>                <link linkend="gdict-source-loader-update">gdict_source_loader_update</link>          (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);
+<link linkend="void">void</link>                <link linkend="gdict-source-loader-add-search-path">gdict_source_loader_add_search_path</link> (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *path);
+const <link linkend="GSList">GSList</link> *      <link linkend="gdict-source-loader-get-paths">gdict_source_loader_get_paths</link>       (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);
+<link linkend="gchar">gchar</link> **            <link linkend="gdict-source-loader-get-names">gdict_source_loader_get_names</link>       (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         <link linkend="gsize">gsize</link> *length);
+const <link linkend="GSList">GSList</link> *      <link linkend="gdict-source-loader-get-sources">gdict_source_loader_get_sources</link>     (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);
+<link linkend="GdictSource">GdictSource</link> *       <link linkend="gdict-source-loader-get-source">gdict_source_loader_get_source</link>      (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-source-loader-remove-source">gdict_source_loader_remove_source</link>   (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-source-loader-has-source">gdict_source_loader_has_source</link>      (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *source_name);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictSourceLoader.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----GdictSourceLoader
+</synopsis>
+</refsect1>
+
+
+
+
+
+<refsect1 id="GdictSourceLoader.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictSourceLoader--paths">paths</link>&quot;                    <link linkend="gpointer">gpointer</link>              : Read
+  &quot;<link linkend="GdictSourceLoader--sources">sources</link>&quot;                  <link linkend="gpointer">gpointer</link>              : Read
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictSourceLoader.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictSourceLoader-source-loaded">source-loaded</link>&quot;                                  : Run Last
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictSourceLoader.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+<link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> allows searching for dictionary source definition
+files inside a set of paths and return a <link linkend="GdictSource"><type>GdictSource</type></link> using its name.</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictSourceLoader.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictSourceLoader-struct" role="struct">
+<title>GdictSourceLoader</title>
+<indexterm zone="GdictSourceLoader-struct"><primary sortas="GdictSourceLoader">GdictSourceLoader</primary></indexterm><programlisting>typedef struct _GdictSourceLoader GdictSourceLoader;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictSourceLoaderClass" role="struct">
+<title>GdictSourceLoaderClass</title>
+<indexterm zone="GdictSourceLoaderClass"><primary sortas="GdictSourceLoaderClass">GdictSourceLoaderClass</primary></indexterm><programlisting>typedef struct {
+  GObjectClass parent_class;
+  
+  void (*source_loaded) (GdictSourceLoader *loader,
+  			 GdictSource       *source);
+  
+  /* padding for future expansion */
+  void (*_gdict_source_1) (void);
+  void (*_gdict_source_2) (void);
+  void (*_gdict_source_3) (void);
+  void (*_gdict_source_4) (void);
+} GdictSourceLoaderClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-source-loader-new" role="function" condition="since:1.0">
+<title>gdict_source_loader_new ()</title>
+<indexterm zone="gdict-source-loader-new" role="1.0"><primary sortas="gdict_source_loader_new">gdict_source_loader_new</primary></indexterm><programlisting><link linkend="GdictSourceLoader">GdictSourceLoader</link> * gdict_source_loader_new             (void);</programlisting>
+<para>
+Creates a new <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> object.  This object is used to search
+into a list of paths for dictionary source files.  See <link linkend="GdictSource"><type>GdictSource</type></link> for
+more informations about the format of dictionary source files.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a new <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> object
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-update" role="function" condition="since:1.0">
+<title>gdict_source_loader_update ()</title>
+<indexterm zone="gdict-source-loader-update" role="1.0"><primary sortas="gdict_source_loader_update">gdict_source_loader_update</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_source_loader_update          (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);</programlisting>
+<para>
+Queue an update of the sources inside <parameter>loader</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-add-search-path" role="function" condition="since:1.0">
+<title>gdict_source_loader_add_search_path ()</title>
+<indexterm zone="gdict-source-loader-add-search-path" role="1.0"><primary sortas="gdict_source_loader_add_search_path">gdict_source_loader_add_search_path</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_source_loader_add_search_path (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *path);</programlisting>
+<para>
+Adds <parameter>path</parameter> to the search paths list of <parameter>loader</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>path</parameter>&#160;:</term>
+<listitem><simpara> a path to be added to the search path list
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-get-paths" role="function" condition="since:1.0">
+<title>gdict_source_loader_get_paths ()</title>
+<indexterm zone="gdict-source-loader-get-paths" role="1.0"><primary sortas="gdict_source_loader_get_paths">gdict_source_loader_get_paths</primary></indexterm><programlisting>const <link linkend="GSList">GSList</link> *      gdict_source_loader_get_paths       (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);</programlisting>
+<para>
+Gets the list of paths used by <parameter>loader</parameter> to search for dictionary source
+files.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a list containing the paths.  The returned list is owned
+  by the <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> object and should never be free or modified.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-get-names" role="function" condition="since:1.0">
+<title>gdict_source_loader_get_names ()</title>
+<indexterm zone="gdict-source-loader-get-names" role="1.0"><primary sortas="gdict_source_loader_get_names">gdict_source_loader_get_names</primary></indexterm><programlisting><link linkend="gchar">gchar</link> **            gdict_source_loader_get_names       (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         <link linkend="gsize">gsize</link> *length);</programlisting>
+<para>
+Retrieves the list of dictionary source names available into the
+search paths of <parameter>loader</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>length</parameter>&#160;:</term>
+<listitem><simpara> return location for the number of source names, or <link linkend="NULL--CAPS"><literal>NULL</literal></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated, <link linkend="NULL--CAPS"><literal>NULL</literal></link> terminated array of strings.  You
+  should free the returned string array with <link linkend="g-strfreev"><function>g_strfreev()</function></link>
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-get-sources" role="function" condition="since:1.0">
+<title>gdict_source_loader_get_sources ()</title>
+<indexterm zone="gdict-source-loader-get-sources" role="1.0"><primary sortas="gdict_source_loader_get_sources">gdict_source_loader_get_sources</primary></indexterm><programlisting>const <link linkend="GSList">GSList</link> *      gdict_source_loader_get_sources     (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader);</programlisting>
+<para>
+Retrieves the list of dictionary sources available into the search
+paths of <parameter>loader</parameter>, in form of <link linkend="GdictSource"><type>GdictSource</type></link> objects.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a list of <link linkend="GdictSource"><type>GdictSource</type></link> objects.  The returned list
+  is owned by the <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link> object, and should never be
+  freed or modified.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-get-source" role="function" condition="since:1.0">
+<title>gdict_source_loader_get_source ()</title>
+<indexterm zone="gdict-source-loader-get-source" role="1.0"><primary sortas="gdict_source_loader_get_source">gdict_source_loader_get_source</primary></indexterm><programlisting><link linkend="GdictSource">GdictSource</link> *       gdict_source_loader_get_source      (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *name);</programlisting>
+<para>
+Retrieves a dictionary source using <parameter>name</parameter>.  You can use the returned
+<link linkend="GdictSource"><type>GdictSource</type></link> object to create the right <link linkend="GdictContext"><type>GdictContext</type></link> for that
+dictionary source.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>name</parameter>&#160;:</term>
+<listitem><simpara> a name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a referenced <link linkend="GdictSource"><type>GdictSource</type></link> object.  You should de-reference
+  it using <link linkend="g-object-unref"><function>g_object_unref()</function></link> when you finished using it.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-remove-source" role="function" condition="since:1.0">
+<title>gdict_source_loader_remove_source ()</title>
+<indexterm zone="gdict-source-loader-remove-source" role="1.0"><primary sortas="gdict_source_loader_remove_source">gdict_source_loader_remove_source</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_source_loader_remove_source   (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *name);</programlisting>
+<para>
+Removes the dictionary source <parameter>name</parameter> from <parameter>loader</parameter>.  This function will
+also remove the dictionary source definition file bound to it.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>name</parameter>&#160;:</term>
+<listitem><simpara> name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the dictionary source was successfully removed
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 1.0</para></refsect2>
+<refsect2 id="gdict-source-loader-has-source" role="function" condition="since:0.12">
+<title>gdict_source_loader_has_source ()</title>
+<indexterm zone="gdict-source-loader-has-source" role="0.12"><primary sortas="gdict_source_loader_has_source">gdict_source_loader_has_source</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_source_loader_has_source      (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                         const <link linkend="gchar">gchar</link> *source_name);</programlisting>
+<para>
+Checks whether <parameter>loader</parameter> has a dictionary source with name <parameter>source_name</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictSourceLoader"><type>GdictSourceLoader</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source_name</parameter>&#160;:</term>
+<listitem><simpara> the name of a dictionary source
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the dictionary source is known
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.12</para></refsect2>
+
+</refsect1>
+<refsect1 id="GdictSourceLoader.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictSourceLoader--paths" role="property"><title>The <literal>&quot;paths&quot;</literal> property</title>
+<indexterm zone="GdictSourceLoader--paths" role="1.0"><primary sortas="GdictSourceLoader:paths">GdictSourceLoader:paths</primary></indexterm><programlisting>  &quot;paths&quot;                    <link linkend="gpointer">gpointer</link>              : Read</programlisting>
+<para>
+The search paths used by this object</para>
+<para>
+</para><para>Since 1.0</para>
+</refsect2>
+<refsect2 id="GdictSourceLoader--sources" role="property"><title>The <literal>&quot;sources&quot;</literal> property</title>
+<indexterm zone="GdictSourceLoader--sources" role="1.0"><primary sortas="GdictSourceLoader:sources">GdictSourceLoader:sources</primary></indexterm><programlisting>  &quot;sources&quot;                  <link linkend="gpointer">gpointer</link>              : Read</programlisting>
+<para>
+The <link linkend="GdictSource"><type>GdictSource</type></link> objects found by this object</para>
+<para>
+</para><para>Since 1.0</para>
+</refsect2>
+</refsect1>
+
+<refsect1 id="GdictSourceLoader.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictSourceLoader-source-loaded" role="signal"><title>The <literal>&quot;source-loaded&quot;</literal> signal</title>
+<indexterm zone="GdictSourceLoader-source-loaded" role="1.0"><primary sortas="GdictSourceLoader::source-loaded">GdictSourceLoader::source-loaded</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictSourceLoader">GdictSourceLoader</link> *loader,
+                                                        <link linkend="GdictSource">GdictSource</link>       *source,
+                                                        <link linkend="gpointer">gpointer</link>           user_data)      : Run Last</programlisting>
+<para>
+This signal is emitted when a new dictionary source has been added
+to the list.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>loader</parameter>&#160;:</term>
+<listitem><simpara> the object which received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>source</parameter>&#160;:</term>
+<listitem><simpara> the new <link linkend="GdictSource"><type>GdictSource</type></link> object found
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 1.0</para></refsect2>
+</refsect1>
+
+
+
+</refentry>

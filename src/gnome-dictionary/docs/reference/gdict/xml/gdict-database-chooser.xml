@@ -1,0 +1,422 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictDatabaseChooser">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictDatabaseChooser.top_of_page">GdictDatabaseChooser</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictDatabaseChooser</refname>
+<refpurpose>Display the list of available databases</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictDatabaseChooser.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictDatabaseChooser-struct">GdictDatabaseChooser</link>;
+                    <link linkend="GdictDatabaseChooserClass">GdictDatabaseChooserClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-database-chooser-new">gdict_database_chooser_new</link>          (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-database-chooser-new-with-context">gdict_database_chooser_new_with_context</link>
+                                                        (<link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="GdictContext">GdictContext</link> *      <link linkend="gdict-database-chooser-get-context">gdict_database_chooser_get_context</link>  (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);
+<link linkend="void">void</link>                <link linkend="gdict-database-chooser-set-context">gdict_database_chooser_set_context</link>  (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="gchar">gchar</link> **            <link linkend="gdict-database-chooser-get-databases">gdict_database_chooser_get_databases</link>
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         <link linkend="gsize">gsize</link> *length);
+<link linkend="gint">gint</link>                <link linkend="gdict-database-chooser-count-databases">gdict_database_chooser_count_databases</link>
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-database-chooser-has-database">gdict_database_chooser_has_database</link> (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *database);
+<link linkend="void">void</link>                <link linkend="gdict-database-chooser-refresh">gdict_database_chooser_refresh</link>      (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);
+<link linkend="void">void</link>                <link linkend="gdict-database-chooser-clear">gdict_database_chooser_clear</link>        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-database-chooser-add-button">gdict_database_chooser_add_button</link>   (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *button_text);
+<link linkend="gchar">gchar</link> *             <link linkend="gdict-database-chooser-get-current-database">gdict_database_chooser_get_current_database</link>
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-database-chooser-select-database">gdict_database_chooser_select_database</link>
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *db_name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-database-chooser-set-current-database">gdict_database_chooser_set_current_database</link>
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *db_name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-database-chooser-unselect-database">gdict_database_chooser_unselect_database</link>
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *db_name);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictDatabaseChooser.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkVBox">GtkVBox</link>
+                                       +----GdictDatabaseChooser
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="GdictDatabaseChooser.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GdictDatabaseChooser implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link>,  <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="GtkOrientable">GtkOrientable</link>.</para>
+</refsect1>
+
+
+<refsect1 id="GdictDatabaseChooser.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictDatabaseChooser--context">context</link>&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct
+  &quot;<link linkend="GdictDatabaseChooser--count">count</link>&quot;                    <link linkend="gint">gint</link>                  : Read
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictDatabaseChooser.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictDatabaseChooser-database-activated">database-activated</link>&quot;                             : Run Last
+  &quot;<link linkend="GdictDatabaseChooser-selection-changed">selection-changed</link>&quot;                              : Run Last
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictDatabaseChooser.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+Each <link linkend="GdictContext"><type>GdictContext</type></link> has a list of databases, that is dictionaries that
+can be queried. <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link> is a widget that queries a given
+<link linkend="GdictContext"><type>GdictContext</type></link> and displays the list of available databases.
+</para>
+<para>
+<link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link> is available since Gdict 0.10</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictDatabaseChooser.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictDatabaseChooser-struct" role="struct">
+<title>GdictDatabaseChooser</title>
+<indexterm zone="GdictDatabaseChooser-struct"><primary sortas="GdictDatabaseChooser">GdictDatabaseChooser</primary></indexterm><programlisting>typedef struct _GdictDatabaseChooser GdictDatabaseChooser;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictDatabaseChooserClass" role="struct">
+<title>GdictDatabaseChooserClass</title>
+<indexterm zone="GdictDatabaseChooserClass"><primary sortas="GdictDatabaseChooserClass">GdictDatabaseChooserClass</primary></indexterm><programlisting>typedef struct {
+  void (*database_activated) (GdictDatabaseChooser *chooser,
+		  	      const gchar          *name,
+			      const gchar          *description);
+  void (*selection_changed)  (GdictDatabaseChooser *chooser);
+} GdictDatabaseChooserClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-database-chooser-new" role="function" condition="since:0.10">
+<title>gdict_database_chooser_new ()</title>
+<indexterm zone="gdict-database-chooser-new" role="0.10"><primary sortas="gdict_database_chooser_new">gdict_database_chooser_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_database_chooser_new          (void);</programlisting>
+<para>
+Creates a new <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link> widget. A Database chooser widget
+can be used to display the list of available databases on a dictionary
+source using the <link linkend="GdictContext"><type>GdictContext</type></link> representing it. After creation, the
+<link linkend="GdictContext"><type>GdictContext</type></link> can be set using <link linkend="gdict-database-chooser-set-context"><function>gdict_database_chooser_set_context()</function></link>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link> widget.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-new-with-context" role="function" condition="since:0.10">
+<title>gdict_database_chooser_new_with_context ()</title>
+<indexterm zone="gdict-database-chooser-new-with-context" role="0.10"><primary sortas="gdict_database_chooser_new_with_context">gdict_database_chooser_new_with_context</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_database_chooser_new_with_context
+                                                        (<link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+Creates a new <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>, using <parameter>context</parameter> as the representation
+of the dictionary source to query for the list of available databases.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link> widget.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-get-context" role="function" condition="since:0.10">
+<title>gdict_database_chooser_get_context ()</title>
+<indexterm zone="gdict-database-chooser-get-context" role="0.10"><primary sortas="gdict_database_chooser_get_context">gdict_database_chooser_get_context</primary></indexterm><programlisting><link linkend="GdictContext">GdictContext</link> *      gdict_database_chooser_get_context  (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);</programlisting>
+<para>
+Retrieves the <link linkend="GdictContext"><type>GdictContext</type></link> used by <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link> or <link linkend="NULL--CAPS"><literal>NULL</literal></link>
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-set-context" role="function" condition="since:0.10">
+<title>gdict_database_chooser_set_context ()</title>
+<indexterm zone="gdict-database-chooser-set-context" role="0.10"><primary sortas="gdict_database_chooser_set_context">gdict_database_chooser_set_context</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_database_chooser_set_context  (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+Sets the <link linkend="GdictContext"><type>GdictContext</type></link> to be used to query a dictionary source
+for the list of available databases.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-get-databases" role="function" condition="since:0.10">
+<title>gdict_database_chooser_get_databases ()</title>
+<indexterm zone="gdict-database-chooser-get-databases" role="0.10"><primary sortas="gdict_database_chooser_get_databases">gdict_database_chooser_get_databases</primary></indexterm><programlisting><link linkend="gchar">gchar</link> **            gdict_database_chooser_get_databases
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         <link linkend="gsize">gsize</link> *length);</programlisting>
+<para>
+Gets the list of available database names.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>length</parameter>&#160;:</term>
+<listitem><simpara> return location for the length of the returned vector
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated, <link linkend="NULL--CAPS"><literal>NULL</literal></link> terminated string vector
+  containing database names. Use <link linkend="g-strfreev"><function>g_strfreev()</function></link> to deallocate it.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-count-databases" role="function" condition="since:0.10">
+<title>gdict_database_chooser_count_databases ()</title>
+<indexterm zone="gdict-database-chooser-count-databases" role="0.10"><primary sortas="gdict_database_chooser_count_databases">gdict_database_chooser_count_databases</primary></indexterm><programlisting><link linkend="gint">gint</link>                gdict_database_chooser_count_databases
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);</programlisting>
+<para>
+Returns the number of databases found.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the number of databases or -1 if no context is set
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-has-database" role="function" condition="since:0.10">
+<title>gdict_database_chooser_has_database ()</title>
+<indexterm zone="gdict-database-chooser-has-database" role="0.10"><primary sortas="gdict_database_chooser_has_database">gdict_database_chooser_has_database</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_database_chooser_has_database (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *database);</programlisting>
+<para>
+Checks whether the <parameter>chooser</parameter> displays <parameter>database</parameter></para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>database</parameter>&#160;:</term>
+<listitem><simpara> the name of a database
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the search database name is present
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-refresh" role="function" condition="since:0.10">
+<title>gdict_database_chooser_refresh ()</title>
+<indexterm zone="gdict-database-chooser-refresh" role="0.10"><primary sortas="gdict_database_chooser_refresh">gdict_database_chooser_refresh</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_database_chooser_refresh      (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);</programlisting>
+<para>
+Reloads the list of available databases.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-clear" role="function" condition="since:0.10">
+<title>gdict_database_chooser_clear ()</title>
+<indexterm zone="gdict-database-chooser-clear" role="0.10"><primary sortas="gdict_database_chooser_clear">gdict_database_chooser_clear</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_database_chooser_clear        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);</programlisting>
+<para>
+Clears <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-add-button" role="function" condition="since:0.10">
+<title>gdict_database_chooser_add_button ()</title>
+<indexterm zone="gdict-database-chooser-add-button" role="0.10"><primary sortas="gdict_database_chooser_add_button">gdict_database_chooser_add_button</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_database_chooser_add_button   (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *button_text);</programlisting>
+<para>
+Adds a <link linkend="GtkButton"><type>GtkButton</type></link> with <parameter>button_text</parameter> to the button area on
+the bottom of <parameter>chooser</parameter>. The <parameter>button_text</parameter> can also be a
+stock ID.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabase"><type>GdictDatabase</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>button_text</parameter>&#160;:</term>
+<listitem><simpara> text of the button
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly packed button.
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-get-current-database" role="function" condition="since:0.10">
+<title>gdict_database_chooser_get_current_database ()</title>
+<indexterm zone="gdict-database-chooser-get-current-database" role="0.10"><primary sortas="gdict_database_chooser_get_current_database">gdict_database_chooser_get_current_database</primary></indexterm><programlisting><link linkend="gchar">gchar</link> *             gdict_database_chooser_get_current_database
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser);</programlisting>
+<para>
+Retrieves the name of the currently selected database inside <parameter>chooser</parameter></para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the name of the selected database. Use <link linkend="g-free"><function>g_free()</function></link> on the
+  returned string when done using it
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-select-database" role="function" condition="since:0.10">
+<title>gdict_database_chooser_select_database ()</title>
+<indexterm zone="gdict-database-chooser-select-database" role="0.10"><primary sortas="gdict_database_chooser_select_database">gdict_database_chooser_select_database</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_database_chooser_select_database
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *db_name);</programlisting>
+<para>
+Selects the database with <parameter>db_name</parameter> inside the <parameter>chooser</parameter> widget.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>db_name</parameter>&#160;:</term>
+<listitem><simpara> name of the database to select
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the database was found and selected
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-set-current-database" role="function" condition="since:0.10">
+<title>gdict_database_chooser_set_current_database ()</title>
+<indexterm zone="gdict-database-chooser-set-current-database" role="0.10"><primary sortas="gdict_database_chooser_set_current_database">gdict_database_chooser_set_current_database</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_database_chooser_set_current_database
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *db_name);</programlisting>
+<para>
+Sets <parameter>db_name</parameter> as the current database. This function will select
+and activate the corresponding row, if the database is found.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>db_name</parameter>&#160;:</term>
+<listitem><simpara> the name of the database
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the database was found and set
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-database-chooser-unselect-database" role="function" condition="since:0.10">
+<title>gdict_database_chooser_unselect_database ()</title>
+<indexterm zone="gdict-database-chooser-unselect-database" role="0.10"><primary sortas="gdict_database_chooser_unselect_database">gdict_database_chooser_unselect_database</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_database_chooser_unselect_database
+                                                        (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *db_name);</programlisting>
+<para>
+Unselects the database <parameter>db_name</parameter> inside the <parameter>chooser</parameter> widget</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictDatabaseChooser"><type>GdictDatabaseChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>db_name</parameter>&#160;:</term>
+<listitem><simpara> name of the database to unselect
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the database was found and unselected
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+
+</refsect1>
+<refsect1 id="GdictDatabaseChooser.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictDatabaseChooser--context" role="property"><title>The <literal>&quot;context&quot;</literal> property</title>
+<indexterm zone="GdictDatabaseChooser--context" role="0.10"><primary sortas="GdictDatabaseChooser:context">GdictDatabaseChooser:context</primary></indexterm><programlisting>  &quot;context&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct</programlisting>
+<para>
+The <link linkend="GdictContext"><type>GdictContext</type></link> used to retrieve the list of available databases.</para>
+<para>
+</para><para>Since 0.10</para>
+</refsect2>
+<refsect2 id="GdictDatabaseChooser--count" role="property"><title>The <literal>&quot;count&quot;</literal> property</title>
+<indexterm zone="GdictDatabaseChooser--count" role="0.12"><primary sortas="GdictDatabaseChooser:count">GdictDatabaseChooser:count</primary></indexterm><programlisting>  &quot;count&quot;                    <link linkend="gint">gint</link>                  : Read</programlisting>
+<para>
+The number of displayed databases or, if no <link linkend="GdictContext"><type>GdictContext</type></link> is set, -1.</para>
+<para>
+</para><para>Allowed values: &gt;= -1</para>
+<para>Default value: -1</para>
+<para>Since 0.12</para>
+</refsect2>
+</refsect1>
+
+<refsect1 id="GdictDatabaseChooser.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictDatabaseChooser-database-activated" role="signal"><title>The <literal>&quot;database-activated&quot;</literal> signal</title>
+<indexterm zone="GdictDatabaseChooser-database-activated" role="0.10"><primary sortas="GdictDatabaseChooser::database-activated">GdictDatabaseChooser::database-activated</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                        <link linkend="gchar">gchar</link>                *name,
+                                                        <link linkend="gchar">gchar</link>                *description,
+                                                        <link linkend="gpointer">gpointer</link>              user_data)        : Run Last</programlisting>
+<para>
+The ::database-activated signal is emitted each time the user
+activated a row in the database chooser widget, either by double
+clicking on it or by a keyboard event.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> the database chooser that received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>name</parameter>&#160;:</term>
+<listitem><simpara> the name of the activated database
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>description</parameter>&#160;:</term>
+<listitem><simpara> the description of the activated database
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 0.10</para></refsect2><refsect2 id="GdictDatabaseChooser-selection-changed" role="signal"><title>The <literal>&quot;selection-changed&quot;</literal> signal</title>
+<indexterm zone="GdictDatabaseChooser-selection-changed" role="0.12"><primary sortas="GdictDatabaseChooser::selection-changed">GdictDatabaseChooser::selection-changed</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictDatabaseChooser">GdictDatabaseChooser</link> *chooser,
+                                                        <link linkend="gpointer">gpointer</link>              user_data)      : Run Last</programlisting>
+<para>
+The ::selection-changed signal is emitted each time the selection
+inside the database chooser has been changed.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> the database chooser that received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist><para>Since 0.12</para></refsect2>
+</refsect1>
+
+
+
+</refentry>

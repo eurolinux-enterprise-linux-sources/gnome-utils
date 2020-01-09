@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE indexdiv PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<indexdiv>
+<indexdiv><title>G</title>
+<indexentry><primaryie linkends="GdictDatabaseChooser-database-activated"><link linkend="GdictDatabaseChooser-database-activated">GdictDatabaseChooser::database-activated</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictDatabaseChooser--context"><link linkend="GdictDatabaseChooser--context">GdictDatabaseChooser:context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="GdictDefbox--word"><link linkend="GdictDefbox--word">GdictDefbox:word</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-add-button"><link linkend="gdict-database-chooser-add-button">gdict_database_chooser_add_button</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-clear"><link linkend="gdict-database-chooser-clear">gdict_database_chooser_clear</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-count-databases"><link linkend="gdict-database-chooser-count-databases">gdict_database_chooser_count_databases</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-get-context"><link linkend="gdict-database-chooser-get-context">gdict_database_chooser_get_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-get-current-database"><link linkend="gdict-database-chooser-get-current-database">gdict_database_chooser_get_current_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-get-databases"><link linkend="gdict-database-chooser-get-databases">gdict_database_chooser_get_databases</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-has-database"><link linkend="gdict-database-chooser-has-database">gdict_database_chooser_has_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-new"><link linkend="gdict-database-chooser-new">gdict_database_chooser_new</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-new-with-context"><link linkend="gdict-database-chooser-new-with-context">gdict_database_chooser_new_with_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-refresh"><link linkend="gdict-database-chooser-refresh">gdict_database_chooser_refresh</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-select-database"><link linkend="gdict-database-chooser-select-database">gdict_database_chooser_select_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-set-context"><link linkend="gdict-database-chooser-set-context">gdict_database_chooser_set_context</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-set-current-database"><link linkend="gdict-database-chooser-set-current-database">gdict_database_chooser_set_current_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-database-chooser-unselect-database"><link linkend="gdict-database-chooser-unselect-database">gdict_database_chooser_unselect_database</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-add-button"><link linkend="gdict-strategy-chooser-add-button">gdict_strategy_chooser_add_button</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-clear"><link linkend="gdict-strategy-chooser-clear">gdict_strategy_chooser_clear</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-get-current-strategy"><link linkend="gdict-strategy-chooser-get-current-strategy">gdict_strategy_chooser_get_current_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-refresh"><link linkend="gdict-strategy-chooser-refresh">gdict_strategy_chooser_refresh</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-select-strategy"><link linkend="gdict-strategy-chooser-select-strategy">gdict_strategy_chooser_select_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-set-current-strategy"><link linkend="gdict-strategy-chooser-set-current-strategy">gdict_strategy_chooser_set_current_strategy</link></primaryie></indexentry>
+<indexentry><primaryie linkends="gdict-strategy-chooser-unselect-strategy"><link linkend="gdict-strategy-chooser-unselect-strategy">gdict_strategy_chooser_unselect_strategy</link></primaryie></indexentry>
+</indexdiv>
+</indexdiv>

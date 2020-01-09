@@ -1,0 +1,401 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE refentry PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN"
+    "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+
+<!ENTITY version SYSTEM "version.xml">
+]>
+
+<refentry id="GdictStrategyChooser">
+<refmeta>
+<refentrytitle role="top_of_page" id="GdictStrategyChooser.top_of_page">GdictStrategyChooser</refentrytitle>
+<manvolnum>3</manvolnum>
+<refmiscinfo>GDICT Library</refmiscinfo>
+</refmeta>
+
+<refnamediv>
+<refname>GdictStrategyChooser</refname>
+<refpurpose>Display a list of matching strategies</refpurpose>
+</refnamediv>
+
+<refsynopsisdiv id="GdictStrategyChooser.synopsis" role="synopsis">
+<title role="synopsis.title">Synopsis</title>
+
+<synopsis>
+                    <link linkend="GdictStrategyChooser-struct">GdictStrategyChooser</link>;
+                    <link linkend="GdictStrategyChooserClass">GdictStrategyChooserClass</link>;
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-strategy-chooser-new">gdict_strategy_chooser_new</link>          (void);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-strategy-chooser-new-with-context">gdict_strategy_chooser_new_with_context</link>
+                                                        (<link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="GdictContext">GdictContext</link> *      <link linkend="gdict-strategy-chooser-get-context">gdict_strategy_chooser_get_context</link>  (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);
+<link linkend="void">void</link>                <link linkend="gdict-strategy-chooser-set-context">gdict_strategy_chooser_set_context</link>  (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);
+<link linkend="gchar">gchar</link> **            <link linkend="gdict-strategy-chooser-get-strategies">gdict_strategy_chooser_get_strategies</link>
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         <link linkend="gsize">gsize</link> *length);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-strategy-chooser-has-strategy">gdict_strategy_chooser_has_strategy</link> (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strategy);
+<link linkend="GtkWidget">GtkWidget</link> *         <link linkend="gdict-strategy-chooser-add-button">gdict_strategy_chooser_add_button</link>   (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *button_text);
+<link linkend="void">void</link>                <link linkend="gdict-strategy-chooser-clear">gdict_strategy_chooser_clear</link>        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);
+<link linkend="gint">gint</link>                <link linkend="gdict-strategy-chooser-count-strategies">gdict_strategy_chooser_count_strategies</link>
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);
+<link linkend="gchar">gchar</link> *             <link linkend="gdict-strategy-chooser-get-current-strategy">gdict_strategy_chooser_get_current_strategy</link>
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);
+<link linkend="void">void</link>                <link linkend="gdict-strategy-chooser-refresh">gdict_strategy_chooser_refresh</link>      (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-strategy-chooser-select-strategy">gdict_strategy_chooser_select_strategy</link>
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strat_name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-strategy-chooser-set-current-strategy">gdict_strategy_chooser_set_current_strategy</link>
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strat_name);
+<link linkend="gboolean">gboolean</link>            <link linkend="gdict-strategy-chooser-unselect-strategy">gdict_strategy_chooser_unselect_strategy</link>
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strat_name);
+</synopsis>
+</refsynopsisdiv>
+
+<refsect1 id="GdictStrategyChooser.object-hierarchy" role="object_hierarchy">
+<title role="object_hierarchy.title">Object Hierarchy</title>
+<synopsis>
+  <link linkend="GObject">GObject</link>
+   +----<link linkend="GInitiallyUnowned">GInitiallyUnowned</link>
+         +----<link linkend="GtkObject">GtkObject</link>
+               +----<link linkend="GtkWidget">GtkWidget</link>
+                     +----<link linkend="GtkContainer">GtkContainer</link>
+                           +----<link linkend="GtkBox">GtkBox</link>
+                                 +----<link linkend="GtkVBox">GtkVBox</link>
+                                       +----GdictStrategyChooser
+</synopsis>
+</refsect1>
+
+
+
+<refsect1 id="GdictStrategyChooser.implemented-interfaces" role="impl_interfaces">
+<title role="impl_interfaces.title">Implemented Interfaces</title>
+<para>
+GdictStrategyChooser implements
+ <link linkend="AtkImplementorIface">AtkImplementorIface</link>,  <link linkend="GtkBuildable">GtkBuildable</link> and  <link linkend="GtkOrientable">GtkOrientable</link>.</para>
+</refsect1>
+
+
+<refsect1 id="GdictStrategyChooser.properties" role="properties">
+<title role="properties.title">Properties</title>
+<synopsis>
+  &quot;<link linkend="GdictStrategyChooser--context">context</link>&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct
+</synopsis>
+</refsect1>
+
+<refsect1 id="GdictStrategyChooser.signals" role="signal_proto">
+<title role="signal_proto.title">Signals</title>
+<synopsis>
+  &quot;<link linkend="GdictStrategyChooser-strategy-activated">strategy-activated</link>&quot;                             : Run Last
+</synopsis>
+</refsect1>
+
+
+<refsect1 id="GdictStrategyChooser.description" role="desc">
+<title role="desc.title">Description</title>
+<para>
+Each <link linkend="GdictContext"><type>GdictContext</type></link> allows matching a word using a specific "matching
+strategy". The <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link> widget queries a <link linkend="GdictContext"><type>GdictContext</type></link> and
+displays the list of available matching strategies.</para>
+<para>
+</para>
+</refsect1>
+
+<refsect1 id="GdictStrategyChooser.details" role="details">
+<title role="details.title">Details</title>
+<refsect2 id="GdictStrategyChooser-struct" role="struct">
+<title>GdictStrategyChooser</title>
+<indexterm zone="GdictStrategyChooser-struct"><primary sortas="GdictStrategyChooser">GdictStrategyChooser</primary></indexterm><programlisting>typedef struct _GdictStrategyChooser GdictStrategyChooser;</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="GdictStrategyChooserClass" role="struct">
+<title>GdictStrategyChooserClass</title>
+<indexterm zone="GdictStrategyChooserClass"><primary sortas="GdictStrategyChooserClass">GdictStrategyChooserClass</primary></indexterm><programlisting>typedef struct {
+  GtkVBoxClass parent_class;
+
+  void (*strategy_activated) (GdictStrategyChooser *chooser,
+		  	      const gchar          *name,
+			      const gchar          *description);
+  
+  void (*_gdict_padding1) (void);
+  void (*_gdict_padding2) (void);
+  void (*_gdict_padding3) (void);
+  void (*_gdict_padding4) (void);
+  void (*_gdict_padding5) (void);
+  void (*_gdict_padding6) (void);
+} GdictStrategyChooserClass;
+</programlisting>
+<para>
+</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-new" role="function" condition="since:0.9">
+<title>gdict_strategy_chooser_new ()</title>
+<indexterm zone="gdict-strategy-chooser-new" role="0.9"><primary sortas="gdict_strategy_chooser_new">gdict_strategy_chooser_new</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_strategy_chooser_new          (void);</programlisting>
+<para>
+Creates a new <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>. Use this widget to show a list
+of matching strategies available on a dictionary source represented
+by a <link linkend="GdictContext"><type>GdictContext</type></link>, set with <link linkend="gdict-strategy-chooser-set-context"><function>gdict_strategy_chooser_set_context()</function></link>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link> widget
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.9</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-new-with-context" role="function" condition="since:0.9">
+<title>gdict_strategy_chooser_new_with_context ()</title>
+<indexterm zone="gdict-strategy-chooser-new-with-context" role="0.9"><primary sortas="gdict_strategy_chooser_new_with_context">gdict_strategy_chooser_new_with_context</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_strategy_chooser_new_with_context
+                                                        (<link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+Creates a new <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link> widget, using <parameter>context</parameter> as the
+representation of a dictionary source.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the newly created <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link> widget
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.9</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-get-context" role="function" condition="since:">
+<title>gdict_strategy_chooser_get_context ()</title>
+<indexterm zone="gdict-strategy-chooser-get-context"><primary sortas="gdict_strategy_chooser_get_context">gdict_strategy_chooser_get_context</primary></indexterm><programlisting><link linkend="GdictContext">GdictContext</link> *      gdict_strategy_chooser_get_context  (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);</programlisting>
+<para>
+Retrieves the <link linkend="GdictContext"><type>GdictContext</type></link> used by <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-strategy-chooser-set-context" role="function" condition="since:0.9">
+<title>gdict_strategy_chooser_set_context ()</title>
+<indexterm zone="gdict-strategy-chooser-set-context" role="0.9"><primary sortas="gdict_strategy_chooser_set_context">gdict_strategy_chooser_set_context</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_strategy_chooser_set_context  (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         <link linkend="GdictContext">GdictContext</link> *context);</programlisting>
+<para>
+Sets the <link linkend="GdictContext"><type>GdictContext</type></link> to be used by <parameter>chooser</parameter> to retrieve the
+list of matching strategies.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>context</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictContext"><type>GdictContext</type></link>, or <link linkend="NULL--CAPS"><literal>NULL</literal></link> to unset the context
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.9</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-get-strategies" role="function" condition="since:0.9">
+<title>gdict_strategy_chooser_get_strategies ()</title>
+<indexterm zone="gdict-strategy-chooser-get-strategies" role="0.9"><primary sortas="gdict_strategy_chooser_get_strategies">gdict_strategy_chooser_get_strategies</primary></indexterm><programlisting><link linkend="gchar">gchar</link> **            gdict_strategy_chooser_get_strategies
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         <link linkend="gsize">gsize</link> *length);</programlisting>
+<para>
+Retrieves the list of matching strategies available.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>length</parameter>&#160;:</term>
+<listitem><simpara> return location for the length of the returned string list
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a string vector containing the names of the matching
+  strategies. Use <link linkend="g-strfreev"><function>g_strfreev()</function></link> to deallocate the memory when done
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.9</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-has-strategy" role="function" condition="since:0.9">
+<title>gdict_strategy_chooser_has_strategy ()</title>
+<indexterm zone="gdict-strategy-chooser-has-strategy" role="0.9"><primary sortas="gdict_strategy_chooser_has_strategy">gdict_strategy_chooser_has_strategy</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_strategy_chooser_has_strategy (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strategy);</programlisting>
+<para>
+Checks whether <parameter>strategy</parameter> is available in the list of matching
+strategies displayed by <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>strategy</parameter>&#160;:</term>
+<listitem><simpara> a strategy name
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the strategy was found, <link linkend="FALSE--CAPS"><literal>FALSE</literal></link> otherwise
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.9</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-add-button" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_add_button ()</title>
+<indexterm zone="gdict-strategy-chooser-add-button" role="0.10"><primary sortas="gdict_strategy_chooser_add_button">gdict_strategy_chooser_add_button</primary></indexterm><programlisting><link linkend="GtkWidget">GtkWidget</link> *         gdict_strategy_chooser_add_button   (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *button_text);</programlisting>
+<para>
+Creates a new button and packs it into the <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+"action area".</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>button_text</parameter>&#160;:</term>
+<listitem><simpara> text of the button (can be a stock id)
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the packed <link linkend="GtkButton"><type>GtkButton</type></link>
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-clear" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_clear ()</title>
+<indexterm zone="gdict-strategy-chooser-clear" role="0.10"><primary sortas="gdict_strategy_chooser_clear">gdict_strategy_chooser_clear</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_strategy_chooser_clear        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);</programlisting>
+<para>
+Clears <parameter>chooser</parameter>.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-count-strategies" role="function" condition="since:">
+<title>gdict_strategy_chooser_count_strategies ()</title>
+<indexterm zone="gdict-strategy-chooser-count-strategies"><primary sortas="gdict_strategy_chooser_count_strategies">gdict_strategy_chooser_count_strategies</primary></indexterm><programlisting><link linkend="gint">gint</link>                gdict_strategy_chooser_count_strategies
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);</programlisting>
+<para>
+Returns the number of strategies found.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> the number of strategies or -1 if case of error
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since </para></refsect2>
+<refsect2 id="gdict-strategy-chooser-get-current-strategy" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_get_current_strategy ()</title>
+<indexterm zone="gdict-strategy-chooser-get-current-strategy" role="0.10"><primary sortas="gdict_strategy_chooser_get_current_strategy">gdict_strategy_chooser_get_current_strategy</primary></indexterm><programlisting><link linkend="gchar">gchar</link> *             gdict_strategy_chooser_get_current_strategy
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);</programlisting>
+<para>
+Retrieves the current matching strategy.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> a newly allocated string containing the name of
+  the current matching strategy
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-refresh" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_refresh ()</title>
+<indexterm zone="gdict-strategy-chooser-refresh" role="0.10"><primary sortas="gdict_strategy_chooser_refresh">gdict_strategy_chooser_refresh</primary></indexterm><programlisting><link linkend="void">void</link>                gdict_strategy_chooser_refresh      (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser);</programlisting>
+<para>
+Reloads the list of available strategies.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-select-strategy" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_select_strategy ()</title>
+<indexterm zone="gdict-strategy-chooser-select-strategy" role="0.10"><primary sortas="gdict_strategy_chooser_select_strategy">gdict_strategy_chooser_select_strategy</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_strategy_chooser_select_strategy
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strat_name);</programlisting>
+<para>
+Selects <parameter>strat_name</parameter>, if available.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>strat_name</parameter>&#160;:</term>
+<listitem><simpara> the name of the strategy to select
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the matching strategy was found and selected
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-set-current-strategy" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_set_current_strategy ()</title>
+<indexterm zone="gdict-strategy-chooser-set-current-strategy" role="0.10"><primary sortas="gdict_strategy_chooser_set_current_strategy">gdict_strategy_chooser_set_current_strategy</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_strategy_chooser_set_current_strategy
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strat_name);</programlisting>
+<para>
+Sets <parameter>strat_name</parameter> as the current matching strategy.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>strat_name</parameter>&#160;:</term>
+<listitem><simpara> the name of the matching strategy
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the matching strategy was found
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+<refsect2 id="gdict-strategy-chooser-unselect-strategy" role="function" condition="since:0.10">
+<title>gdict_strategy_chooser_unselect_strategy ()</title>
+<indexterm zone="gdict-strategy-chooser-unselect-strategy" role="0.10"><primary sortas="gdict_strategy_chooser_unselect_strategy">gdict_strategy_chooser_unselect_strategy</primary></indexterm><programlisting><link linkend="gboolean">gboolean</link>            gdict_strategy_chooser_unselect_strategy
+                                                        (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                         const <link linkend="gchar">gchar</link> *strat_name);</programlisting>
+<para>
+Unselects <parameter>strat_name</parameter> from the list.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> a <link linkend="GdictStrategyChooser"><type>GdictStrategyChooser</type></link>
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>strat_name</parameter>&#160;:</term>
+<listitem><simpara> the name of the strategy to unselect
+</simpara></listitem></varlistentry>
+<varlistentry><term><emphasis>Returns</emphasis>&#160;:</term><listitem><simpara> <link linkend="TRUE--CAPS"><literal>TRUE</literal></link> if the matching strategy was found and successfully
+  unselected
+
+</simpara></listitem></varlistentry>
+</variablelist><para role="since">Since 0.10</para></refsect2>
+
+</refsect1>
+<refsect1 id="GdictStrategyChooser.property-details" role="property_details">
+<title role="property_details.title">Property Details</title>
+<refsect2 id="GdictStrategyChooser--context" role="property"><title>The <literal>&quot;context&quot;</literal> property</title>
+<indexterm zone="GdictStrategyChooser--context"><primary sortas="GdictStrategyChooser:context">GdictStrategyChooser:context</primary></indexterm><programlisting>  &quot;context&quot;                  <link linkend="GdictContext">GdictContext</link>*         : Read / Write / Construct</programlisting>
+<para>
+The <link linkend="GdictContext"><type>GdictContext</type></link> object used to retrieve the list of strategies.</para>
+<para>
+</para></refsect2>
+</refsect1>
+
+<refsect1 id="GdictStrategyChooser.signal-details" role="signals">
+<title role="signals.title">Signal Details</title>
+<refsect2 id="GdictStrategyChooser-strategy-activated" role="signal"><title>The <literal>&quot;strategy-activated&quot;</literal> signal</title>
+<indexterm zone="GdictStrategyChooser-strategy-activated"><primary sortas="GdictStrategyChooser::strategy-activated">GdictStrategyChooser::strategy-activated</primary></indexterm><programlisting><link linkend="void">void</link>                user_function                      (<link linkend="GdictStrategyChooser">GdictStrategyChooser</link> *chooser,
+                                                        <link linkend="gchar">gchar</link>                *name,
+                                                        <link linkend="gchar">gchar</link>                *description,
+                                                        <link linkend="gpointer">gpointer</link>              user_data)        : Run Last</programlisting>
+<para>
+The ::strategy-activated signal is emitted each time the user
+activates a strategy in the <parameter>chooser</parameter>, either by double click or
+using the keyboard.</para>
+<para>
+</para><variablelist role="params">
+<varlistentry><term><parameter>chooser</parameter>&#160;:</term>
+<listitem><simpara> the widget that received the signal
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>name</parameter>&#160;:</term>
+<listitem><simpara> the name of the activated strategy
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>description</parameter>&#160;:</term>
+<listitem><simpara> the description of the activate strategy
+</simpara></listitem></varlistentry>
+<varlistentry><term><parameter>user_data</parameter>&#160;:</term>
+<listitem><simpara>user data set when the signal handler was connected.</simpara></listitem></varlistentry>
+</variablelist></refsect2>
+</refsect1>
+
+
+
+</refentry>

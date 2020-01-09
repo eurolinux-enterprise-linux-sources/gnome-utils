@@ -1,0 +1,72 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+baobab/data/baobab.desktop.in.in
+[type: gettext/glade]baobab/data/baobab-dialog-scan-props.ui
+[type: gettext/glade]baobab/data/baobab-main-window.ui
+baobab/data/baobab.schemas.in
+baobab/src/baobab.c
+baobab/src/baobab-chart.c
+baobab/src/baobab-prefs.c
+baobab/src/baobab-remote-connect-dialog.c
+baobab/src/baobab-scan.c
+baobab/src/baobab-treeview.c
+baobab/src/baobab-utils.c
+baobab/src/baobab-ringschart.c
+baobab/src/callbacks.c
+gnome-dictionary/data/default.desktop.in
+gnome-dictionary/data/GNOME_DictionaryApplet.server.in.in
+gnome-dictionary/data/GNOME_DictionaryApplet.xml
+gnome-dictionary/data/gnome-dictionary.desktop.in.in
+gnome-dictionary/data/gnome-dictionary.schemas.in
+[type: gettext/glade]gnome-dictionary/data/gnome-dictionary-preferences.ui
+[type: gettext/glade]gnome-dictionary/data/gnome-dictionary-source.ui
+gnome-dictionary/data/spanish.desktop.in
+gnome-dictionary/data/thai.desktop.in
+gnome-dictionary/libgdict/gdict-client-context.c
+gnome-dictionary/libgdict/gdict-context.c
+gnome-dictionary/libgdict/gdict-database-chooser.c
+gnome-dictionary/libgdict/gdict-defbox.c
+gnome-dictionary/libgdict/gdict-source.c
+gnome-dictionary/libgdict/gdict-source-chooser.c
+gnome-dictionary/libgdict/gdict-source-loader.c
+gnome-dictionary/libgdict/gdict-speller.c
+gnome-dictionary/libgdict/gdict-strategy-chooser.c
+gnome-dictionary/libgdict/gdict-utils.c
+gnome-dictionary/src/gdict-about.c
+gnome-dictionary/src/gdict-aligned-window.c
+gnome-dictionary/src/gdict-app.c
+gnome-dictionary/src/gdict-applet.c
+gnome-dictionary/src/gdict-common.c
+gnome-dictionary/src/gdict-pref-dialog.c
+gnome-dictionary/src/gdict-print.c
+gnome-dictionary/src/gdict-sidebar.c
+gnome-dictionary/src/gdict-source-dialog.c
+gnome-dictionary/src/gdict-window.c
+gnome-dictionary/src/main.c
+gnome-screenshot/gnome-screenshot.c
+gnome-screenshot/gnome-screenshot.desktop.in
+[type: gettext/glade]gnome-screenshot/gnome-screenshot.ui
+gnome-screenshot/gnome-screenshot.schemas.in
+gnome-screenshot/screenshot-dialog.c
+gnome-screenshot/screenshot-save.c
+gnome-screenshot/screenshot-shadow.c
+gnome-screenshot/screenshot-utils.c
+gnome-screenshot/screenshot-xfer.c
+gsearchtool/gnome-search-tool.desktop.in
+gsearchtool/gnome-search-tool.schemas.in
+gsearchtool/gsearchtool-callbacks.c
+gsearchtool/gsearchtool-support.c
+gsearchtool/gsearchtool.c
+libeggsmclient/eggdesktopfile.c
+libeggsmclient/eggsmclient.c
+logview/data/gnome-system-log.desktop.in.in
+logview/data/gnome-system-log.schemas.in
+logview/data/logview-filter.ui
+logview/logview-about.h
+logview/logview-app.c
+logview/logview-filter-manager.c
+logview/logview-findbar.c
+logview/logview-log.c
+logview/logview-loglist.c
+logview/logview-main.c
+logview/logview-window.c
